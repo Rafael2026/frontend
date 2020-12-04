@@ -1,0 +1,205 @@
+body {
+    background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wrapper {
+    width:90%;
+    margin:auto;
+}
+
+/*** estilo header ***/
+
+header {
+    background-image: url("imagenes/cabecera.jpg");
+    background-size: cover;
+    background-position: right;
+    height: 400px;
+    position:relative;
+}
+ 
+header span {
+    color:white;
+    display: none;
+}
+
+/*estilo de la barra de navegación*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(238, 169, 97);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: rgb(253, 219, 224);
+}
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+nav {
+    font-size:2vw;
+    position: sticky;
+    background-color:black;
+}
+
+nav ul {
+    margin:0;
+    padding:1vw;
+}
+
+nav ul li {
+    display: inline;
+    padding: 1vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    color:white;
+    font-weight:bold;
+}
+
+nav ul li a:hover {
+    color: rgb(238, 169, 97);
+}
+
+section h1 {
+    color:pink;
+    text-align: center;
+    font-size: 2vw;
+    margin:0;
+    padding:2vw;
+}
+
+section table tr td img {
+    width:20vw;
+    margin: 1vw 4vw;
+}
+
+.overlay {
+    position:block;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgb(195, 60, 20);/***** cambié color de fondo *****/
+}
+    
+ .overlay:hover {
+    opacity: 1;
+}
+    
+.text {
+    color: white;
+    font-size: 1.2em;/**** cambié el tamaño del texto ****/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#ordenador {
+    display: block;
+}
+
+#tablet {
+    display: none;
+}
+
+#movil {
+    display: none;
+}
+
+/* estilo de footer */
+footer {
+    background-color: rgb(46, 45, 45);
+    color:white;
+    font-size:1em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5vw;
+}
+
+@media only screen and (max-width:768px) {
+    #ordenador {
+        display: none;
+    }
+
+    #tablet {
+        display: block;
+        margin:0 auto;
+    }
+
+    section table tr td img {
+        width:30vw;
+        margin: 1vw 4vw;
+    }
+
+    header span {
+        display:block;
+    }
+
+    nav ul li a {
+        display: none;
+    }
+    #inicio{
+        display: block;
+    }
+
+    #movil {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    #ordenador {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #movil {
+        display: block;
+    }
+
+    section table tr td img {
+        width:60vw;
+        display: block;
+        margin:0 auto;
+    }
+
+    header {
+        background-image: url("imagenes/cabeceramovil.jpg");
+        background-size: cover;
+        background-position: right;
+        height: 800px;
+        position:relative;
+    }
+
+}
