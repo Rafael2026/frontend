@@ -1,0 +1,189 @@
+/* estilo de Alagaesia, ejercicio de examen */
+/* autora: Pilar González                   */
+
+/******** estilo general *******************/
+@font-face {
+  font-family: Enchanted;
+  src:url("fuentes/Enchanted.otf")
+}
+
+body {
+  background-image: url("imagenes/tile-sky2.jpg");
+  font-family:Enchanted;
+}
+
+#wrapper {
+  width: 90%;
+  height: 600px;/***********luego lo quito*/
+  background-color: #fff;
+  margin:auto;
+}
+
+/******** estilo de header ******************/
+header {
+  background-image: url("imagenes/header.jpg");
+  background-position: left;/* pondré la posición según imagen */
+  
+  /* aquí podía habermelo ahorrado */
+  background-size: cover;
+  height:160px;
+  position:relative;
+}
+
+header #titulo {
+  position:absolute;
+  top:80px;
+  right:75px;
+  color:white;
+  font-size:3em;
+}
+
+/******** estilo de nav **********************/
+.topnav {
+    overflow: hidden;
+    background-color:rgb(195, 60, 20);
+  }
+  
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+  
+.topnav a:hover {
+  /* background-color: #ddd;*/
+  color: white;
+}
+
+/*
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+*/
+
+.topnav .icon {
+  display: none;
+}
+
+/*********** estilo de main *************/
+main {
+  background-image: url("imagenes/tile.jpg");
+  padding:5%;
+  font-size:2em;
+  color:white;
+}
+
+main h1 {
+  margin-top:0;
+  text-align:center;
+  color:lightcyan;
+}
+
+main p {text-indent:3em;}
+
+main .libro-responsive {
+  width:20%;
+  margin:2%;
+}
+
+/******** empieza snippet **********/
+.container {
+  position: relative;
+  width: 50%;
+  display:inline-block; /******* añadí esta línea ******/
+}
+  
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+  
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgb(195, 60, 20);/***** cambié color de fondo *****/
+}
+  
+.container:hover .overlay {
+  opacity: 1;
+}
+  
+.text {
+  color: white;
+  font-size: 1.2em;/**** cambié el tamaño del texto ****/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/********** estilo de footer *************/
+footer {
+  background-color:rgb(195, 60, 20);
+  color:black;
+}
+
+footer p {
+  margin:0;
+  padding:10px;
+  font-size:1.2em;
+  text-align:center;
+  font-family:sans-serif;
+}
+
+/********** media queries ***************/
+@media screen and (max-width: 800px) {
+    
+  .topnav a:not(:first-child) {
+      display: none;
+    }
+  
+    .topnav a.icon {
+  float: right;
+  display: block;
+  }
+}
+  
+@media screen and (max-width: 800px) {
+    .topnav.responsive {
+      position: relative;
+    }
+    
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+main .libro-responsive {
+  width:40%;
+  margin:4%;}
+}    
+
+@media screen and (max-width: 500px) {
+  main .libro-responsive {
+    width:90%;
+  }
+}
