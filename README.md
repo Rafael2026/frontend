@@ -29,6 +29,11 @@ I will upload the different websites here.
   <p>CSS reference</p>
 </a>
 
+## Responsive web design
+<a href = "https://blog.froont.com/9-basic-principles-of-responsive-web-design/">
+  <p>Basic principles of a responsive web design</p>
+</a>
+
 ## Repositorio de Bootstrap
 <a href = "https://github.com/Rafael2026/learn_bootstrap">
   <p>Mi repositorio de bootstrap</p>
