@@ -16,7 +16,7 @@ I will upload the different websites here.
 </a>
 
 <a href = "https://uniwebsidad.com/">
-  <p>Tutoriaes de uniwebsidad</p>
+  <p>Tutoriales de uniwebsidad</p>
 </a>
 
 ## Colours generator
