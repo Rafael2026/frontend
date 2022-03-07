@@ -1,8 +1,5 @@
 /*** Halloween con estilo ***/
-    
-body {
-    background-color:seashell;
-}
+body {background-color:seashell;}
 
 #wrapper {
     position: fixed;
@@ -41,10 +38,7 @@ h1 {
     font-size:3em;
     color:blue;
     text-align: center;
-    text-shadow:black -2px -2px,
-                black -2px -2px,
-                black -2px -2px,
-                black -2px -2px;
+    text-shadow:black -2px -2px, black -2px -2px, black -2px -2px, black -2px -2px;
 }
 
 h2 {
