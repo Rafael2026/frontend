@@ -1,28 +1,15 @@
-/* Etiqueta como selector */
 body {
-    color: navy;
-    font-family: 'Roboto Slab', monospace;
+  color: navy;
+  font-family: 'Roboto Slab', monospace;
 }
 
-/* Puedo nombrar la misma etiqueta varias veces */
-h1 {
-    text-align: center;
-    background-color: rgba(0, 0, 255, 0.5);
-    border: 3px solid navy;
-    border-radius: 40px 60px;
-    width: 75%;
-    margin: 20px auto;
-    padding: 10px;
-    color: darkred;
-}
-
-h2 {
-    text-align: center;
-    background-color: rgba(0, 0, 255, 0.5);
-    border: 3px solid navy;
-    border-radius: 40px 60px;
-    width: 75%;
-    margin: 20px auto;
-    padding: 10px;
-    color: darkred;
+h1, h2 {
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.5);
+  border: 3px solid navy;
+  border-radius: 40px 60px;
+  width: 75%;
+  margin: 20px auto;
+  padding: 10px;
+  color: darkred;
 }
