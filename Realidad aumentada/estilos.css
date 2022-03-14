@@ -63,9 +63,7 @@ header div#titulo {
     transition: 0.3s;
 }
 
-.sidenav a:hover {
-    color: rgb(253, 219, 224);
-}
+.sidenav a:hover {color: rgb(253, 219, 224);}
 
 .sidenav .closebtn {
     position: absolute;
@@ -77,13 +75,8 @@ header div#titulo {
 
 @media screen and (max-height: 450px) {
     
-    .sidenav {
-        padding-top: 15px;
-    }
-    
-    .sidenav a {
-        font-size: 18px;
-    }
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
 
 /* Estilos del main */
@@ -111,12 +104,11 @@ main img {
     box-shadow: 10px 10px 20px #333;
 }
 
-main img:hover {
-    opacity:0.5
-}
+main img:hover {opacity:0.5;}
 
 
 @media only screen and (max-width:900px) {
+    
     main img {
         width:40%;
         margin:4%;
@@ -125,31 +117,22 @@ main img:hover {
 
 @media only screen and (max-width:600px) {
     
-    body {
-        margin:0;
-    }
-    
-    #wrapper {
-        width:100%;
-    }
+    body {margin:0;}
+    #wrapper {width:100%;}
     
     header {
         background-image: url ("imagenes/header2.png");
         height:100vh;
     }
     
-    main {
-        padding:6%;
-    }
+    main {padding:6%;}
 
     main img {
         width:80%;
         margin:9%;
     }
     
-    header span {
-        left:1%;
-    }
+    header span {left:1%;}
 } 
 
 /* Estilos del footer */
