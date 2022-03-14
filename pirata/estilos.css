@@ -2,7 +2,7 @@ body {background-image: url("imagenes/fondo.png");}
 #poema {color: darkblue;}
 #autor {color: navy;}
 
-#titulo h1 {
+h1 {
   font-weight: bold;
   text-decoration: underline;
   color: red;
