@@ -14,10 +14,5 @@ body {
     text-align: justify;
 }
 
-#wrapper h1 {
-    text-align: center;    
-}
-
-#wrapper p {
-    text-align: justify;
-}
+#wrapper h1 {text-align: center;}
+#wrapper p {text-align: justify;}
