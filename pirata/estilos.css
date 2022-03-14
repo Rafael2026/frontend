@@ -1,4 +1,9 @@
-body {background-image: url(imagenes/fondo.png);}
-#titulo {color: red;}
+body {background-image: url("imagenes/fondo.png");}
 #poema {color: darkblue;}
 #autor {color: navy;}
+
+#titulo h1 {
+  font-weight: bold;
+  text-decoration: underline;
+  color: red;
+}
