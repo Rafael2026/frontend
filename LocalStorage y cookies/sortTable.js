@@ -2,7 +2,6 @@ function sortTable(n) {
 
   var rows = document.getElementById("tabla").rows;
   var switching = true;
-  var i;
   var x;
   var y;
   var shouldSwitch;
@@ -15,7 +14,7 @@ function sortTable(n) {
 
     switching = false;
 
-    for (i = 1; i < (rows.length - 1); i++) {
+    for (var i = 1; i < (rows.length - 1); i++) {
 
       shouldSwitch = false;
       x = rows[i].getElementsByTagName("td")[n].innerHTML;
