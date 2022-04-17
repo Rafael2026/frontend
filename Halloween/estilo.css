@@ -1,5 +1,5 @@
 /*** Halloween con estilo ***/
-body {background-color:seashell;}
+body {background-color: seashell;}
 
 #wrapper {
     position: fixed;
@@ -74,7 +74,6 @@ h2 {
     top: 265px;
     cursor:pointer;
     /*border: solid red 1px;*/
-
 }
 
 #house-subtitle {
