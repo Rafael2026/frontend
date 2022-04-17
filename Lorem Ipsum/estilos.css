@@ -1,15 +1,4 @@
-body {
-    background-color: rgba(241, 245, 21, 0.863);
-}
-
-#titulo {
-    color:red;
-}
-
-#primario {
-    color: darkblue;
-}
-
-#secundario {
-    color: darkblue;
-}
+body {background-color: rgba(241, 245, 21, 0.863);}
+#titulo {color: red;}
+#primario {color: darkblue;}
+#secundario {color: darkblue;}
