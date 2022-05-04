@@ -40,5 +40,5 @@
 
 <a href="https://www.bootstrapious.com/snippets">Bootstrapious</a>
 
-## External and official Boostrap's repository
+## Official Boostrap's repository
 <a href="https://github.com/twbs">External repository bootstrap</a>
