@@ -1,33 +1,38 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Scary Halloween Party</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="Halloween.ico" type="image/x-icon">
+    <link href="estilo.css" rel="stylesheet">
+    <link href="Halloween.ico" rel="shortcut icon" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <script src="scripts/script.js"></script>
-    <!-- this document is NOT RESPONSIVE only can be seen in a PC monitor -->
 </head>
+    
 <body>
 
     <div id="wrapper">
         
         <div id="main">
+            
             <div id="title">
                 <h1>Scary Halloween Party</h1>
             </div>
+            
             <div id="subtitle">
                 <h2>Are you ready to meet the Devil?</h2>
             </div>
+            
         </div>
 
         <div id="content">
-            <div id="click-ventana-derecha" onclick="mostrar();sonar()">
-                
-            </div>
+            
+            <div id="click-ventana-derecha" onclick="mostrar();sonar()"></div>
+            
             <div id="ventana-izq" ><!-- para definir un área activable-->
                 <img id="esqueletos" src="imagenes/esqueletos.gif" alt="esqueletos bailando" ondblclick="ocultar();pausar()">
             </div>
@@ -43,4 +48,5 @@
     
 
 </body>
+
 </html>
