@@ -32,9 +32,12 @@
 <a href = "https://getbootstrap.com/">Official website (bootstrap)</a>
 
 ## Snippets de bootstrap
-<a href="https://www.bootsnipp.com">Bootsnipp</a><br><br>
-<a href="https://www.startbootstrap.com/snippets">Start bootstrap</a><br>
-<a href="https://www.bootdey.com">Bootdey</a><br>
+<a href="https://www.bootsnipp.com">Bootsnipp</a>
+
+<a href="https://www.startbootstrap.com/snippets">Start bootstrap</a>
+
+<a href="https://www.bootdey.com">Bootdey</a>
+
 <a href="https://www.bootstrapious.com/snippets">Bootstrapious</a>
 
 ## Repositorios bootstrap
