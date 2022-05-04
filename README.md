@@ -27,3 +27,15 @@
 <a href="https://validator.w3.org/">HTML validator</a>
 
 <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a>
+
+## Official Boostrap website
+<a href = "https://getbootstrap.com/">Official website (bootstrap)</a>
+
+## Snippets de bootstrap
+<a href="https://www.bootsnipp.com">Bootsnipp</a><br>
+<a href="https://www.startbootstrap.com/snippets">Start bootstrap</a><br>
+<a href="https://www.bootdey.com">Bootdey</a><br>
+<a href="https://www.bootstrapious.com/snippets">Bootstrapious</a>
+
+## Repositorios bootstrap
+<a href="https://github.com/twbs">External repository bootstrap</a>
