@@ -6,7 +6,7 @@
 ## Tutorials
 <a href="https://www.w3schools.com/">W3 SCHOOLS</a>
 
-<a href="https://uniwebsidad.com/">Tutoriales de uniwebsidad</a>
+<a href="https://uniwebsidad.com/">Uniwebsidad tutorials</a>
 
 ## Colours generator
 <a href="https://colorschemedesigner.com/csd-3.5/">Generate colours</a>
@@ -14,8 +14,8 @@
 ## CSS Reference
 <a href="https://lenguajecss.com/css/">CSS reference</a>
 
-## Responsive web design
-<a href="https://blog.froont.com/9-basic-principles-of-responsive-web-design/">Basic principles of a responsive web design</a>
+## Basic principles of responsive web design
+<a href="https://blog.froont.com/9-basic-principles-of-responsive-web-design/">Principles of responsive web design</a>
 
 ## What can I use?
 <a href="https://caniuse.com/">Frontend tool</a>
