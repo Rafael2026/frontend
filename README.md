@@ -17,9 +17,6 @@
 ## Responsive web design
 <a href="https://blog.froont.com/9-basic-principles-of-responsive-web-design/">Basic principles of a responsive web design</a>
 
-## Repositorio de Bootstrap
-<a href="https://github.com/Rafael2026/learn_bootstrap">Mi repositorio de bootstrap</a>
-
 ## What can I use?
 <a href="https://caniuse.com/">Frontend tool</a>
 
@@ -29,7 +26,7 @@
 <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a>
 
 ## Official Boostrap website
-<a href = "https://getbootstrap.com/">Official website (bootstrap)</a>
+<a href = "https://getbootstrap.com/">Bootstrap website</a>
 
 ## Snippets de bootstrap
 <a href="https://www.bootsnipp.com">Bootsnipp</a>
@@ -41,4 +38,4 @@
 <a href="https://www.bootstrapious.com/snippets">Bootstrapious</a>
 
 ## Official Boostrap's repository
-<a href="https://github.com/twbs">External repository bootstrap</a>
+<a href="https://github.com/twbs">Bootstrap repository</a>
