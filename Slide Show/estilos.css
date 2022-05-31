@@ -1,0 +1,83 @@
+.gallery {
+  border: 1px solid #ccc;
+  margin: 5% 40% 0% 40%;
+  display: none;
+  overflow: hidden;
+  height: 30vh;
+}
+
+.gallery:hover {border: 1px solid #777;}
+
+img {
+  width: 100%;
+  height: 25vh;
+  position: relative;
+}
+
+#imagen1 {display: block;}
+.img1 {animation: izquierdaDerecha 2s;}
+.img2 {animation: derechaIzquierda 2s;}
+.img3 {animation: arribaAbajo 2s forwards;}
+.img4 {animation: abajoArriba 2s backwards;}
+.img5 {animation: transparencia 2s;}
+.img6 {animation: smallBig 2s;}
+.img7 {animation: bigSmall 2s;}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  height: 150px;
+}
+
+.botones {
+  text-align: center;
+  margin-top: 5%;
+  position: relative;
+}
+
+form {display: none;}
+
+@keyframes izquierdaDerecha {
+
+  0% {left: -100%;}
+  100% {left: 0%;}
+}
+
+@keyframes derechaIzquierda {
+
+  0% {left: 100%;}
+  100% {left: 0%;}
+}
+
+@keyframes arribaAbajo {
+
+  0% {top: -100%;}
+  100% {top: 0%;}
+}
+
+@keyframes abajoArriba {
+
+  0% {top: 100%;}
+  100% {top: 0%;}
+}
+
+@keyframes transparencia {
+
+  0% {opacity: 0;}
+  50% {opacity: 0.5;}
+  100% {opacity: 1;}
+}
+
+@keyframes smallBig {
+
+  0% {transform: scale(0.1);}
+  50% {transform: scale(0.5);}
+  100% {transform: scale(1);}
+}
+
+@keyframes bigSmall {
+
+  0% {transform: scale(1);}
+  50% {transform: scale(0.5);}
+  100% {transform: scale(0.1);}
+}
