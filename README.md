@@ -20,10 +20,12 @@
 ## What can I use?
 <a href="https://caniuse.com/">Frontend tool</a>
 
-## Validators
+## Service validators
 <a href="https://validator.w3.org/">HTML validator</a>
 
 <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a>
+
+<a href="https://beautifytools.com/javascript-validator.php">JavaScript (JS) validator</a>
 
 ## Official Boostrap website
 <a href = "https://getbootstrap.com/">Bootstrap website</a>
