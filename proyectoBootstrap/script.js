@@ -3,7 +3,7 @@
 function validacion () {
 
   var valorCorreo = document.getElementById("correo").value;
-  var valorContraseña = document.getElementById ("passw").value;
+  var valorContraseña = document.getElementById("passw").value;
   var condicion1 = true;
   var condicion2 = true;
   var mensajeError = "";
@@ -19,7 +19,7 @@ function validacion () {
   }
 
   if (!(condicion1 && condicion2)) {
-    window.alert (mensajeError);
+    alert(mensajeError);
   }
 
   return condicionFinal;
