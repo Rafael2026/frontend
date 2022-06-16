@@ -1,20 +1,13 @@
-/* DECLARACIÓN DE FUNCIONES */
-function mostrar() {
-  el = document.getElementById("esqueletos");
-  el.style.visibility = "visible";
-}
-
-function ocultar() {
-  el = document.getElementById("esqueletos");
-  el.style.visibility = "hidden";
-}
-
-function sonar() {
+window.onload = function() {
+  
   var audio = document.getElementById("song");
-  audio.play();
-}
+  var el = document.getElementById("esqueletos");
+  
+  function mostrar() { el.style.visibility = "visible"; }
 
-function pausar() {
-  var audio = document.getElementById("song");
-  audio.pause();
-}
+  function ocultar() { el.style.visibility = "hidden"; }
+
+  function sonar() { audio.play(); }
+
+  function pausar() { audio.pause(); }
+};
