@@ -41,3 +41,6 @@
 
 ## Official Boostrap's repository
 <a href="https://github.com/twbs">Bootstrap repository</a>
+
+## Font-awesome
+<a href="https://www.bootstrapcdn.com/fontawesome/">Boostrap CDN</a>
