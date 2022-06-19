@@ -44,3 +44,6 @@
 
 ## Font-awesome
 <a href="https://www.bootstrapcdn.com/fontawesome/">Boostrap CDN</a>
+
+## How to measure page performance
+<a href="https://pagespeed.web.dev/">PageSpeed Insights</a>
