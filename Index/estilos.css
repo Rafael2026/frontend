@@ -5,12 +5,12 @@ body {
 }
 
 #wrapper {
-  width: 90%;
+  width: 100%;
   background-color: white;
   margin: auto;
 }
 
-header {position: relative;}
+header { position: relative; }
 
 header img {
   width: 100%;
@@ -57,7 +57,7 @@ a {
   color: white;
 }
 
-a:hover {color: black;}
+a:hover { color: black; }
 
 nav ul li a.active {
   background-color: rgb(253, 120, 71);
@@ -73,7 +73,7 @@ footer {
   padding: 20px;
 }
 
-main {background-color: white;}
+main { background-color: white; }
 
 main h2 {
   text-align: center;
@@ -95,26 +95,23 @@ div.polaroid img {
   margin: 4%;
 }
 
-div.polaroid:hover {opacity: 0.5;}
+div.polaroid:hover { opacity: 0.5; }
 
 div.container {
   text-align: center;
   padding: 10px 20px;
 }
 
-#fin-float {clear: both;}
+#fin-float { clear: both; }
 
 iframe {
   display: block;
   margin: 30px auto;
 }
 
-h1 {color: blue;}
-i {padding: 0px 15px;}
+h1 { color: blue; }
+i { padding: 0px 15px; }
 
 @media only screen and (max-width:500px) {
-
-  div .polaroid {
-    width: 90%;
-  }
+  div .polaroid { width: 90%; }
 }
