@@ -1,10 +1,10 @@
-function myFunction() {
+document.getElementsByClassName("icon")[0].onclick = function myFunction() {
   
-  var x = document.getElementById("myTopnav");
+  var barraNav = document.getElementsByClassName("topnav")[0];
   
-  if (x.className === "topnav") {
-    x.className += " responsive";
+  if (barraNav.className == "topnav") {
+    barraNav.className += " responsive";
   } else {
-    x.className = "topnav";
+    barraNav.className = "topnav";
   }
-}
+};

@@ -1,39 +1,39 @@
 @font-face {
   font-family: Enchanted;
-  src:url("fuentes/Enchanted.otf")
+  src: url("fuentes/Enchanted.otf")
 }
 
 body {
   background-image: url("imagenes/tile-sky2.jpg");
-  font-family:Enchanted;
+  font-family: Enchanted;
 }
 
-#wrapper {
+.wrapper {
   width: 90%;
   height: 600px;
   background-color: #fff;
-  margin:auto;
+  margin: auto;
 }
 
 header {
   background-image: url("imagenes/header.jpg");
   background-position: left;
   background-size: cover;
-  height:160px;
-  position:relative;
+  height: 160px;
+  position: relative;
 }
 
-header #titulo {
-  position:absolute;
-  top:80px;
-  right:75px;
-  color:white;
-  font-size:3em;
+header .titulo {
+  position: absolute;
+  top: 80px;
+  right: 75px;
+  color: white;
+  font-size: 3em;
 }
 
 .topnav {
   overflow: hidden;
-  background-color:rgb(195, 60, 20);
+  background-color: rgb(195, 60, 20);
 }
 
 .topnav a {
@@ -59,35 +59,35 @@ header #titulo {
 }
 */
 
-.topnav .icon {display: none;}
+.topnav .icon { display: none; }
 
 main {
   background-image: url("imagenes/tile.jpg");
-  padding:5%;
-  font-size:2em;
-  color:white;
+  padding: 5%;
+  font-size: 2em;
+  color: white;
 }
 
 main h1 {
-  margin-top:0;
-  text-align:center;
-  color:lightcyan;
+  margin-top: 0;
+  text-align: center;
+  color: lightcyan;
 }
 
-main p {text-indent:3em;}
+main p { text-indent: 3em; }
 
 main .libro-responsive {
-  width:20%;
-  margin:2%;
+  width: 20%;
+  margin: 2%;
 }
 
 .container {
   position: relative;
   width: 50%;
-  display:inline-block;
+  display: inline-block;
 }
 
-.image {
+img {
   display: block;
   width: 100%;
   height: auto;
@@ -103,10 +103,10 @@ main .libro-responsive {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color:rgb(195, 60, 20);
+  background-color: rgb(195, 60, 20);
 }
 
-.container:hover .overlay {opacity: 1;}
+.container:hover .overlay { opacity: 1; }
 
 .text {
   color: white;
@@ -119,21 +119,21 @@ main .libro-responsive {
 }
 
 footer {
-  background-color:rgb(195, 60, 20);
-  color:black;
+  background-color: rgb(195, 60, 20);
+  color: black;
 }
 
 footer p {
-  margin:0;
-  padding:10px;
-  font-size:1.2em;
-  text-align:center;
-  font-family:sans-serif;
+  margin: 0;
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 @media screen and (max-width: 800px) {
 
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) { display: none; }
 
   .topnav a.icon {
     float: right;
@@ -143,7 +143,7 @@ footer p {
 
 @media screen and (max-width: 800px) {
 
-  .topnav.responsive {position: relative;}
+  .topnav.responsive { position: relative; }
 
   .topnav.responsive .icon {
     position: absolute;
@@ -158,14 +158,12 @@ footer p {
   }
 
   main .libro-responsive {
-    width:40%;
-    margin:4%;
+    width: 40%;
+    margin: 4%;
   }
 }
 
 @media screen and (max-width: 500px) {
 
-  main .libro-responsive {
-    width:90%;
-  }
+  main .libro-responsive { width: 90%; }
 }
