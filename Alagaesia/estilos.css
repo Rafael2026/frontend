@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("imagenes/tile-sky2.jpg");
+  background-image: url("https://c.tenor.com/Wypbjs6EIP4AAAAC/night-sky-stars.gif");
   font-family: Enchanted;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-image: url("https://www.ecoceramic.es/ERP/4.0/empresas/151/031/imagenes/t00010602/0354500284588.jpg?18");
+  background-image: url("imagenes/header.jpg");
   background-position: left;
   background-size: cover;
   height: 160px;
@@ -62,7 +62,7 @@ header .titulo {
 .topnav .icon { display: none; }
 
 main {
-  background-image: url("imagenes/tile.jpg");
+  background-color: #808080;
   padding: 5%;
   font-size: 2em;
   color: white;
