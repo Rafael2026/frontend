@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("imagenes/tile-sky2.jpg");
+  background-image: url("https://c.tenor.com/Wypbjs6EIP4AAAAC/night-sky-stars.gif");
   font-family: Enchanted;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-image: url("imagenes/header.jpg");
+  background-color: #808080;
   background-position: left;
   background-size: cover;
   height: 160px;
