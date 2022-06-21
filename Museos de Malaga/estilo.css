@@ -1,0 +1,165 @@
+/** estilo de realidad aumentada **/
+@font-face {
+    font-family:Electrolize;
+    src:url("fuentes/droid-sans.regular.ttf");
+}
+  
+body {
+    background-color: white;
+    font-family: droid;
+}
+  
+#wrapper {
+    width:90%;
+    margin:auto;
+}
+  
+/** estilo header **/
+header {
+    background-image: url("imagenes/header.jpg");
+    background-size: cover; 
+    background-position: right;
+    height: 600px;
+    position: relative;
+}
+  
+header span {
+    position: fixed;
+    top:5px;
+    left:6%;
+    color: black;
+    font-size:30px; 
+    cursor:pointer
+}
+  
+header div#titulo {
+    color: rgb(72, 58, 58);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    padding-top:80px;
+    text-shadow: 1px 1px 2px rgb(166, 140, 168);
+}
+  
+/** estilo del nav **/  
+.topnav {font-size:2vw;
+    position: sticky;
+    background-color:black;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(83, 60, 68);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.topnav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+  
+.topnav a:hover {color: rgb(253, 219, 224);}
+  
+.topnav .closebtn {
+    position: absolute;
+    top:0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/** estilo main **/
+main {
+    background-color:white;
+    padding:4%;
+    font-size:1.5em;
+}
+  
+main h1 {
+    color:black;
+    text-align: left;
+    margin-top: 0;
+}
+  
+main p {
+    text-align: justify;
+    margin: 0, auto;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+  
+main img {
+    width:90%;
+    margin: 2%;
+    display: inline;
+}
+
+#box{
+    border: 1px solid grey;
+    box-shadow: 1px 1px 8px 1px  rgb(100, 100, 100);
+    width: 20%;
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+}
+
+#box p{
+    font-size: small;
+    text-align: center;
+}
+  
+main img:hover {opacity: 1;}
+  
+/** estilo footer **/
+footer {
+    background-color:rgb(83, 60, 68);
+    padding:15px;
+}
+  
+footer p {
+    margin:0;
+    text-align:center;
+    color:white;
+}
+
+@media only screen and (max-width:900px) {
+    main img {
+      width: 40%;
+      margin: 4%;
+    }
+}
+  
+@media only screen and (max-width:600px) {
+    
+    body {margin: 0;}
+    #wrapper {width: 100%;}
+  
+    header {
+      background-image: url("imagenes/header.jpg");
+      height: 100vh;
+    }
+    
+    header span {left:1%;}
+    main {padding: 6%;}
+  
+    main img {
+      width: 80%;
+      margin: 9%;
+    }    
+}
+
+@media screen and (max-width:425px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    footer {display: none;}
+}
