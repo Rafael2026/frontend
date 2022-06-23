@@ -4,34 +4,11 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-#wrapper {
-  width: 100%;
-  background-color: white;
-  margin: auto;
-}
-
 header { position: relative; }
 
 header img {
   width: 100%;
-  height: auto;
-}
-
-#title {
-  position: absolute;
-  background-color: rgba(102, 83, 83, 0.884);
-  color: white;
-  font-size: 4vw;
-  text-align: center;
-  right: 0;
-  left: 0;
-  margin-left: auto;
-  margin-right: auto;
-  top: 6.5vw;
-  width: 50%;
-  padding: 2.5vw;
-  border: 4px solid white;
-  outline: 4px solid rgb(102, 83, 83);
+  height: 500px;
 }
 
 nav {
@@ -78,6 +55,7 @@ main { background-color: white; }
 main h2 {
   text-align: center;
   font-size: 5vw;
+  margin-top: 50px;
 }
 
 div.polaroid {
@@ -110,8 +88,13 @@ iframe {
 }
 
 h1 { color: blue; }
-i { padding: 0px 15px; }
+
+i {
+  padding: 10px 15px;
+  font-size: 36px;
+}
 
 @media only screen and (max-width:500px) {
+
   div .polaroid { width: 90%; }
 }
