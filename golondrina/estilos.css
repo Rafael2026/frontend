@@ -2,6 +2,10 @@ body {
   font-family: "Great Vibes, cursive";
   font-size: 100%;
   background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/527455-voar-padrao-de-telha-de-passaro-padrao-de-ceu-ceu-nublado-com-passaros-voando-vetor.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 300px;
 }
 
 #wrapper {
@@ -9,7 +13,7 @@ body {
   width: 400px;
   margin: auto;
   padding: 20px;
-  border-radius: 30px 25px 25px 30px;
-  box-shadow: black 10px 10px 10px;
+  border-radius: 30px 25px;
+  box-shadow: black 3px 3px 3px;
   text-align: center;
 }
