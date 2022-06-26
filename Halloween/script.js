@@ -1,13 +1,9 @@
-window.onload = function() {
-  
-  var audio = document.getElementById("song");
-  var el = document.getElementById("esqueletos");
-  
-  function mostrar() { el.style.visibility = "visible"; }
+var audio = document.getElementById("song");
+var el = document.getElementById("esqueletos");
 
-  function ocultar() { el.style.visibility = "hidden"; }
+function mostrar() { el.style.visibility = "visible"; }
 
-  function sonar() { audio.play(); }
+function ocultar() { el.style.visibility = "hidden"; }
 
-  function pausar() { audio.pause(); }
-};
+function sonar() { audio.play(); }
+function pausar() { audio.pause(); }
