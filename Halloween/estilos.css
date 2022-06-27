@@ -7,6 +7,7 @@ body {
   background-color: seashell;
   background-image: url("imagenes/casaEncantada.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 main, .title, .subtitle, .content, .ventanaIzq, .esqueletos { position: relative; }
