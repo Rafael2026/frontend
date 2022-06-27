@@ -1,89 +1,61 @@
-/* Halloween con estilo */
-body {background-color: seashell;}
-
-#wrapper {
-  position: fixed;
-  background-image: url("imagenes/casa encantada.jpg");
-  width: 100%;
-  height: 100%;
-}
-
-#main {
-  position: relative;
-  width: 100%;
-  height: 20%;
-}
-
-#title {
-  position: relative;
-  text-align: center;
-  padding-top: 2%;
-}
-
-#subtitle {
-  position: relative;
-  text-align: center;
-}
-
 @font-face {
   font-family: itLives;
   src: url("fuentes/Shock Shimmy.ttf");
 }
 
-h1 {
-  position: relative;
-  width: 100%;
-  height: 50%;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 3em;
-  color: blue;
+body {
+  background-color: seashell;
+  background-image: url("imagenes/casa encantada.jpg");
+  background-size: cover;
+}
+
+main, .title, .subtitle, .content, .ventanaIzq, .esqueletos { position: relative; }
+
+.title { padding-top: 2%; }
+
+.title, .subtitle {
   text-align: center;
+  font-size: 3em;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: blue;
   text-shadow: black -2px -2px, black -2px -2px, black -2px -2px, black -2px -2px;
 }
 
 h2 {
-  position: relative;
-  width: 100%;
-  height: 50%;
-  font-size: 3em;
   font-family: fantasy;
   color: red;
-  text-align: center;
 }
 
-#content {
-  position: relative;
-  width: 100%;
-  height: 80%;
-}
+.content, .ventanaIzq { width: 100%; }
+.content { height: 80%; }
 
-#ventana-izq {
-  position: relative;
+.ventanaIzq {
   /*border:2px solid white;*/
-  width: 100%;
   height: 40%;
 }
 
-#click-ventana-derecha {
+.ventanaDerecha {
   position: absolute;
   width: 70px;
   height: 65px;
-  left: 1175px;
-  top: 265px;
+  left: 1440px;
+  top: 350px;
   cursor: pointer;
-  /*border: solid red 1px;*/
+  border: 1px solid red;
 }
 
-#house-subtitle {
+/*.subtitle {
   position: relative;
   padding-bottom: 500px;
   text-align: right;
   font-size: 2em;
   font-family: 'Source Sans Pro', sans-serif;
-}
+}*/
 
-#esqueletos {
-  position: relative;
+.esqueletos {
   margin: 10%;
   visibility: hidden;
   cursor: pointer;

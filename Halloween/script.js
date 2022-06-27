@@ -1,9 +1,18 @@
-var audio = document.getElementById("song");
-var el = document.getElementById("esqueletos");
+var audio = document.getElementsByClassName("song")[0];
+var bones = document.getElementsByClassName("esqueletos")[0];
 
-function mostrar() { el.style.visibility = "visible"; }
+document.getElementsByClassName("ventanaDerecha")[0].onclick = function mostrar() {
+  bones.style.visibility = "visible";
+};
 
-function ocultar() { el.style.visibility = "hidden"; }
+document.getElementsByClassName("ventanaDerecha")[0].onclick = function sonar() {
+  audio.play();
+};
 
-function sonar() { audio.play(); }
-function pausar() { audio.pause(); }
+document.getElementsByClassName("esqueletos")[0].onclick = function pausar() {
+  audio.pause();
+};
+
+document.getElementsByClassName("esqueletos")[0].onclick = function ocultar() {
+  bones.style.visibility = "hidden";
+};
