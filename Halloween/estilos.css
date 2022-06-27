@@ -8,6 +8,7 @@ body {
   background-image: url("https://okdiario.com/img/viajes/2016/10/17/predicciones-para-halloween.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  heigth: 100%;
 }
 
 main, .title, .subtitle, .content, .ventanaIzq, .esqueletos { position: relative; }
