@@ -82,11 +82,6 @@ div.container {
 
 #fin-float { clear: both; }
 
-iframe {
-  display: block;
-  margin: 30px auto;
-}
-
 h1 { color: blue; }
 
 i {
@@ -94,7 +89,7 @@ i {
   font-size: 36px;
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width: 500px) {
 
   div .polaroid { width: 90%; }
 }
