@@ -57,6 +57,7 @@ h2 {
 }*/
 
 .esqueletos {
+  position: absolute;
   visibility: hidden;
   cursor: pointer;
   width: 20%;
