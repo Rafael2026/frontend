@@ -32,33 +32,22 @@ h2 {
 
 .content, .ventanaIzq { width: 100%; }
 .content { height: 80%; }
-
-.ventanaIzq {
-  /*border:2px solid white;*/
-  height: 40%;
-}
+.ventanaIzq { height: 40%; }
 
 .ventanaDerecha {
-  position: absolute;
   width: 70px;
   height: 65px;
   left: 1440px;
   top: 350px;
-  cursor: pointer;
   border: 1px solid red;
 }
 
-/*.subtitle {
-  position: relative;
-  padding-bottom: 500px;
-  text-align: right;
-  font-size: 2em;
-  font-family: 'Source Sans Pro', sans-serif;
-}*/
+.ventanaDerecha, .esqueletos {
+  position: absolute;
+  cursor: pointer;
+}
 
 .esqueletos {
-  position: absolute;
   visibility: hidden;
-  cursor: pointer;
   width: 20%;
 }
