@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #wrapper {
@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-image: url("imagenes/cabecera.jpg");
+  background-image: url("img/cabecera.jpg");
   background-size: cover;
   background-position: right;
   height: 400px;
