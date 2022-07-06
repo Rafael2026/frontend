@@ -1,11 +1,7 @@
-@font-face {
-  font-family: Enchanted;
-  src: url("fuentes/Enchanted.otf")
-}
-
 body {
   background-image: url("https://c.tenor.com/Wypbjs6EIP4AAAAC/night-sky-stars.gif");
   font-family: Enchanted;
+  src: url("fuentes/Enchanted.otf");
 }
 
 .wrapper {
@@ -16,7 +12,7 @@ body {
 }
 
 header {
-  background-image: url("imagenes/header.jpg");
+  background-image: url("img/header.jpg");
   background-position: left;
   background-size: cover;
   height: 160px;
@@ -52,12 +48,10 @@ header .titulo {
   color: white;
 }
 
-/*
-.topnav a.active {
+.topnav a:active {
   background-color: #4CAF50;
   color: white;
 }
-*/
 
 .topnav .icon { display: none; }
 
