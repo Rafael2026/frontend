@@ -51,16 +51,12 @@ function transp() {
 
 function peqGra() {
 
-  for (let j = 0; j < imagenes.length; j++) {
-    imagenes[j].className = "img6";
-  }
+  for (let j = 0; j < imagenes.length; j++) { imagenes[j].className = "img6"; }
 }
 
 function graPeq() {
 
-  for (let j = 0; j < imagenes.length; j++) {
-    imagenes[j].className = "img7";
-  }
+  for (let j = 0; j < imagenes.length; j++) { imagenes[j].className = "img7"; }
 }
 
 setInterval(cambiarImagen, 2010);
