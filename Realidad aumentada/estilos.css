@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-image: url("imagenes/header.jpg");
+  background-image: url("img/header.jpg");
   background-size: cover;
   background-position: right;
   height: 400px;
@@ -115,7 +115,7 @@ main img:hover {opacity:0.5;}
   #wrapper {width:100%;}
 
   header {
-    background-image: url("imagenes/header2.png");
+    background-image: url("img/header2.png");
     height:100vh;
   }
 
