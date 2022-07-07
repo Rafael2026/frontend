@@ -1,13 +1,10 @@
-@font-face {
-  font-family: itLives;
-  src: url("fuentes/Shock Shimmy.ttf");
-}
-
 body {
   background-color: seashell;
   background-image: url("https://okdiario.com/img/viajes/2016/10/17/predicciones-para-halloween.jpg");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  font-family: itLives;
+  src: url("fuentes/Shock Shimmy.ttf");
 }
 
 main, .title, .subtitle, .content, .ventanaIzq, .esqueletos { position: relative; }
