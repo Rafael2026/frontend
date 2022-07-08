@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://c.tenor.com/Wypbjs6EIP4AAAAC/night-sky-stars.gif");
+  background-image: url("img/night-sky-stars.webp");
   font-family: Enchanted;
   src: url("fuentes/Enchanted.otf");
 }
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-image: url("img/header.jpg");
+  background-image: url("img/header.webp");
   background-position: left;
   background-size: cover;
   height: 160px;
