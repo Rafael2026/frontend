@@ -191,11 +191,9 @@ form {
   padding: 0px 20px;
 }
 
-h1, form {
-  margin: 20px 30%;
-}
+h1, form { margin: 20px 30%; }
 
-header, #guardar {margin: 20px 0px;}
+header, #guardar { margin: 20px 0px; }
 
 .columna {
   background-color: lightgrey;
@@ -204,4 +202,4 @@ header, #guardar {margin: 20px 0px;}
   cursor: pointer;
 }
 
-td {font-size: 20px;}
+td { font-size: 20px; }
