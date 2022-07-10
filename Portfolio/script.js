@@ -2,6 +2,10 @@ var i = 0;
 var galeria = document.getElementsByClassName("gallery");
 var imagenes = document.getElementsByTagName("img");
 var botones = document.getElementsByClassName("botones");
+var nombre = document.getElementById("nombre");
+var correo = document.getElementById("correo");
+var salario = document.getElementById("salario");
+var ciudad = document.getElementById("ciudad");
 
 function cambiarImagen() {
   galeria[i].style.display = "none";
@@ -234,84 +238,77 @@ function getCookie(nombre) {
   return "";
 }
 
-window.onload = function () {
+if (document.getElementById("radio1").checked) {
 
-  var nombre = document.getElementById("nombre");
-  var correo = document.getElementById("correo");
-  var salario = document.getElementById("salario");
-  var ciudad = document.getElementById("ciudad");
-
-  if (document.getElementById("radio1").checked) {
-
-    if (localStorage.length >= 1) {
-
-      valores = JSON.parse(localStorage.getItem("valores"));
-
-      while (i < valores.length) {
-        addStorageTable(valores);
-        i++;
-      }
-
-      document.getElementById("guardar").onclick = function () {
-        saveStorage(nombre.value, correo.value, salario.value, ciudad.value);
-      };
-
-      localStorage.setItem("valores", JSON.stringify(valores));
-
-    } else {
-
-      valores = [
-        {nombre: "Manuelita", correo: "manlit@gmail.com", salario: 650, ciudad: "Malaga"},
-        {nombre: "Ale", correo: "al@gmail.com", salario: 1200, ciudad: "Elche"},
-        {nombre: "Magic", correo: "mag@gmail.com", salario: 780, ciudad: "Galicia"}
-      ];
-
-      localStorage.setItem("valores", JSON.stringify(valores));
-    }
+  if (localStorage.length >= 1) {
 
     valores = JSON.parse(localStorage.getItem("valores"));
 
-  } else if (document.getElementById("radio2").checked) {
-
-    if (valores.length >= 1) {
-
-      while (i < valores.length) {
-        addCookieTable(valores);
-        i++;
-      }
-
-      document.getElementById("guardar").onclick = function () {
-        saveCookie(nombre.value, correo.value, salario.value, ciudad.value);
-      };
-
-      document.cookie = "valores=" + JSON.stringify(valores) + ";";
-
-    } else {
-
-      valores = [
-        {nombre: "Manuelita", correo: "manlit@gmail.com", salario: 650, ciudad: "Malaga"},
-        {nombre: "Ale", correo: "al@gmail.com", salario: 1200, ciudad: "Elche"},
-        {nombre: "Magic", correo: "mag@gmail.com", salario: 780, ciudad: "Galicia"}
-      ];
-
-      document.cookie = "valores=" + JSON.stringify(valores) + ";";
-      valores = JSON.parse(getCookie("valores"));
-
-      while (i < valores.length) {
-        addCookieTable(valores);
-        i++;
-      }
+    while (i < valores.length) {
+      addStorageTable(valores);
+      i++;
     }
+
+    document.getElementById("guardar").onclick = function () {
+      saveStorage(nombre.value, correo.value, salario.value, ciudad.value);
+    };
+
+    localStorage.setItem("valores", JSON.stringify(valores));
+
+  } else {
+
+    valores = [
+      {nombre: "Manuelita", correo: "manlit@gmail.com", salario: 650, ciudad: "Malaga"},
+      {nombre: "Ale", correo: "al@gmail.com", salario: 1200, ciudad: "Elche"},
+      {nombre: "Magic", correo: "mag@gmail.com", salario: 780, ciudad: "Galicia"}
+    ];
+
+    localStorage.setItem("valores", JSON.stringify(valores));
   }
 
-  valores = JSON.parse(getCookie("valores"));
+  valores = JSON.parse(localStorage.getItem("valores"));
 
-  document.getElementById("nombre").value = "";
-  document.getElementById("correo").value = "";
-  document.getElementById("salario").value = "";
-  document.getElementById("ciudad").value = "";
-  document.getElementById("textoFormulario").innerHTML = "Agregar empleado";
-};
+} else if (document.getElementById("radio2").checked) {
+
+  if (valores.length >= 1) {
+
+    while (i < valores.length) {
+      addCookieTable(valores);
+      i++;
+    }
+
+    document.getElementById("guardar").onclick = function () {
+      saveCookie(nombre.value, correo.value, salario.value, ciudad.value);
+    };
+
+    document.cookie = "valores=" + JSON.stringify(valores) + ";";
+
+  } else {
+
+    valores = [
+      {nombre: "Manuelita", correo: "manlit@gmail.com", salario: 650, ciudad: "Malaga"},
+      {nombre: "Ale", correo: "al@gmail.com", salario: 1200, ciudad: "Elche"},
+      {nombre: "Magic", correo: "mag@gmail.com", salario: 780, ciudad: "Galicia"}
+    ];
+
+    document.cookie = "valores=" + JSON.stringify(valores) + ";";
+    valores = JSON.parse(getCookie("valores"));
+
+    while (i < valores.length) {
+      addCookieTable(valores);
+      i++;
+    }
+  }
+}
+
+valores = JSON.parse(getCookie("valores"));
+
+document.getElementById("nombre").value = "";
+document.getElementById("correo").value = "";
+document.getElementById("salario").value = "";
+document.getElementById("ciudad").value = "";
+document.getElementById("textoFormulario").innerHTML = "Agregar empleado";
+
 
 function addElement(nombre, correo, salario, ciudad) {
   valores.push({nombre: nombre, correo: correo, salario: salario, ciudad: ciudad});
