@@ -1,3 +1,5 @@
+'use strict';
+
 var i = 0;
 var galeria = document.getElementsByClassName("gallery");
 var imagenes = document.getElementsByTagName("img");
@@ -6,6 +8,7 @@ var nombre = document.getElementById("nombre");
 var correo = document.getElementById("correo");
 var salario = document.getElementById("salario");
 var ciudad = document.getElementById("ciudad");
+var valores = [];
 
 function cambiarImagen() {
   galeria[i].style.display = "none";
@@ -65,10 +68,7 @@ function graPeq() {
 
 setInterval(cambiarImagen, 2010);
 
-'use strict';
-
-var i = 0;
-var valores = [];
+i = 0;
 
 function saveStorage(nombre, correo, salario, ciudad) {
 
@@ -176,7 +176,7 @@ function editStorage(indice) {
   document.getElementById("salario").value = valores[indice].salario;
   document.getElementById("ciudad").value = valores[indice].ciudad;
 
-  document.getElementById("guardar").onclick = function () {
+  document.getElementById("guardar").onclick = function() {
 
     var celdas = document.getElementById("cuerpo").rows[indice - 1].cells;
 
@@ -200,7 +200,7 @@ function editCookie(indice) {
   document.getElementById("salario").value = valores[indice].salario;
   document.getElementById("ciudad").value = valores[indice].ciudad;
 
-  document.getElementById("guardar").onclick = function () {
+  document.getElementById("guardar").onclick = function() {
 
     var celdas = document.getElementById("cuerpo").rows[indice - 1].cells;
 
@@ -226,13 +226,9 @@ function getCookie(nombre) {
 
     let c = ca[i];
 
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
+    while (c.charAt(0) == ' ') { c = c.substring(1); }
 
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
+    if (c.indexOf(name) == 0) { return c.substring(name.length, c.length); }
   }
 
   return "";
@@ -249,7 +245,7 @@ if (document.getElementById("radio1").checked) {
       i++;
     }
 
-    document.getElementById("guardar").onclick = function () {
+    document.getElementById("guardar").onclick = function() {
       saveStorage(nombre.value, correo.value, salario.value, ciudad.value);
     };
 
@@ -277,7 +273,7 @@ if (document.getElementById("radio1").checked) {
       i++;
     }
 
-    document.getElementById("guardar").onclick = function () {
+    document.getElementById("guardar").onclick = function() {
       saveCookie(nombre.value, correo.value, salario.value, ciudad.value);
     };
 
@@ -308,7 +304,6 @@ document.getElementById("correo").value = "";
 document.getElementById("salario").value = "";
 document.getElementById("ciudad").value = "";
 document.getElementById("textoFormulario").innerHTML = "Agregar empleado";
-
 
 function addElement(nombre, correo, salario, ciudad) {
   valores.push({nombre: nombre, correo: correo, salario: salario, ciudad: ciudad});

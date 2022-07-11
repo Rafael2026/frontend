@@ -3,7 +3,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-header { position: relative; }
+header, img, .botones { position: relative; }
 
 header img {
   width: 100%;
@@ -103,8 +103,6 @@ img {
   width: 100%;
   height: 25vh;
 }
-
-img, .botones { position: relative; }
 
 #imagen1 { display: block; }
 .img1 { animation: izquierdaDerecha 2s; }

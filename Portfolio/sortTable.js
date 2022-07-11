@@ -2,8 +2,6 @@ function sortTable(n) {
 
   var rows = document.getElementById("tabla").rows;
   var switching = true;
-  var x;
-  var y;
   var shouldSwitch;
   var dir = "asc";
   var switchcount = 0;
@@ -14,11 +12,11 @@ function sortTable(n) {
 
     switching = false;
 
-    for (var i = 1; i < (rows.length - 1); i++) {
+    for (let i = 1; i < (rows.length - 1); i++) {
 
       shouldSwitch = false;
-      x = rows[i].getElementsByTagName("td")[n].innerHTML;
-      y = rows[i + 1].getElementsByTagName("td")[n].innerHTML;
+      let x = rows[i].getElementsByTagName("td")[n].innerHTML;
+      let y = rows[i + 1].getElementsByTagName("td")[n].innerHTML;
 
       valor1 = isNumber(x);
       valor2 = isNumber(y);
