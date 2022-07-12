@@ -48,6 +48,8 @@ main h2 {
   margin-top: 50px;
 }
 
+h2 { color: rgb(0, 0, 255); }
+
 .polaroid {
   float: left;
   width: 40%;
@@ -80,8 +82,6 @@ footer {
   text-align: center;
   padding: 20px;
 }
-
-h1 { color: blue; }
 
 i {
   padding: 10px 15px;
@@ -121,8 +121,7 @@ img {
 }
 
 .botones { margin-top: 5%; }
-
-form { display: none; }
+.formImg { display: none; }
 
 @keyframes izquierdaDerecha {
 
@@ -175,7 +174,7 @@ form { display: none; }
 }
 
 /* LocalStorage and cookies styles */
-header {
+aside header {
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
@@ -184,14 +183,13 @@ header {
   color: blue;
 }
 
-form {
+aside form {
   border: 2px solid black;
   padding: 0px 20px;
 }
 
-h1, form { margin: 20px 30%; }
-
-header, #guardar { margin: 20px 0px; }
+aside h1, aside form { margin: 20px 30%; }
+aside header, #guardar { margin: 20px 0px; }
 
 .columna {
   background-color: lightgrey;
@@ -200,4 +198,4 @@ header, #guardar { margin: 20px 0px; }
   cursor: pointer;
 }
 
-td { font-size: 20px; }
+aside td { font-size: 20px; }

@@ -107,7 +107,7 @@
 
     <div class="fin-float"></div>
 
-    <form action="#" method="post">
+    <form action="#" method="post" class="formImg">
       <label for="tiempo">Introducir tiempo</label>
       <input type="number" id="tiempo">
       <input type="submit" onclick="cambiarImagen()">
@@ -153,72 +153,74 @@
       <button onclick="graPeq()">Big - small</button>
     </div>
 
-    <header>JAVASCRIPT CRUD</header>
-
     <hr>
 
-    <div class="container">
+    <aside>
 
-      <h1 id="textoFormulario">Agregar empleado</h1>
+      <div class="container">
 
-      <form action="script.js" method="POST" id="formulario1">
+        <h1 id="textoFormulario">Agregar empleado</h1>
 
-        <div class="form-group mt-4">
-          <label for="nombre">Full Name*</label>
-          <input type="text" class="form-control" name="nombre" id="nombre" required>
-        </div>
+        <form action="script.js" method="POST" id="formulario1">
 
-        <div class="form-group mt-3">
-          <label for="correo">Email ID</label>
-          <input type="email" class="form-control" name="correo" id="correo">
-        </div>
+          <div class="form-group mt-4">
+            <label for="nombre">Full Name*</label>
+            <input type="text" class="form-control" name="nombre" id="nombre" required>
+          </div>
 
-        <div class="form-group mt-3">
-          <label for="salario">Salario</label>
-          <input type="number" class="form-control" name="salario" id="salario">
-        </div>
+          <div class="form-group mt-3">
+            <label for="correo">Email ID</label>
+            <input type="email" class="form-control" name="correo" id="correo">
+          </div>
 
-        <div class="form-group mt-3">
-          <label for="ciudad">City</label>
-          <input type="text" class="form-control" name="ciudad" id="ciudad">
-        </div>
+          <div class="form-group mt-3">
+            <label for="salario">Salario</label>
+            <input type="number" class="form-control" name="salario" id="salario">
+          </div>
 
-        <div class="form-check mt-4">
-          <input type="radio" class="form-check-input" name="radio" id="radio1" value="localstorage" checked>
-          <label class="form-check-label" for="radio1">LocalStorage</label>
-        </div>
+          <div class="form-group mt-3">
+            <label for="ciudad">City</label>
+            <input type="text" class="form-control" name="ciudad" id="ciudad">
+          </div>
 
-        <div class="form-check">
-          <input type="radio" class="form-check-input" name="radio" id="radio2" value="cookies">
-          <label class="form-check-label" for="radio2">Cookies</label>
-        </div>
+          <div class="form-check mt-4">
+            <input type="radio" class="form-check-input" name="radio" id="radio1" value="localstorage" checked>
+            <label class="form-check-label" for="radio1">LocalStorage</label>
+          </div>
 
-        <button type="button" class="btn btn-success" id="guardar">Aceptar</button>
-        <button type="reset" class="btn btn-primary">Resetear</button>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="radio" id="radio2" value="cookies">
+            <label class="form-check-label" for="radio2">Cookies</label>
+          </div>
 
-      </form>
+          <button type="button" class="btn btn-success" id="guardar">Aceptar</button>
+          <button type="reset" class="btn btn-primary">Resetear</button>
 
-      <table class="table table-bordered table-responsive border border-dark table-striped" id="tabla">
+        </form>
 
-        <thead>
+        <table class="table table-bordered table-responsive border border-dark table-striped" id="tabla">
 
-          <tr>
-            <th class="columna" onclick="sortTable(0)">#</th>
-            <th class="columna" onclick="sortTable(1)">Nombre</th>
-            <th class="columna" onclick="sortTable(2)">Correo</th>
-            <th class="columna" onclick="sortTable(3)">Salario</th>
-            <th class="columna" onclick="sortTable(4)">Ciudad</th>
-            <th class="columna">Editar</th>
-            <th class="columna">Borrar</th>
-          </tr>
+          <thead>
 
-        </thead>
+            <tr>
+              <th class="columna" onclick="sortTable(0)">#</th>
+              <th class="columna" onclick="sortTable(1)">Nombre</th>
+              <th class="columna" onclick="sortTable(2)">Correo</th>
+              <th class="columna" onclick="sortTable(3)">Salario</th>
+              <th class="columna" onclick="sortTable(4)">Ciudad</th>
+              <th class="columna">Editar</th>
+              <th class="columna">Borrar</th>
+            </tr>
 
-        <tbody id="cuerpo"></tbody>
+          </thead>
 
-      </table>
+          <tbody id="cuerpo"></tbody>
 
-    </div>
+        </table>
+
+      </div>
+
+    </aside>
 
   </main>
 
@@ -227,15 +229,14 @@
     <i class="fab fa-github"></i>
     <i class="fab fa-linkedin-in"></i>
 
-    <h1>
+    <h2>
       Autor: Rafael Aguilar Muñoz<br/>
       Lenguaje de Marcas Curso 2019-2020
-    </h1>
+    </h2>
 
   </footer>
   
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript" defer></script>
-  <script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js" type="text/javascript" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" type="text/javascript" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" type="text/javascript" defer></script>
   <script src="script.js" type="text/javascript" defer></script>
