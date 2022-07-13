@@ -30,12 +30,13 @@ nav ul li {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
-a:hover { color: black; }
+a:link, a:visited, a:active { text-decoration:none; }
+a:hover { color: white; }
 
-nav ul li a.active {
+nav ul li a:active {
   background-color: rgb(253, 120, 71);
   padding: 15px;
 }
