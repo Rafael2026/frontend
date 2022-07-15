@@ -20,7 +20,7 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  background-color: orangered;
+  background-color: rgb(255, 69, 0);
 }
 
 nav ul li {
@@ -28,10 +28,7 @@ nav ul li {
   padding: 15px;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
+a:link { color: rgb(0, 0, 0); }
 
 a:link, a:visited, a:active { text-decoration:none; }
 a:hover { color: white; }
@@ -181,7 +178,7 @@ aside header {
   font-style: italic;
   text-decoration: 5px underline dotted red;
   text-align: center;
-  color: blue;
+  color: rgb(0, 0, 255);;
 }
 
 aside form {
