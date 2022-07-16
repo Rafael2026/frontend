@@ -1,6 +1,6 @@
-document.getElementsByClassName("icon")[0].onclick = function myFunction() {
+$(".icon")[0].click = function() {
   
-  var barraNav = document.getElementsByClassName("topnav")[0];
+  var barraNav = $(".topnav")[0];
   
   if (barraNav.className == "topnav") {
     barraNav.className += " responsive";
