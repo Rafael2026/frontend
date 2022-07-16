@@ -1,4 +1,4 @@
-$(".icon")[0].click = function() {
+$(".icon")[0].click(function() {
   
   var barraNav = $(".topnav")[0];
   
@@ -7,4 +7,4 @@ $(".icon")[0].click = function() {
   } else {
     barraNav.className = "topnav";
   }
-};
+});
