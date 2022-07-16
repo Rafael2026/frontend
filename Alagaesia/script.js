@@ -5,6 +5,6 @@ $(".icon")[0].click = function() {
   if (barraNav.attr("class") == "topnav") {
     barraNav.addClass(" responsive");
   } else {
-    barraNav.attr("class") = "topnav";
+    barraNav.attr("class", "topnav");
   }
 };
