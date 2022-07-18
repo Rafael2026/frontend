@@ -1,0 +1,19 @@
+body {
+  font-family: "Great Vibes, cursive";
+  font-size: 100%;
+  background-image: url("img/swallows.webp");
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 300px;
+}
+
+#wrapper {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 30px 25px;
+  box-shadow: black 3px 3px 3px;
+  text-align: center;
+}
