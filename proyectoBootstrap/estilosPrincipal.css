@@ -1,7 +1,7 @@
 /* Autor: Rafael Aguilar Muñoz */
 @media only screen and (min-width: 1440px) {
 
-  body {background: linear-gradient(to right, red, green);}
+  body { background: linear-gradient(to right, red, green); }
 
   nav {
     background-color: #808080;
@@ -13,8 +13,9 @@
     height: 250px;
   }
 
-  .enlace_desactivado {display: none;}
-  .accordion {background-color: #ffffff;}
+  .enlace_desactivado { display: none; }
+
+  .accordion { background-color: #ffffff; }
 
   .card1, .card2, .card3, .card4 {
     padding: 30px 30px 30px 30px;
@@ -23,7 +24,7 @@
     background-color: white;
   }
 
-  .card1, .card2, .card3 {margin-right: 25px;}
+  .card1, .card2, .card3 { margin-right: 25px; }
 
   .card-img-top {
     height: 300px;
@@ -43,21 +44,23 @@
     margin-left: 5%;
   }
 
-  .col-md-4 {margin-left: 5%;}
-  .toast-body {padding: 30px;}
+  .col-md-4 { margin-left: 5%; }
+
+  .toast-body { padding: 30px; }
 }
 
 @media only screen and (max-width: 1439.9px) and (min-width: 1024px) {
 
-  body {background: linear-gradient(to right, red, green);}
+  body { background: linear-gradient(to right, red, green); }
 
   nav {
     background-color: #808080;
     padding: 20px 20px 20px 20px;
   }
 
-  .enlace_desactivado {display: none;}
-  .accordion {background-color: #ffffff;}
+  .enlace_desactivado { display: none; }
+
+  .accordion { background-color: #ffffff; }
 
   .card1, .card2, .card3, .card4 {
     padding: 30px 30px 30px 30px;
@@ -67,7 +70,7 @@
 
   }
 
-  .card1, .card2, .card3 {margin-right: 25px;}
+  .card1, .card2, .card3 { margin-right: 25px; }
 
   .card-img-top {
     height: 300px;
@@ -87,21 +90,23 @@
     margin-left: 5%;
   }
 
-  .col-md-4 {margin-left: 5%;}
-  .toast-body {padding: 30px;}
+  .col-md-4 { margin-left: 5%; }
+
+  .toast-body { padding: 30px; }
 }
 
 @media only screen and (max-width: 1023.9px) and (min-width: 768px) {
 
-  body {background: linear-gradient(to right, red, green);}
+  body { background: linear-gradient(to right, red, green); }
 
   nav {
     background-color: #808080;
     padding: 20px 20px 20px 20px;
   }
 
-  .enlace_desactivado {display: none;}
-  .accordion {background-color: #ffffff;}
+  .enlace_desactivado { display: none; }
+
+  .accordion { background-color: #ffffff; }
 
   .card1, .card2, .card3, .card4 {
     padding: 30px 30px 30px 30px;
@@ -110,7 +115,7 @@
     background-color: white;
   }
 
-  .card1, .card2, .card3 {margin-right: 25px;}
+  .card1, .card2, .card3 { margin-right: 25px; }
 
   .card-img-top {
     height: 300px;
@@ -130,21 +135,23 @@
     margin-left: 5%;
   }
 
-  .col-md-4 {margin-left: 5%;}
-  .toast-body {padding: 30px;}
+  .col-md-4 { margin-left: 5%; }
+
+  .toast-body { padding: 30px; }
 }
 
 @media only screen and (max-width: 767.9px) and (min-width: 425px) {
 
-  body {background: linear-gradient(to right, red, green);}
+  body { background: linear-gradient(to right, red, green); }
 
   nav {
     background-color: #808080;
     padding: 20px 20px 20px 20px;
   }
 
-  .enlace_desactivado {display: none;}
-  .accordion {background-color: #ffffff;}
+  .enlace_desactivado { display: none; }
+
+  .accordion { background-color: #ffffff; }
 
   .card1, .card2, .card3, .card4 {
     padding: 15px 30px 15px 15px;
@@ -156,9 +163,7 @@
 
   }
 
-  .card1, .card2, .card3 {
-    margin-right: 20px;
-  }
+  .card1, .card2, .card3 { margin-right: 20px; }
 
   .card-img-top {
     height: 100px;
@@ -178,21 +183,23 @@
     margin-left: 5%;
   }
 
-  .col-md-4 {margin-left: 5%;}
-  .toast-body {padding: 30px;}
+  .col-md-4 { margin-left: 5%; }
+
+  .toast-body { padding: 30px; }
 }
 
 @media only screen and (max-width: 424.9px) and (min-width: 375px) {
 
-  body {background: linear-gradient(to right, red, green);}
+  body { background: linear-gradient(to right, red, green); }
 
   nav {
     background-color: #808080;
     padding: 20px 20px 20px 20px;
   }
 
-  .enlace_desactivado {display: none;}
-  .accordion {background-color: #ffffff;}
+  .enlace_desactivado { display: none; }
+
+  .accordion { background-color: #ffffff; }
 
   .card1, .card2, .card3 {
     padding: 30px 30px 30px 30px;
@@ -234,8 +241,9 @@
 
 @media only screen and (max-width: 374.9px) and (min-width: 320px) {
 
-  body {background: linear-gradient(to right, red, green);}
-  p {font-size: 14px;}
+  body { background: linear-gradient(to right, red, green); }
+
+  p { font-size: 14px; }
 
   nav {
     background-color: #808080;
@@ -246,7 +254,7 @@
   .accordion {background-color: #ffffff;}
 
   .card1, .card2, .card3 {
-    padding: 30px 30px 30px 30px;
+    padding: 30px;
     width: 300px;
     height: 475px;
     background-color: white;
@@ -256,7 +264,7 @@
   }
 
   .card4 {
-    padding: 30px 30px 30px 30px;
+    padding: 30px;
     width: 300px;
     height: 475px;
     background-color: white;
@@ -280,6 +288,7 @@
     margin-left: 5%;
   }
 
-  .col-md-4 {margin-left: 5%;}
-  .toast-body {padding: 30px;}
+  .col-md-4 { margin-left: 5%; }
+
+  .toast-body { padding: 30px; }
 }

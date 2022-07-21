@@ -1,7 +1,7 @@
 /* Autor: Rafael Aguilar Muñzo */
 @media only screen and (min-width: 1200px) {
 
-  body {background: linear-gradient(to right, red, green);}
+  body { background: linear-gradient(to right, red, green); }
 
   h2 {
     font-size: 1.75rem;
@@ -19,7 +19,7 @@
     padding: 20px 20px 20px 20px;
   }
 
-  .enlace_desactivado {display: none;}
+  .enlace_desactivado { display: none; }
 
   input {
     background-image: none;
@@ -46,7 +46,7 @@
     padding: 0.25em 1.5em; /* Margen interno */
   }
 
-  .button:focus, .button:hover {background-color: #28ad63;}
+  .button:focus, .button:hover { background-color: #28ad63; }
 
   .login {
     width: 400px; /* Anchura */
@@ -61,9 +61,11 @@
     padding: 1.25em 1.625em; /* Margen interno */
   }
 
-  .login__header :first-child {margin-top: 0;}
-  .login__header :last-child {margin-bottom: 0;}
-  .login h2 .icon {margin-right: 14px;}
+  .login__header :first-child { margin-top: 0; }
+
+  .login__header :last-child { margin-bottom: 0; }
+
+  .login h2 .icon { margin-right: 14px; }
 
   .login__form {
     background-color: #fff; /* Color de fondo */
@@ -96,17 +98,14 @@
   .open-button {
     background-color: #333;
     color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15%;
-    padding-right: 16%;
+    padding: 15px 16% 15px 15%;
     border: none;
     cursor: pointer;
     float: left;
     font-size: 16px;
   }
 
-  .open-button:hover {background-color: red;}
+  .open-button:hover { background-color: red; }
 
   .form-popup {
     display: none;
@@ -120,7 +119,7 @@
     background-color: white;
   }
 
-  .form-container label {font-weight: bold;}
+  .form-container label { font-weight: bold; }
 
   .form-container input[type=email], .form-container input[type=password] {
     width: 100%;
@@ -130,8 +129,7 @@
     background-color: #f1f1f1;
   }
 
-  .form-container input[type=email]:focus,
-  .form-container input[type=password]:focus {
+  .form-container input[type=email]:focus, .form-container input[type=password]:focus {
     background-color: #ddd;
     outline: none;
   }
@@ -195,7 +193,7 @@
     padding: 0.25em 1.5em; /* Margen interno */
   }
 
-  .button:focus, .button:hover {background-color: #28ad63;}
+  .button:focus, .button:hover { background-color: #28ad63; }
 
   .login {
     width: 400px; /* Anchura */
@@ -210,9 +208,11 @@
     padding: 1.25em 1.625em; /* Margen interno */
   }
 
-  .login__header :first-child {margin-top: 0;}
-  .login__header :last-child {margin-bottom: 0;}
-  .login h2 .icon {margin-right: 14px;}
+  .login__header :first-child { margin-top: 0; }
+
+  .login__header :last-child { margin-bottom: 0; }
+  
+  .login h2 .icon { margin-right: 14px; }
 
   .login__form {
     background-color: #fff; /* Color de fondo */
@@ -224,10 +224,9 @@
     padding: 1.25em 1.625em; /* Margen interno */
   }
 
-  .login input {border-radius: 0.1875em;}
+  .login input { border-radius: 0.1875em; }
 
-  .login input[type="email"], .login input[type="password"],
-  .login input[type="text"] {
+  .login input[type="email"], .login input[type="password"], .login input[type="text"] {
     background-color: #eee; /* Color de fondo */
     color: #777; /* Color de la letra */
     padding: 0.25em 0.625em; /* Margen interno */
@@ -247,17 +246,14 @@
   .open-button {
     background-color: #333;
     color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15%;
-    padding-right: 16%;
+    padding: 15px 16% 15px 15%;
     border: none;
     cursor: pointer;
     float: left;
     font-size: 16px;
   }
 
-  .open-button:hover {background-color: red;}
+  .open-button:hover { background-color: red; }
 
   .form-popup {
     display: none;
@@ -272,7 +268,7 @@
     background-color: white;
   }
 
-  .form-container label {font-weight: bold;}
+  .form-container label { font-weight: bold; }
 
   .form-container input[type=email], .form-container input[type=password] {
     width: 100%;
@@ -282,8 +278,7 @@
     background-color: #f1f1f1;
   }
 
-  .form-container input[type=email]:focus,
-  .form-container input[type=password]:focus {
+  .form-container input[type=email]:focus, .form-container input[type=password]:focus {
     background-color: #ddd;
     outline: none;
   }
@@ -299,12 +294,12 @@
     opacity: 0.8;
   }
 
-  .form-container .cancel {background-color: red;}
+  .form-container .cancel { background-color: red; }
 }
 
 @media only screen and (max-width: 991.9px) and (min-width: 768px) {
 
-  body {background: linear-gradient(to right, red, green);}
+  body { background: linear-gradient(to right, red, green); }
 
   h2 {
     font-size: 1.75rem; /* Tamaño de la letra */
@@ -322,7 +317,7 @@
     padding: 20px 20px 20px 20px; /* Margen interno */
   }
 
-  .enlace_desactivado {display: none;}
+  .enlace_desactivado { display: none; }
 
   input {
     background-image: none; /*Nohayimagendefondo*/
@@ -344,7 +339,7 @@
     padding: 0.25em 1.5em; /* Margen interno */
   }
 
-  .button:focus, .button:hover {background-color: #28ad63;}
+  .button:focus, .button:hover { background-color: #28ad63; }
 
   .login {
     width: 300px; /* Anchura */
@@ -359,9 +354,11 @@
     padding: 1.25em 1.625em; /* Margen interno */
   }
 
-  .login__header :first-child {margin-top: 0;}
-  .login__header :last-child {margin-bottom: 0;}
-  .login h2 .icon {margin-right: 14px;}
+  .login__header :first-child { margin-top: 0; }
+
+  .login__header :last-child { margin-bottom: 0; }
+
+  .login h2 .icon { margin-right: 14px; }
 
   .login__form {
     background-color: #fff; /* Color de fondo */
@@ -375,8 +372,7 @@
 
   .login input {border-radius: 0.1875em;}
 
-  .login input[type="email"], .login input[type="password"],
-  .login input[type="text"] {
+  .login input[type="email"], .login input[type="password"], .login input[type="text"] {
     background-color: #eee; /* Color de fondo */
     color: #777; /* Color de la letra */
     padding: 0.25em 0.625em; /* Margen interno */
@@ -396,17 +392,14 @@
   .open-button {
     background-color: #333;
     color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15%;
-    padding-right: 16%;
+    padding: 15px 16% 15px 15%;
     border: none;
     cursor: pointer;
     float: left;
     font-size: 16px;
   }
 
-  .open-button:hover {background-color: red;}
+  .open-button:hover { background-color: red; }
 
   .form-popup {
     display: none;
@@ -421,7 +414,7 @@
     background-color: white;
   }
 
-  .form-container label {font-weight: bold;}
+  .form-container label { font-weight: bold; }
 
   .form-container input[type=email], .form-container input[type=password] {
     width: 100%;
@@ -431,8 +424,7 @@
     background-color: #f1f1f1;
   }
 
-  .form-container input[type=email]:focus,
-  .form-container input[type=password]:focus {
+  .form-container input[type=email]:focus, .form-container input[type=password]:focus {
     background-color: #ddd;
     outline: none;
   }
@@ -448,12 +440,12 @@
     opacity: 0.8;
   }
 
-  .form-container .cancel {background-color: red;}
+  .form-container .cancel { background-color: red; }
 }
 
 @media only screen and (max-width: 767.9px) and (min-width: 576px) {
 
-  body {background: linear-gradient(to right, red, green);}
+  body { background: linear-gradient(to right, red, green); }
 
   h2 {
     font-size: 1.75rem; /* Tamaño de la letra */
@@ -471,7 +463,7 @@
     padding: 20px 20px 20px 20px; /* Margen interno */
   }
 
-  .enlace_desactivado {display: none;}
+  .enlace_desactivado { display: none; }
 
   input {
     background-image: none;
@@ -508,9 +500,11 @@
     padding: 1.25em 1.625em; /* Margen interno */
   }
 
-  .login__header :first-child {margin-top: 0;}
-  .login__header :last-child {margin-bottom: 0;}
-  .login h2 .icon {margin-right: 14px;}
+  .login__header :first-child { margin-top: 0; }
+
+  .login__header :last-child { margin-bottom: 0; }
+
+  .login h2 .icon { margin-right: 14px; }
 
   .login__form {
     background-color: #fff; /* Color de fondo */
@@ -522,12 +516,9 @@
     padding: 1.25em 1.625em; /* Margen interno */
   }
 
-  .login input {
-    border-radius: 0.1875em;
-  }
+  .login input { border-radius: 0.1875em; }
 
-  .login input[type="email"], .login input[type="password"],
-  .login input[type="text"] {
+  .login input[type="email"], .login input[type="password"], .login input[type="text"] {
     background-color: #eee; /* Color de fondo */
     color: #777; /* Color de la letra */
     padding: 0.25em 0.625em; /* Margen interno */
@@ -547,17 +538,14 @@
   .open-button {
     background-color: #333;
     color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15%;
-    padding-right: 16%;
+    padding: 15px 16% 15px 15px;
     border: none;
     cursor: pointer;
     float: left;
     font-size: 16px;
   }
 
-  .open-button:hover {background-color: red;}
+  .open-button:hover { background-color: red; }
 
   .form-popup {
     display: none;
@@ -572,7 +560,7 @@
     background-color: white;
   }
 
-  .form-container label {font-weight: bold;}
+  .form-container label { font-weight: bold; }
 
   .form-container input[type=email], .form-container input[type=password] {
     width: 100%;
@@ -582,8 +570,7 @@
     background-color: #f1f1f1;
   }
 
-  .form-container input[type=email]:focus,
-  .form-container input[type=password]:focus {
+  .form-container input[type=email]:focus, .form-container input[type=password]:focus {
     background-color: #ddd;
     outline: none;
   }
@@ -599,12 +586,12 @@
     opacity: 0.8;
   }
 
-  .form-container .cancel {background-color: red;}
+  .form-container .cancel { background-color: red; }
 }
 
 @media only screen and (max-width: 575.9px) {
 
-  body {background: linear-gradient(to right, red, green);}
+  body { background: linear-gradient(to right, red, green); }
 
   h2 {
     font-size: 1.75rem;
@@ -623,11 +610,11 @@
   }
 
   nav {
-    background-color: #808080; /* Color de fondo */
-    padding: 20px 20px 20px 20px; /* Margen interno */
+    background-color: #808080; 
+    padding: 20px 20px 20px 20px;
   }
 
-  .enlace_desactivado {display: none;}
+  .enlace_desactivado { display: none; }
 
   input {
     background-image: none;
@@ -644,29 +631,31 @@
   }
 
   .button {
-    background-color: #33cc77; /* Color de fondo */
-    color: #fff; /* Color de la letra */
-    padding: 0.25em 1.5em; /* Margen interno */
+    background-color: #33cc77;
+    color: #fff;
+    padding: 0.25em 1.5em;
   }
 
   .button:focus, .button:hover {background-color: #28ad63;}
 
   .login {
-    width: 200px; /* Anchura */
-    margin-top: 50px; /* Margen externo superior */
+    width: 200px;
+    margin-top: 50px;
   }
 
   .login__header {
-    background-color: #f95252; /* Color de fondo */
+    background-color: #f95252;
     border-top-left-radius : 1.25em; /* Ángulo del borde izquierdo superior */
     border-top-right-radius: 1.25em; /* Ángulo del borde derecho superior */
-    color: #fff; /* Color de la letra */
-    padding: 1.25em 1.625em; /* Margen interno */
+    color: #fff;
+    padding: 1.25em 1.625em;
   }
 
-  .login__header :first-child {margin-top: 0;}
-  .login__header :last-child {margin-bottom: 0;}
-  .login h2 .icon {margin-right: 14px;}
+  .login__header :first-child { margin-top: 0; }
+
+  .login__header :last-child { margin-bottom: 0; }
+
+  .login h2 .icon { margin-right: 14px; }
 
   .login__form {
     background-color: #fff;
@@ -680,8 +669,7 @@
 
   .login input {border-radius: 0.1875em;}
 
-  .login input[type="email"], .login input[type="password"],
-  .login input[type="text"] {
+  .login input[type="email"], .login input[type="password"], .login input[type="text"] {
     background-color: #eee; /* Color de fondo */
     color: #777; /* Color de la letra */
     padding: 0.25em 0.625em; /* Margen interno */
@@ -701,17 +689,14 @@
   .open-button {
     background-color: #333;
     color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15%;
-    padding-right: 16%;
+    padding: 15px 16% 15px 15%;
     border: none;
     cursor: pointer;
     float: left;
     font-size: 16px;
   }
 
-  .open-button:hover {background-color: red;}
+  .open-button:hover { background-color: red; }
 
   .form-popup {
     display: none;
@@ -726,7 +711,7 @@
     background-color: white;
   }
 
-  .form-container label {font-weight: bold;}
+  .form-container label { font-weight: bold; }
 
   .form-container input[type=email], .form-container input[type=password] {
     width: 100%;
@@ -736,8 +721,7 @@
     background-color: #f1f1f1;
   }
 
-  .form-container input[type=email]:focus,
-  .form-container input[type=password]:focus {
+  .form-container input[type=email]:focus, .form-container input[type=password]:focus {
     background-color: #ddd;
     outline: none;
   }
@@ -753,5 +737,5 @@
     opacity: 0.8;
   }
 
-  .form-container .cancel {background-color: red;}
+  .form-container .cancel { background-color: red; }
 }

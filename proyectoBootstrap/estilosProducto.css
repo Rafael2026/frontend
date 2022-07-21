@@ -1,6 +1,4 @@
-.muestraManzana, .muestraPera, .muestraPlatano, .muestraMelocoton {
-  margin: 100px 15% 0% 40%;
-}
+.muestraManzana, .muestraPera, .muestraPlatano, .muestraMelocoton { margin: 100px 15% 0% 40%; }
 
 .contenidoWikipedia {
   background-color: white;
@@ -9,7 +7,7 @@
   padding: 40px 40px 40px 40px;
 }
 
-p {font-size: 17px;}
+p { font-size: 17px; }
 
 i {
   font-style: italic;
