@@ -1,7 +1,6 @@
-/* Autor: Rafael Aguilar Muñoz */
-@media only screen and (min-width: 1440px) {
+body { background: linear-gradient(to right, red, green); }
 
-  body { background: linear-gradient(to right, red, green); }
+@media only screen and (min-width: 1440px) {
 
   nav {
     background-color: #808080;
@@ -51,8 +50,6 @@
 
 @media only screen and (max-width: 1439.9px) and (min-width: 1024px) {
 
-  body { background: linear-gradient(to right, red, green); }
-
   nav {
     background-color: #808080;
     padding: 20px 20px 20px 20px;
@@ -97,8 +94,6 @@
 
 @media only screen and (max-width: 1023.9px) and (min-width: 768px) {
 
-  body { background: linear-gradient(to right, red, green); }
-
   nav {
     background-color: #808080;
     padding: 20px 20px 20px 20px;
@@ -141,8 +136,6 @@
 }
 
 @media only screen and (max-width: 767.9px) and (min-width: 425px) {
-
-  body { background: linear-gradient(to right, red, green); }
 
   nav {
     background-color: #808080;
@@ -189,8 +182,6 @@
 }
 
 @media only screen and (max-width: 424.9px) and (min-width: 375px) {
-
-  body { background: linear-gradient(to right, red, green); }
 
   nav {
     background-color: #808080;
@@ -240,8 +231,6 @@
 }
 
 @media only screen and (max-width: 374.9px) and (min-width: 320px) {
-
-  body { background: linear-gradient(to right, red, green); }
 
   p { font-size: 14px; }
 

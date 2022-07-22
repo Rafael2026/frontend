@@ -1,7 +1,6 @@
-/* Autor: Rafael Aguilar Muñzo */
-@media only screen and (min-width: 1200px) {
+body { background: linear-gradient(to right, red, green); }
 
-  body { background: linear-gradient(to right, red, green); }
+@media only screen and (min-width: 1200px) {
 
   h2 {
     font-size: 1.75rem;
@@ -150,8 +149,6 @@
 
 @media only screen and (max-width: 1199.9px) and (min-width: 992px) {
 
-  body {background: linear-gradient(to right, red, green);}
-
   h2 {
     font-size: 1.75rem; /* Tamaño de la letra */
     font-weight: bold; /* Grosor de la fuente */
@@ -299,8 +296,6 @@
 
 @media only screen and (max-width: 991.9px) and (min-width: 768px) {
 
-  body { background: linear-gradient(to right, red, green); }
-
   h2 {
     font-size: 1.75rem; /* Tamaño de la letra */
     font-weight: bold; /* Grosor de la fuente */
@@ -445,8 +440,6 @@
 
 @media only screen and (max-width: 767.9px) and (min-width: 576px) {
 
-  body { background: linear-gradient(to right, red, green); }
-
   h2 {
     font-size: 1.75rem; /* Tamaño de la letra */
     font-weight: bold; /* Grosor de la fuente */
@@ -590,8 +583,6 @@
 }
 
 @media only screen and (max-width: 575.9px) {
-
-  body { background: linear-gradient(to right, red, green); }
 
   h2 {
     font-size: 1.75rem;
