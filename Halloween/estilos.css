@@ -1,6 +1,6 @@
 body {
   background-color: seashell;
-  background-image: url("https://okdiario.com/img/viajes/2016/10/17/predicciones-para-halloween.jpg");
+  background-image: url("img/house.webp");
   background-size: 100% auto;
   background-repeat: no-repeat;
   font-family: itLives;
@@ -28,7 +28,9 @@ h2 {
 }
 
 .content, .ventanaIzq { width: 100%; }
+
 .content { height: 80%; }
+
 .ventanaIzq { height: 40%; }
 
 .ventanaDerecha {
