@@ -76,14 +76,21 @@
 
 </ul>
 
-## Official Boostrap's repository
-<a href="https://github.com/twbs">Bootstrap repository</a>
+## Official repositories
+<ul>
+
+  <li>
+    <a href="https://github.com/twbs">Bootstrap Github</a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/jquery/jquery">jQuery Github</a>
+  </li>
+
+</ul>
 
 ## Font-awesome
 <a href="https://www.bootstrapcdn.com/fontawesome/">Boostrap CDN</a>
 
 ## How to measure page performance?
 <a href="https://pagespeed.web.dev/">PageSpeed Insights</a>
-
-## Official JQuery repository
-<a href="https://github.com/jquery/jquery">jQuery JavaScript Library</a>
