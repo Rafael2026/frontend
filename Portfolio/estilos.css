@@ -17,15 +17,15 @@ nav {
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
+  margin: 0; /* Top, right, bottom and left */
+  padding: 0; /* Top, right, bottom and left */
   list-style-type: none;
   background-color: rgb(255, 69, 0);
 }
 
 nav ul li {
   display: inline-block;
-  padding: 15px;
+  padding: 15px; /* Top and bottom | Right and left */
 }
 
 a:link { color: rgb(0, 0, 0); }
@@ -53,22 +53,23 @@ h2 { color: rgb(0, 0, 255); }
   float: left;
   width: 40%;
   background-color: white;
+  border: 3px dashed black;
   box-shadow: 0 4px 8px 0 rgba(92, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 5%;
+  margin: 30px 5%; /* Top and bottom | Right and left */
   border-radius: 5%;
   cursor: pointer;
 }
 
 .polaroid img {
-  width: 92%;
-  margin: 4%;
+  width: 100%;
+  border-radius: 5%;
 }
 
 .polaroid:hover { opacity: 0.5; }
 
-.container {
+.polaroid p {
   text-align: center;
-  padding: 10px 20px;
+  padding: 20px 0px; /* Top and bottom | Right and left */
 }
 
 .fin-float { clear: both; }
@@ -79,18 +80,18 @@ footer {
   font-size: 0.8em;
   font-weight: bold;
   text-align: center;
-  padding: 20px;
+  padding: 20px; /* Top, right, bottom and left */
 }
 
 i {
-  padding: 10px 15px;
+  padding: 10px 15px; /* Top and bottom | Right and left */
   font-size: 36px;
 }
 
 /* Slide Show styles */
 .gallery {
   border: 1px solid #ccc;
-  margin: 5% 40% 0% 40%;
+  margin: 5% 40% 0% 40%; /* Top | Right | Bottom | left */
   display: none;
   overflow: hidden;
   height: 30vh;
@@ -197,22 +198,22 @@ aside header {
   font-style: italic;
   text-decoration: 5px underline dotted red;
   text-align: center;
-  color: rgb(0, 0, 255);;
+  color: rgb(0, 0, 255);
 }
 
 aside form {
   border: 2px solid black;
-  padding: 0px 20px;
+  padding: 0px 20px; /* Top and bottom | Right and left */
 }
 
-aside h1, aside form { margin: 20px 30%; }
+aside h1, aside form { margin: 20px 30%; } /* Top and bottom | Right and left */
 
-aside header, #guardar { margin: 20px 0px; }
+aside header, #guardar { margin: 20px 0px; } /* Top and bottom | Right and left */
 
 .columna {
   background-color: lightgrey;
   font-style: italic;
-  text-decoration: 3px underline dotted red;
+  text-decoration: 3px underline dotted rgb(255, 0, 0);
   cursor: pointer;
 }
 

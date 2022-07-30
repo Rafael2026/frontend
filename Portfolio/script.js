@@ -2,7 +2,6 @@
 
 var i = 0;
 var galeria = document.getElementsByClassName("gallery");
-var imagenes = document.getElementsByTagName("img");
 var botones = document.getElementsByClassName("botones");
 var nombre = document.getElementById("nombre");
 var correo = document.getElementById("correo");
@@ -18,52 +17,56 @@ function cambiarImagen() {
 
 function izqDer() {
 
-  for (let j = 0; j < imagenes.length; j++) {
-    imagenes[j].className = "img1";
-    imagenes[j].style.transform = "scale(1)";
+  for (let j = 0; j < galeria.length; j++) {
+    galeria[j].getElementsByTagName("img")[0].className = "img1";
+    galeria[j].getElementsByTagName("img")[0].style.transform = "scale(1)";
   }
 }
 
 function derIzq() {
 
-  for (let j = 0; j < imagenes.length; j++) {
-    imagenes[j].className = "img2";
-    imagenes[j].style.transform = "scale(1)";
+  for (let j = 0; j < galeria.length; j++) {
+    galeria[j].getElementsByTagName("img")[0].className = "img2";
+    galeria[j].getElementsByTagName("img")[0].style.transform = "scale(1)";
   }
 }
 
 function arrAba() {
 
-  for (let j = 0; j < imagenes.length; j++) {
-    imagenes[j].className = "img3";
-    imagenes[j].style.transform = "scale(1)";
+  for (let j = 0; j < galeria.length; j++) {
+    galeria[j].getElementsByTagName("img")[0].className = "img3";
+    galeria[j].getElementsByTagName("img")[0].style.transform = "scale(1)";
   }
 }
 
 function abaArr() {
 
-  for (let j = 0; j < imagenes.length; j++) {
-    imagenes[j].className = "img4";
-    imagenes[j].style.transform = "scale(1)";
+  for (let j = 0; j < galeria.length; j++) {
+    galeria[j].getElementsByTagName("img")[0].className = "img4";
+    galeria[j].getElementsByTagName("img")[0].style.transform = "scale(1)";
   }
 }
 
 function transp() {
 
-  for (let j = 0; j < imagenes.length; j++) {
-    imagenes[j].className = "img5";
-    imagenes[j].style.transform = "scale(1)";
+  for (let j = 0; j < galeria.length; j++) {
+    galeria[j].getElementsByTagName("img")[0].className = "img5";
+    galeria[j].getElementsByTagName("img")[0].style.transform = "scale(1)";
   }
 }
 
 function peqGra() {
 
-  for (let j = 0; j < imagenes.length; j++) { imagenes[j].className = "img6"; }
+  for (let j = 0; j < galeria.length; j++) {
+    galeria[j].getElementsByTagName("img")[0].className = "img6";
+  }
 }
 
 function graPeq() {
 
-  for (let j = 0; j < imagenes.length; j++) { imagenes[j].className = "img7"; }
+  for (let j = 0; j < galeria.length; j++) {
+    galeria[j].getElementsByTagName("img")[0].className = "img7";
+  }
 }
 
 setInterval(cambiarImagen, 2010);
