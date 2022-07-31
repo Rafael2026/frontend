@@ -105,6 +105,8 @@ img {
   height: 25vh;
 }
 
+#imagen1 { display: block; }
+
 .img1 { animation: izquierdaDerecha 2s; }
 
 .img2 { animation: derechaIzquierda 2s; }
