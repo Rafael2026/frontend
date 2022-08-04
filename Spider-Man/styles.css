@@ -3,18 +3,21 @@ body {
   background-color: #0f0c29;
   color: aliceblue;
 }
+
 h1 {
   background-color: #f0311e;
   width: max-content;
   margin-left: auto;
   margin-right: auto;
 }
-#container {
+
+.container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-#container div {
+
+.container div {
   flex: 2;
   flex-direction: row;
   align-items: center;
@@ -24,17 +27,18 @@ h1 {
   text-align: center;
   background-color: #21187727;
 }
-#container div img {
+
+.container div img {
   box-shadow: 0 10px 6px -6px rgba(6,4,12,0.801);
   max-width: 300px;
   height: 450px;
   border-radius: 5px;
   transition: transform .5s ease;
 }
-#container div img:hover {
-  transform: scale(1.1);
-}
-h2{
+
+.container div img:hover { transform: scale(1.1); }
+
+h2 {
   margin-bottom: 20px;
   margin-top: auto;
 }

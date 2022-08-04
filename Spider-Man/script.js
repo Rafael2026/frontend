@@ -25,10 +25,10 @@ fetch('https://online-movie-database.p.rapidapi.com/auto-complete?q=spiderman', 
         <small>${cast}</small>
       </div>`
 
-      document.getElementById('container').innerHTML += poster;
+      document.getElementsByClassName("container")[0].innerHTML += poster;
 
   })
 
 }).catch(err => {
-console.error(err);
+  console.error(err);
 });
