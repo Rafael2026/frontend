@@ -9,6 +9,7 @@ var salario = document.getElementById("salario");
 var ciudad = document.getElementById("ciudad");
 var valores = [];
 
+/* Slide Show script */
 function cambiarImagen() {
   galeria[i].style.display = "none";
   i = (i + 1)%galeria.length;
@@ -71,6 +72,7 @@ function graPeq() {
 
 setInterval(cambiarImagen, 2010);
 
+/* LocalStorage && cookies script*/
 i = 0;
 
 function saveStorage(nombre, correo, salario, ciudad) {
