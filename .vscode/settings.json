@@ -1,0 +1,7 @@
+{
+  "git.allowForcePush": true,
+  "git.fetchOnPull": true,
+  "git.ignoreLegacyWarning": true,
+  "git.verboseCommit": true,
+  "git.enableSmartCommit": true
+}
