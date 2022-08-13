@@ -1,4 +1,4 @@
-## Chuletario
+## Cheat Sheets
 <ul>
   
   <li>
@@ -94,3 +94,32 @@
 
 ## How to measure page performance?
 <a href="https://pagespeed.web.dev/">PageSpeed Insights</a>
+
+## Frotend repositories
+<ul>
+
+  <li>
+    <a href="https://github.com/thedaviddias/Front-End-Checklist">Frontend Checklist</a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/Lemoncode/master-frontend-lemoncode">Máster Front End Online Lemoncode</a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/home-assistant/frontend">Home Assistant Frontend</a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/mrcodedev/frontend-developer-resources">Resources for frontend developers</a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/FrontendMasters">Frontend Skills</a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/topics/frontend">Other frontend repositories</a>
+  </li>
+  
+</ul>
