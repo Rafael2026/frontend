@@ -39,10 +39,6 @@
 fetch("./array.json").then(response => {
   return response.json();
 }).then(data => {
-  console.log(data)
-});
-
-/*.then(data => {
   
   console.log(data);
   const arrayMovies = data.d;
@@ -67,4 +63,4 @@ fetch("./array.json").then(response => {
 
 }).catch(err => {
   console.error(err);
-});*/
+});
