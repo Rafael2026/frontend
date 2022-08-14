@@ -1,133 +1,117 @@
 {
-  "d": [
+  "list": [
 
     {
-      "i": {
-        "height": 755,
+      "movie": {
+        "id": "tt0145487",
+        "name": "Spider-Man",
         "imageUrl": "https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_.jpg",
-        "width": 511
-      },
-
-      "id": "tt0145487",
-      "l": "Spider-Man",
-      "q": "feature",
-      "qid": "movie",
-      "rank": 325,
-      "s": "Tobey Maguire, Kirsten Dunst",
-      "y": 2002
+        "width": 511,
+        "height": 755,
+        "type": "movie",
+        "rank": 325,
+        "members": "Tobey Maguire, Kirsten Dunst",
+        "year": 2002
+      }
     },
 
     {
-      "i": {
-        "height": 4000,
-        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
-        "width": 2699
-      },
-
-      "id": "tt10872600",
-      "l": "Spider-Man: No Way Home",
-      "q": "feature",
-      "qid": "movie",
-      "rank": 83,
-      "s": "Tom Holland, Zendaya",
-      "y": 2021
-    },
-
-    {
-      "i": {
-        "height": 2048,
-        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg",
-        "width": 1381
-      },
-
-      "id": "tt4633694",
-      "l": "Spider-Man: Into the Spider-Verse",
-      "q": "feature",
-      "qid": "movie",
-      "rank": 634,
-      "s": "Shameik Moore, Jake Johnson",
-      "y": 2018
-    },
-
-    {
-      "i": {
-        "height": 1024,
-        "imageUrl": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_.jpg",
-        "width": 674
-      },
-
-      "id": "tt2250912",
-      "l": "Spider-Man: Homecoming",
-      "q": "feature",
-      "qid": "movie",
-      "rank": 558,
-      "s": "Tom Holland, Michael Keaton",
-      "y": 2017
-    },
-
-    {
-      "i": {
-        "height": 1400,
+      "movie": {
+        "id": "tt0316654",
+        "name": "Spider-Man 2",
         "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzY2ODk4NmUtOTVmNi00ZTdkLTlmOWYtMmE2OWVhNTU2OTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
-        "width": 1021
-      },
-
-      "id": "tt0316654",
-      "l": "Spider-Man 2",
-      "q": "feature",
-      "qid": "movie",
-      "rank": 752,
-      "s": "Tobey Maguire, Kirsten Dunst",
-      "y": 2004
+        "width": 1021,
+        "height": 1400,
+        "type": "movie",
+        "rank": 752,
+        "members": "Tobey Maguire, Kirsten Dunst",
+        "year": 2004
+      }
     },
 
     {
-      "i": {
-        "height": 1115,
+      "movie": {
+        "id": "tt0413300",
+        "name": "Spider-Man 3",
         "imageUrl": "https://m.media-amazon.com/images/M/MV5BYTk3MDljOWQtNGI2My00OTEzLTlhYjQtOTQ4ODM2MzUwY2IwXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
-        "width": 750
-      },
-      "id": "tt0413300",
-      "l": "Spider-Man 3",
-      "q": "feature",
-      "qid": "movie",
-      "rank": 766,
-      "s": "Tobey Maguire, Kirsten Dunst",
-      "y": 2007
+        "width": 750,
+        "height": 1115,
+        "type": "movie",
+        "rank": 766,
+        "members": "Tobey Maguire, Kirsten Dunst",
+        "year": 2007
+      }
     },
 
     {
-      "i": {
+      "movie": {
+        "id": "tt10872600",
+        "name": "Spider-Man: No Way Home",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
+        "width": 2699,
+        "height": 4000,
+        "type": "movie",
+        "rank": 83,
+        "members": "Tom Holland, Zendaya",
+        "year": 2021
+      }
+    },
+
+    {
+      "movie": {
+        "id": "tt4633694",
+        "name": "Spider-Man: Into the Spider-Verse",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg",
+        "width": 1381,
         "height": 2048,
-        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_.jpg",
-        "width": 1381
-      },
-
-      "id": "tt0948470",
-      "l": "The Amazing Spider-Man",
-      "q": "feature",
-      "qid": "movie",
-      "rank": 902,
-      "s": "Andrew Garfield, Emma Stone",
-      "y": 2012
+        "type": "movie",
+        "rank": 634,
+        "members": "Shameik Moore, Jake Johnson",
+        "year": 2018
+      }
     },
 
     {
-      "i": {
-        "height": 9000,
+      "movie": {
+        "id": "tt2250912",
+        "name": "Spider-Man: Homecoming",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_.jpg",
+        "width": 674,
+        "height": 1024,
+        "type": "movie",
+        "rank": 558,
+        "members": "Tom Holland, Michael Keaton",
+        "year": 2017
+      }
+    },
+
+    {
+      "movie": {
+        "id": "tt0948470",
+        "name": "The Amazing Spider-Man",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_.jpg",
+        "width": 1381,
+        "height": 2048,
+        "type": "movie",
+        "rank": 902,
+        "members": "Andrew Garfield, Emma Stone",
+        "year": 2012
+      }
+    },
+
+    {
+      "movie": {
+        "id": "tt6320628",
+        "name": "Spider-Man: Far from Home",
         "imageUrl": "https://m.media-amazon.com/images/M/MV5BMGZlNTY1ZWUtYTMzNC00ZjUyLWE0MjQtMTMxN2E3ODYxMWVmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
-        "width": 6072
-      },
-
-      "id": "tt6320628",
-      "l": "Spider-Man: Far from Home",
-      "q": "feature",
-      "qid": "movie",
-      "rank": 758,
-      "s": "Tom Holland, Samuel L. Jackson",
-      "y": 2019
+        "width": 6072,
+        "height": 9000,
+        "type": "movie",
+        "rank": 758,
+        "members": "Tom Holland, Samuel L. Jackson",
+        "year": 2019
+      }
     }
-
   ],
   
   "q": "spider-man",

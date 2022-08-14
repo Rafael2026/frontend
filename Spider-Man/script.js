@@ -41,15 +41,15 @@ fetch("./array.json").then(response => {
 }).then(data => {
   
   console.log(data);
-  const arrayMovies = data.d;
+  const arrayMovies = data.list;
 
   arrayMovies.map((element) => {
     
     //console.log(element)
     
-    const title = element.l;
-    const image = element.i.imageUrl;
-    const cast = element.s;
+    const title = element.movie.name;
+    const image = element.movie.imageUrl;
+    const cast = element.movie.members;
       
       const poster = `<div>
         <img src="${image}" />
