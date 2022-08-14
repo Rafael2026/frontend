@@ -51,14 +51,13 @@ fetch("./array.json").then(response => {
     const image = element.movie.imageUrl;
     const cast = element.movie.members;
       
-      const poster = `<div>
-        <img src="${image}" />
-        <h2>${title}</h2>
-        <small>${cast}</small>
-      </div>`
+    const poster = `<div>
+      <img src="${image}" />
+      <h2>${title}</h2>
+      <small>${cast}</small>
+    </div>`
 
-      document.getElementsByClassName("container")[0].innerHTML += poster;
-
+    document.getElementsByClassName("container")[0].innerHTML += poster;
   })
 
 }).catch(err => {
