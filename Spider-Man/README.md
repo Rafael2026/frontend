@@ -3,3 +3,6 @@
 
 ## Spider-Man movies
 <a href="https://www.filmaffinity.com/es/movie-group.php?group-id=74">Filmaffinity</a>
+
+## Read JSON in JS
+<a href="ww.delftstack.com/es/howto/javascript/load-json-file-in-javascript/">How to read JSON file in JS</a>
