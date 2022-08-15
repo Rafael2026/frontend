@@ -8,4 +8,6 @@
 <a href="https://www.delftstack.com/es/howto/javascript/load-json-file-in-javascript/">How to read JSON file in JS?</a>
 
 ## Informática DP repository
-<a href="https://github.com/infodp/spiderman_api_movies_vanillajs">Use it to show more Spider-Man movies</a>
+<a href="https://github.com/infodp/spiderman_api_movies_vanillajs">More Spider-Man movies</a>
+
+<p>Use it to show more Spider-Man movies</p>
