@@ -43,22 +43,28 @@ fetch("./array.json").then(response => {
   console.log(data);
   const arrayMovies = data.list;
 
-  arrayMovies.map((element) => {
-    
-    //console.log(element)
-    
-    const title = element.movie.name;
-    const image = element.movie.imageUrl;
-    const cast = element.movie.members;
+  for (let i = 0; i < arrayMovies.length; i++) {
+
+    const title = arrayMovies[i].movie.name;
+    const image = arrayMovies[i].movie.imageUrl;
+    const cast = arrayMovies[i].movie.members;
       
     const poster = `<div>
-      <img src="${image}" />
+      <img src="${image}"/>
       <h2>${title}</h2>
       <small>${cast}</small>
     </div>`
 
-    document.getElementsByClassName("container")[0].innerHTML += poster;
-  })
+    if (i < 3) {
+      document.getElementsByClassName("first")[0].innerHTML += poster;
+    } else if (i < 5) {
+      document.getElementsByClassName("second")[0].innerHTML += poster;
+    } else if (i < 8) {
+      document.getElementsByClassName("third")[0].innerHTML += poster;
+    } else {
+      document.getElementsByClassName("spiderVerse")[0].innerHTML += poster;
+    }
+  }
 
 }).catch(err => {
   console.error(err);

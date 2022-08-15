@@ -3,7 +3,7 @@
 
     {
       "movie": {
-        "id": "tt0145487",
+        "id": "1",
         "name": "Spider-Man",
         "imageUrl": "./img/picture.jpg",
         "width": 511,
@@ -17,7 +17,7 @@
 
     {
       "movie": {
-        "id": "tt0316654",
+        "id": "2",
         "name": "Spider-Man 2",
         "imageUrl": "./img/picture2.jpg",
         "width": 1021,
@@ -31,7 +31,7 @@
 
     {
       "movie": {
-        "id": "tt0413300",
+        "id": "3",
         "name": "Spider-Man 3",
         "imageUrl": "./img/picture3.jpg",
         "width": 750,
@@ -45,7 +45,7 @@
 
     {
       "movie": {
-        "id": "tt0948470",
+        "id": "4",
         "name": "The Amazing Spider-Man",
         "imageUrl": "./img/picture4.jpg",
         "width": 1381,
@@ -59,9 +59,23 @@
 
     {
       "movie": {
-        "id": "tt2250912",
-        "name": "Spider-Man: Homecoming",
+        "id": "5",
+        "name": "The Amazing Spider-Man",
         "imageUrl": "./img/picture5.jpg",
+        "width": 150,
+        "height": 222,
+        "type": "movie",
+        "rank": 902,
+        "members": "Andrew Garfield, Emma Stone",
+        "year": 2012
+      }
+    },
+
+    {
+      "movie": {
+        "id": "6",
+        "name": "Spider-Man: Homecoming",
+        "imageUrl": "./img/picture6.jpg",
         "width": 674,
         "height": 1024,
         "type": "movie",
@@ -73,9 +87,9 @@
 
     {
       "movie": {
-        "id": "tt6320628",
+        "id": "7",
         "name": "Spider-Man: Far from Home",
-        "imageUrl": "./img/picture6.jpg",
+        "imageUrl": "./img/picture7.jpg",
         "width": 6072,
         "height": 9000,
         "type": "movie",
@@ -87,9 +101,9 @@
 
     {
       "movie": {
-        "id": "tt10872600",
+        "id": "8",
         "name": "Spider-Man: No Way Home",
-        "imageUrl": "./img/picture7.jpg",
+        "imageUrl": "./img/picture8.jpg",
         "width": 2699,
         "height": 4000,
         "type": "movie",
@@ -101,9 +115,9 @@
 
     {
       "movie": {
-        "id": "tt4633694",
+        "id": "9",
         "name": "Spider-Man: Into the Spider-Verse",
-        "imageUrl": "./img/picture8.jpg",
+        "imageUrl": "./img/picture9.jpg",
         "width": 1381,
         "height": 2048,
         "type": "movie",
