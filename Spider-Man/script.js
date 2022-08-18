@@ -49,7 +49,7 @@ fetch("./array.json").then(response => {
     const image = arrayMovies[i].movie.imageUrl;
     const cast = arrayMovies[i].movie.members;
       
-    const poster = `<div class='card'>
+    const poster = `<div class='card bg-white text-dark'>
       <img src="${image}" alt='Movie Poster' class="card-img-top"/>
       <div class='card-body'>
         <h2 class='card-title'>${title}</h2>
