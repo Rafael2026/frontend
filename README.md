@@ -123,3 +123,6 @@
   </li>
   
 </ul>
+
+## How to optimize pictures?
+<a href="https://tinypng.com/">TinyPNG</a>
