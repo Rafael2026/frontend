@@ -1,0 +1,27 @@
+/* LocalStorage and cookies styles */
+aside header {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: 5px underline dotted rgb(255, 0, 0);
+  text-align: center;
+  color: rgb(0, 0, 255);
+}
+
+aside form {
+  border: 2px solid black;
+  padding: 0px 20px; /* Top and bottom | Right and left */
+}
+
+aside h1, aside form { margin: 20px 30%; } /* Top and bottom | Right and left */
+
+aside header, #guardar { margin: 20px 0px; } /* Top and bottom | Right and left */
+
+.columna {
+  background-color: lightgrey;
+  font-style: italic;
+  text-decoration: 3px underline dotted rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+aside td { font-size: 20px; }
