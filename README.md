@@ -1,42 +1,9 @@
 ## Technologies
-<table>
-  
-  <tr>
-    <td>Technologies</td>
-    <td>Explanation</td>
-  </tr>
-  
-  <tr>
-
-  <td>
-    <img scr="https://cdn.icon-icons.com/icons2/1488/PNG/512/5352-html5_102567.png">
-  </td>
-
-  <td>Webpage content</td>
-
-  </tr>
-
-  <tr>
-
-  <td>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png">
-  </td>
-
-  <td>More beautiful webpages</td>
-
-  </tr>
-
-  <tr>
-
-  <td>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png">
-  </td>
-
-  <td>Weppage logic</td>
-  
-  </tr>
-
-</table>
+| Pictures | Explanation  |
+|----|------|
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"> | Webpage content |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"> | More beautiful webpages |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"> | Weppage logic |
 
 ## Cheat Sheets
 <ul>
