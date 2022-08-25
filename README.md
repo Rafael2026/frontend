@@ -1,16 +1,10 @@
 ## Technologies
 <table>
   
-  <thead>
-  
   <tr>
     <td>Technologies</td>
     <td>Explanation</td>
   </tr>
-  
-  </thead>
-  
-  <tbody>
   
   <tr>
 
@@ -41,8 +35,6 @@
   <td>Weppage logic</td>
   
   </tr>
-
-  </tbody>
 
 </table>
 
