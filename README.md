@@ -15,7 +15,7 @@
   <tr>
 
   <td>
-    <img scr="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png">
+    <img scr="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg">
   </td>
 
   <td>Webpage content</td>
