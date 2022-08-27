@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-image: url("img/cabecera.jpg");
+  background-image: url("img/header.jpg");
   background-size: cover;
   background-position: right;
   height: 400px;
@@ -152,7 +152,7 @@ footer {
   }
 
   header {
-    background-image: url("img/cabeceramovil.jpg");
+    background-image: url("img/header2.jpg");
     background-size: cover;
     background-position: right;
     height: 800px;
