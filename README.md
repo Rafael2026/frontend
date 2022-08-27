@@ -1,9 +1,11 @@
 ## Technologies
 | Pictures | Explanation  |
 |----|------|
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"> | Webpage content |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"> | More beautiful webpages |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"> | Weppage logic |
+| <img src="./img/HTML5.png" alt="HTML5 logo"> | Webpage content |
+| <img src="./img/CSS3.png" alt="CCS3 logo"> | More beautiful webpages |
+| <img src="./img/JS.png" alt="JS logo"> | Weppage logic |
+|----|------|
+
 
 ## Cheat Sheets
 <ul>
