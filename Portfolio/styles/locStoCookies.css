@@ -1,21 +1,21 @@
 /* LocalStorage and cookies styles */
-aside header {
+/*header {
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
   text-decoration: 5px underline dotted rgb(255, 0, 0);
   text-align: center;
   color: rgb(0, 0, 255);
-}
+}*/
 
-aside form {
+.formulario {
   border: 2px solid black;
   padding: 0px 20px; /* Top and bottom | Right and left */
 }
 
-aside h1, aside form { margin: 20px 30%; } /* Top and bottom | Right and left */
+.textoFormulario, .formulario { margin: 20px 30%; } /* Top and bottom | Right and left */
 
-aside header, #guardar { margin: 20px 0px; } /* Top and bottom | Right and left */
+/* aside header, #guardar { margin: 20px 0px; } Top and bottom | Right and left */ 
 
 .columna {
   background-color: lightgrey;
@@ -24,4 +24,9 @@ aside header, #guardar { margin: 20px 0px; } /* Top and bottom | Right and left 
   cursor: pointer;
 }
 
-aside td { font-size: 20px; }
+th, td { font-size: 20px; }
+
+@media only screen and (max-width: 600px) {
+
+  th, td { font-size: 14px; }
+}
