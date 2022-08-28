@@ -84,7 +84,7 @@ footer {
   padding: 20px; /* Top, right, bottom and left */
 }
 
-i {
+footer svg {
   padding: 10px 15px; /* Top and bottom | Right and left */
   font-size: 36px;
 }
