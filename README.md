@@ -4,7 +4,6 @@
 | <img src="./img/HTML5.png" alt="HTML5 logo"> | Webpage content |
 | <img src="./img/CSS3.png" alt="CCS3 logo"> | More beautiful webpages |
 | <img src="./img/JS.png" alt="JS logo"> | Weppage logic |
-|----|------|
 
 
 ## Cheat Sheets
@@ -22,6 +21,7 @@
 
 ## Tutorials
 <ul>
+
   <li>
     <a href="https://www.w3schools.com/">W3 SCHOOLS</a>
   </li>

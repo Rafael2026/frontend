@@ -28,7 +28,7 @@ header span {
   color:white;
 }
 
-header div#titulo {
+header #titulo {
   color:white;
   font-size:2em;
   font-weight:bold;
@@ -59,7 +59,7 @@ header div#titulo {
   transition: 0.3s;
 }
 
-.sidenav a:hover {color: rgb(253, 219, 224);}
+.sidenav a:hover { color: rgb(253, 219, 224); }
 
 .sidenav .closebtn {
   position: absolute;
@@ -71,8 +71,9 @@ header div#titulo {
 
 @media screen and (max-height: 450px) {
 
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav { padding-top: 15px; }
+
+  .sidenav a { font-size: 18px; }
 }
 
 main {
@@ -111,31 +112,32 @@ main img:hover {opacity:0.5;}
 
 @media only screen and (max-width:600px) {
 
-  body {margin:0;}
-  #wrapper {width:100%;}
+  body { margin: 0; }
+
+  #wrapper { width: 100%; }
 
   header {
     background-image: url("img/header2.png");
-    height:100vh;
+    height: 100vh;
   }
 
-  main {padding:6%;}
+  main { padding:6%; }
 
   main img {
-    width:80%;
-    margin:9%;
+    width: 80%;
+    margin: 9%;
   }
 
-  header span {left:1%;}
+  header span { left: 1%; }
 }
 
 footer {
   background-color:#0CA6C0 ;
-  padding:15px;
+  padding: 15px;
 }
 
 footer p {
-  margin:0;
+  margin: 0;
   text-align:center;
   font-weight:bold;
   color:white;

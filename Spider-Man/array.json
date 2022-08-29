@@ -5,7 +5,7 @@
       "movie": {
         "id": "1",
         "name": "Spider-Man",
-        "imageUrl": "./img/picture.jpg",
+        "imageUrl": "./img/picture.webp",
         "width": 511,
         "height": 755,
         "type": "movie",
@@ -19,7 +19,7 @@
       "movie": {
         "id": "2",
         "name": "Spider-Man 2",
-        "imageUrl": "./img/picture2.jpg",
+        "imageUrl": "./img/picture2.webp",
         "width": 1021,
         "height": 1400,
         "type": "movie",
@@ -33,7 +33,7 @@
       "movie": {
         "id": "3",
         "name": "Spider-Man 3",
-        "imageUrl": "./img/picture3.jpg",
+        "imageUrl": "./img/picture3.webp",
         "width": 750,
         "height": 1115,
         "type": "movie",
@@ -75,7 +75,7 @@
       "movie": {
         "id": "6",
         "name": "Spider-Man: Homecoming",
-        "imageUrl": "./img/picture6.jpg",
+        "imageUrl": "./img/picture6.webp",
         "width": 674,
         "height": 1024,
         "type": "movie",
