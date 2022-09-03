@@ -4,7 +4,7 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   font-family: itLives;
-  src: url("fuentes/Shock Shimmy.ttf");
+  src: url("fonts/Shock Shimmy.ttf");
 }
 
 main, .title, .subtitle, .content, .ventanaIzq, .esqueletos { position: relative; }

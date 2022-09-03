@@ -35,7 +35,7 @@ header span {
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 32px; /* Top | Right | Bottom | Left */
   text-decoration: none;
   font-size: 25px;
   color: white;
@@ -60,13 +60,13 @@ nav {
 }
 
 nav ul {
-  margin:0;
-  padding:1vw;
+  margin: 0; /* Top, right, bottom, left */
+  padding: 1vw; /* Top, right, bottom, left */
 }
 
 nav ul li {
   display: inline;
-  padding: 1vw;
+  padding: 1vw; /* Top, right, bottom, left */
 }
 
 nav ul li a {
@@ -82,23 +82,23 @@ section h1 {
   color:pink;
   text-align: center;
   font-size: 2vw;
-  margin:0;
-  padding:2vw;
+  margin: 0; /* Top, right, bottom, left */
+  padding: 2vw; /* Top, right, bottom, left */
 }
 
 section table tr td img {
-  width:20vw;
-  margin: 1vw 4vw;
+  width: 20vw;
+  margin: 1vw 4vw; /* Top and bottom | Right and left */
 }
 
 .overlay {
   position:block;
   opacity: 0;
   transition: .5s ease;
-  background-color:rgb(195, 60, 20);
+  background-color: rgb(195, 60, 20);
 }
 
- .overlay:hover {opacity: 1;}
+ .overlay:hover { opacity: 1; }
 
 .text {
   color: white;
@@ -110,8 +110,9 @@ section table tr td img {
   text-align: center;
 }
 
-#ordenador {display: block;}
-#tablet, #movil {display: none;}
+#ordenador { display: block; }
+
+#tablet, #movil { display: none; }
 
 footer {
   background-color: rgb(46, 45, 45);
@@ -124,7 +125,7 @@ footer {
 
 @media only screen and (max-width:768px) {
 
-  #ordenador {display: none;}
+  #ordenador { display: none; }
 
   #tablet {
     display: block;
@@ -136,14 +137,16 @@ footer {
     margin: 1vw 4vw;
   }
 
-  header span, #inicio {display:block;}
-  nav ul li a, #movil {display: none;}
+  header span, #inicio { display:block; }
+
+  nav ul li a, #movil { display: none; }
 }
 
 @media only screen and (max-width:480px) {
 
-  #ordenador, #tablet {display: none;}
-  #movil {display: block;}
+  #ordenador, #tablet { display: none; }
+
+  #movil { display: block; }
 
   section table tr td img {
     width:60vw;
