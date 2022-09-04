@@ -1,0 +1,52 @@
+body {
+  background-color: seashell;
+  background-image: url("img/house.webp");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  font-family: itLives;
+  src: url("fonts/Shock Shimmy.ttf");
+}
+
+main, .title, .subtitle, .content, .ventanaIzq, .esqueletos { position: relative; }
+
+.title { padding-top: 2%; }
+
+.title, .subtitle {
+  text-align: center;
+  font-size: 3em;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: blue;
+  text-shadow: black -2px -2px, black -2px -2px, black -2px -2px, black -2px -2px;
+}
+
+h2 {
+  font-family: fantasy;
+  color: red;
+}
+
+.content, .ventanaIzq { width: 100%; }
+
+.content { height: 80%; }
+
+.ventanaIzq { height: 40%; }
+
+.ventanaDerecha {
+  width: 70px;
+  height: 65px;
+  left: 1440px;
+  top: 350px;
+  border: 1px solid red;
+}
+
+.ventanaDerecha, .esqueletos {
+  position: absolute;
+  cursor: pointer;
+}
+
+.esqueletos {
+  visibility: hidden;
+  width: 20%;
+}

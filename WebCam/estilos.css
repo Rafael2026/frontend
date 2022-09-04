@@ -64,7 +64,7 @@ h4 {
   color: brown;
 }
 
-p { padding: 0px 50px; /* Top and bottom | Right and left */ }
+p { padding: 0px 50px; }/* Top and bottom | Right and left */
 
 img {
   display: block;
