@@ -1,5 +1,5 @@
 ## Technologies
-<tr>
+<table>
 
   <tr>
     <td>Pictures</td>
@@ -12,13 +12,11 @@
     </td>
     <td>Webpage content</td>
   </tr>
-
   <tr>
     <td>
       <img src="./img/CSS3.png" alt="CCS3 logo" width="250px" hegiht="350px">
     </td>
     <td>More beautiful webpages</td>
-  </tr>
   <tr>
     <td>
       <img src="./img/JS.png" alt="JS logo" width="250px" height="250px">
