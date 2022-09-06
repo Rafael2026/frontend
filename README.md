@@ -1,9 +1,9 @@
 ## Technologies
 | Pictures | Explanation  |
 |----|------|
-| <img src="./img/HTML5.png" alt="HTML5 logo"> | Webpage content |
-| <img src="./img/CSS3.png" alt="CCS3 logo"> | More beautiful webpages |
-| <img src="./img/JS.png" alt="JS logo"> | Weppage logic |
+| <img src="./img/HTML5.png" alt="HTML5 logo" width="250px" height="250px"> | Webpage content |
+| <img src="./img/CSS3.png" alt="CCS3 logo" width="250px" hegiht="350px"> | More beautiful webpages |
+| <img src="./img/JS.png" alt="JS logo" width="250px" height="250px"> | Weppage logic |
 
 
 ## Cheat Sheets
@@ -134,4 +134,14 @@
 </ul>
 
 ## How to optimize pictures?
-<a href="https://tinypng.com/">TinyPNG</a>
+<ul>
+  
+  <li>
+    <a href="https://tinypng.com/">TinyPNG</a>
+  </li>
+
+  <li>
+    <a href="https://compressor.io/">Compressor.io</a>
+  </li>
+
+</ul>
