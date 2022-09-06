@@ -1,10 +1,32 @@
 ## Technologies
-| Pictures | Explanation  |
-|----|------|
-| <img src="./img/HTML5.png" alt="HTML5 logo" width="250px" height="250px"> | Webpage content |
-| <img src="./img/CSS3.png" alt="CCS3 logo" width="250px" hegiht="350px"> | More beautiful webpages |
-| <img src="./img/JS.png" alt="JS logo" width="250px" height="250px"> | Weppage logic |
+<tr>
 
+  <tr>
+    <td>Pictures</td>
+    <td>Explanation</td>
+  </tr>
+
+  <tr>
+    <td>
+      <img src="./img/HTML5.png" alt="HTML5 logo" width="250px" height="250px">
+    </td>
+    <td>Webpage content</td>
+  </tr>
+
+  <tr>
+    <td>
+      <img src="./img/CSS3.png" alt="CCS3 logo" width="250px" hegiht="350px">
+    </td>
+    <td>More beautiful webpages</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="./img/JS.png" alt="JS logo" width="250px" height="250px">
+    </td>
+    <td>Weppage logic</td>
+  </tr>
+
+</table>
 
 ## Cheat Sheets
 <ul>
