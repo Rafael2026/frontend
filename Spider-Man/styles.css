@@ -13,7 +13,7 @@ h1 {
   color: white;
 }
 
-.first, .second, .third, .spiderVerse {
+.first, .second, .third, .spiderVerse, .venom {
   width: 100%;
   display: flex;
   flex-wrap: wrap;

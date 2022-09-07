@@ -3,5 +3,6 @@
   "git.fetchOnPull": true,
   "git.ignoreLegacyWarning": false,
   "git.verboseCommit": true,
-  "git.enableSmartCommit": true
+  "git.enableSmartCommit": true,
+  "liveServer.settings.port": 5558
 }

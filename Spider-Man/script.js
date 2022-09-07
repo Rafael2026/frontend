@@ -63,8 +63,10 @@ fetch("./array.json").then(response => {
       document.getElementsByClassName("second")[0].innerHTML += poster;
     } else if (i < 8) {
       document.getElementsByClassName("third")[0].innerHTML += poster;
-    } else {
+    } else if (i == 8) {
       document.getElementsByClassName("spiderVerse")[0].innerHTML += poster;
+    } else {
+      document.getElementsByClassName("venom")[0].innerHTML += poster;
     }
   }
 
