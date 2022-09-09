@@ -7,10 +7,7 @@ body {
   background-color: rgb(255, 69, 0);
 }
 
-.links {
-  display: none;
-  display: block;
-}
+.links { display: none; }
 
 .topnav a {
   color: black;
