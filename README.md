@@ -167,4 +167,4 @@
 </ul>
 
 ## Web application with many utilities
-<a href="https://https://smalldev.tools/"></a>
+<a href="https://https://smalldev.tools/">Useful web application</a>
