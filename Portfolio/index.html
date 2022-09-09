@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
   <title>Portfolio de Rafael</title>
+  <link href="styles/nav.css" rel="stylesheet"/>
   <link href="styles/styles.css" rel="stylesheet"/>
   <link href="styles/slideShow.css" rel="stylesheet"/>
   <link href="styles/locStoCookies.css" rel="stylesheet"/>
@@ -21,39 +22,29 @@
     <img src="img/header.webp" alt="Multiplatform responsive web design">
   </header>
 
-  <nav>
+  <nav class="mobile-container">
 
-    <ul>
-
-      <li>
-        <a href='.'>Home</a>
-      </li>
-
-      <li>
-        <a href='https://rafael2026.github.io/frontend/Alagaesia/'>Alagaesia</a>
-      </li>
-
-      <li>
-        <a href='https://rafael2026.github.io/frontend/Halloween/'>Halloween</a>
-      </li>
-
-      <li>
-        <a href='https://rafael2026.github.io/frontend/Museums/'>Malaga museums</a>
-      </li>
-
-      <li>
-        <a href='https://rafael2026.github.io/frontend/Adventure/'>Adventure</a>
-      </li>
-
-      <li>
-        <a href='https://rafael2026.github.io/frontend/RA/'>Realidad Aumentada</a>
-      </li>
-
-      <li>
-        <a href='https://rafael2026.github.io/frontend/Swallow/'>Swallow</a>
-      </li>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
       
-    </ul>
+      <a href='.' class="active">Home</a>
+      
+      <div class="links">
+        <a href='https://rafael2026.github.io/frontend/Alagaesia/'>Alagaesia</a>
+        <a href='https://rafael2026.github.io/frontend/Halloween/'>Halloween</a>
+        <a href='https://rafael2026.github.io/frontend/Museums/'>Malaga museums</a>
+        <a href='https://rafael2026.github.io/frontend/Adventure/'>Adventure</a>
+        <a href='https://rafael2026.github.io/frontend/RA/'>Realidad Aumentada</a>
+        <a href='https://rafael2026.github.io/frontend/Swallow/'>Swallow</a>
+      </div>
+    
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+      </a>
+
+    </div>
 
   </nav>
 
@@ -196,25 +187,29 @@
 
       </form>
 
-      <table class="table table-bordered table-responsive border border-dark table-striped container" id="tabla">
+      <div class="table-responsive">
+        
+        <table class="table table-bordered border border-dark table-striped container" id="tabla">
 
-        <thead>
+          <thead>
 
-          <tr>
-            <th class="columna" onclick="sortTable(0)">#</th>
-            <th class="columna" onclick="sortTable(1)">Nombre</th>
-            <th class="columna" onclick="sortTable(2)">Correo</th>
-            <th class="columna" onclick="sortTable(3)">Salario</th>
-            <th class="columna" onclick="sortTable(4)">Ciudad</th>
-            <th class="columna">Editar</th>
-            <th class="columna">Borrar</th>
-          </tr>
+            <tr>
+              <th class="columna" onclick="sortTable(0)">#</th>
+              <th class="columna" onclick="sortTable(1)">Nombre</th>
+              <th class="columna" onclick="sortTable(2)">Correo</th>
+              <th class="columna" onclick="sortTable(3)">Salario</th>
+              <th class="columna" onclick="sortTable(4)">Ciudad</th>
+              <th class="columna">Editar</th>
+              <th class="columna">Borrar</th>
+            </tr>
 
-        </thead>
+          </thead>
 
-        <tbody id="cuerpo"></tbody>
+          <tbody id="cuerpo"></tbody>
 
-      </table>
+        </table>
+
+      </div>
 
     </aside>
     <!--<div class="cotainer">
@@ -253,6 +248,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" type="text/javascript" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" type="text/javascript" defer></script>
+  <script src="js/nav.js" type="text/javascript" defer></script>
   <script src="js/slideShow.js" type="text/javascript" defer></script>
   <script src="js/locStoCookies.js" type="text/javascript" defer></script>
   <script src="js/sortTable.js" type="text/javascript" defer></script>
