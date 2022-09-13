@@ -1,170 +1,65 @@
 ## Technologies
-<table>
-
-  <tr>
-    <td>Pictures</td>
-    <td>Explanation</td>
-  </tr>
-
-  <tr>
-    <td>
-      <img src="./img/HTML5.png" alt="HTML5 logo" width="250px" height="250px">
-    </td>
-    <td>Webpage content</td>
-  </tr>
-  <tr>
-    <td>
-      <img src="./img/CSS3.png" alt="CCS3 logo" width="250px" hegiht="350px">
-    </td>
-    <td>More beautiful webpages</td>
-  <tr>
-    <td>
-      <img src="./img/JS.png" alt="JS logo" width="250px" height="250px">
-    </td>
-    <td>Weppage logic</td>
-  </tr>
-
-</table>
+| Picures | Explanation |
+|---|---|
+| <img src="./img/HTML5.png" alt="HTML5 logo" width="250px" height="250px"> | Webpage content |
+| <img src="./img/CSS3.png" alt="CCS3 logo" width="250px" hegiht="350px"> | More beautiful webpages |
+| <img src="./img/JS.png" alt="JS logo" width="250px" height="250px"> | Weppage logic |
 
 ## Cheat Sheets
-<ul>
-  
-  <li>
-    <a href="https://drive.google.com/file/d/1CZOgAskeZD0inmB4S3vxtzeiFiqccyDE/view?usp=sharing">Emmet cheat sheet</a>
-  </li>
-  
-  <li>
-    <a href="https://coderslink.com/talento/blog/ahorra-tiempo-al-escribir-codigo-html-en-visual-studio-code-utilizando-emmet/">Cheat sheet 2</a>
-  </li>
-  
-</ul>
+- [Emmet cheat sheet](https://drive.google.com/file/d/1CZOgAskeZD0inmB4S3vxtzeiFiqccyDE/view?usp=sharing)
+- [Cheat sheet 2](https://coderslink.com/talento/blog/ahorra-tiempo-al-escribir-codigo-html-en-visual-studio-code-utilizando-emmet/)
 
 ## Tutorials
-<ul>
-
-  <li>
-    <a href="https://www.w3schools.com/">W3 SCHOOLS</a>
-  </li>
-  
-  <li>
-    <a href="https://uniwebsidad.com/">Uniwebsidad tutorials</a>
-  </li>
-  
-</ul>
+- [W3 SCHOOLS](https://www.w3schools.com/)
+- [Uniwebsidad tutorials](https://uniwebsidad.com/)
 
 ## Colours generator
-<a href="https://colorschemedesigner.com/csd-3.5/">Generate colours</a>
+[Generate colours](https://colorschemedesigner.com/csd-3.5/)
 
 ## CSS Reference
-<a href="https://lenguajecss.com/css/">CSS reference</a>
+[CSS reference](https://lenguajecss.com/css/)
 
 ## Basic principles of responsive web design
-<a href="https://blog.froont.com/9-basic-principles-of-responsive-web-design/">Principles of responsive web design</a>
+[Principles of responsive web design](https://blog.froont.com/9-basic-principles-of-responsive-web-design/)
 
 ## What can I use?
-<a href="https://caniuse.com/">Frontend tool</a>
+[Frontend tool](https://caniuse.com/)
 
 ## Online validator services
-<ul>
-  
-  <li>
-    <a href="https://validator.w3.org/">HTML validator</a>
-  </li>
-  
-  <li>
-    <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a>
-  </li>
-  
-  <li>
-    <a href="https://beautifytools.com/javascript-validator.php">JavaScript (JS) validator</a>
-  </li>
-  
-</ul>
+- [HTML validator](https://validator.w3.org/)
+- [CSS validator](https://jigsaw.w3.org/css-validator/)
+- [JavaScript (JS) validator](https://beautifytools.com/javascript-validator.php)
 
 ## Official Boostrap website
-<a href="https://getbootstrap.com/">Bootstrap website</a>
+[Bootstrap website](https://getbootstrap.com/)
 
 ## Snippets de bootstrap
-<ul>
-  
-  <li>
-    <a href="https://www.bootsnipp.com">Bootsnipp</a>
-  </li>
-  
-  <li>
-    <a href="https://www.startbootstrap.com/snippets">Start bootstrap</a>
-  </li>
-  
-  <li>
-    <a href="https://www.bootdey.com">Bootdey</a>
-  </li>
-  
-  <li>
-    <a href="https://www.bootstrapious.com/snippets">Bootstrapious</a>
-  </li>
-
-</ul>
+- [Bootsnipp](https://www.bootsnipp.com)
+- [Start bootstrap](https://www.startbootstrap.com/snippets)
+- [Bootdey](https://www.bootdey.com)
+- [Bootstrapious](https://www.bootstrapious.com/snippets)
 
 ## Official repositories
-<ul>
-
-  <li>
-    <a href="https://github.com/twbs">Bootstrap Github</a>
-  </li>
-  
-  <li>
-    <a href="https://github.com/jquery/jquery">jQuery Github</a>
-  </li>
-
-</ul>
+- [Bootstrap Github](https://github.com/twbs)
+- [JQuery Github](https://github.com/jquery/jquery)
 
 ## Font-awesome
-<a href="https://www.bootstrapcdn.com/fontawesome/">Boostrap CDN</a>
+[Boostrap CDN](https://www.bootstrapcdn.com/fontawesome/)
 
 ## How to measure page performance?
-<a href="https://pagespeed.web.dev/">PageSpeed Insights</a>
+[PageSpeed Insights](https://pagespeed.web.dev/)
 
 ## Frotend repositories
-<ul>
-
-  <li>
-    <a href="https://github.com/thedaviddias/Front-End-Checklist">Frontend Checklist</a>
-  </li>
-  
-  <li>
-    <a href="https://github.com/Lemoncode/master-frontend-lemoncode">Máster Front End Online Lemoncode</a>
-  </li>
-  
-  <li>
-    <a href="https://github.com/home-assistant/frontend">Home Assistant Frontend</a>
-  </li>
-  
-  <li>
-    <a href="https://github.com/mrcodedev/frontend-developer-resources">Resources for frontend developers</a>
-  </li>
-  
-  <li>
-    <a href="https://github.com/FrontendMasters">Frontend Skills</a>
-  </li>
-  
-  <li>
-    <a href="https://github.com/topics/frontend">Other frontend repositories</a>
-  </li>
-  
-</ul>
+- [Frontend Checklist](https://github.com/thedaviddias/Front-End-Checklist)
+- [Máster Front End Online Lemoncode](https://github.com/Lemoncode/master-frontend-lemoncode)
+- [Home Assistant Frontend](https://github.com/home-assistant/frontend)
+- [Resources for frontend developers](https://github.com/mrcodedev/frontend-developer-resources)
+- [Frontend Skills](https://github.com/FrontendMasters)
+- [Other frontend repositories](https://github.com/topics/frontend)
 
 ## How to optimize pictures?
-<ul>
-  
-  <li>
-    <a href="https://tinypng.com/">TinyPNG</a>
-  </li>
-
-  <li>
-    <a href="https://compressor.io/">Compressor.io</a>
-  </li>
-
-</ul>
+- [TinyPNG](https://tinypng.com/)
+- [Compressor.io](https://compressor.io/)
 
 ## Web application with many utilities
-<a href="https://smalldev.tools/">Useful web application</a>
+[Useful web application](https://smalldev.tools/)
