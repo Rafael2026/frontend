@@ -1,5 +1,3 @@
-/* Autor: Rafael Agular Muñoz */
-
 function validacion () {
 
   var valorCorreo = document.getElementById("correo").value;
@@ -18,17 +16,11 @@ function validacion () {
     mensajeError += "El campo contraseña está vacío\n";
   }
 
-  if (!(condicion1 && condicion2)) {
-    alert(mensajeError);
-  }
+  if (!(condicion1 && condicion2)) { alert(mensajeError); }
 
   return condicionFinal;
 }
 
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
+function openForm() { document.getElementById("myForm").style.display = "block"; }
 
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
+function closeForm() { document.getElementById("myForm").style.display = "none"; }
