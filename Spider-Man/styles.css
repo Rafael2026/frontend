@@ -8,8 +8,7 @@ body {
 h1 {
   background-color: #f0311e;
   width: max-content;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto; /* Top and bottom | Right and left */
   color: white;
 }
 
@@ -40,7 +39,4 @@ h1 {
 
 div img:hover { transform: scale(1.1); }
 
-h2 {
-  margin-bottom: 20px;
-  margin-top: auto;
-}
+h2 { margin: auto 0 20px 0; } /* Top, right, bottom and left */

@@ -8,11 +8,11 @@ body {
   background-size: 300px;
 }
 
-#wrapper {
+main {
   background-color: rgba(255, 255, 255, 0.5);
   width: 400px;
-  margin: auto;
-  padding: 20px;
+  margin: 50px auto auto auto; /* Top | Right | Bottom | Left */
+  padding: 20px; /* Top, right, bottom and left */
   border-radius: 30px 25px;
   box-shadow: black 3px 3px 3px;
   text-align: center;

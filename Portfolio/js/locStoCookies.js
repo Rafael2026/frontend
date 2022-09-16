@@ -34,9 +34,7 @@ function delStorage(indice) {
     var nombre = rows[i].getElementsByTagName("td")[1].innerHTML;
     var nombreIntroducido = rows[rows.length - 1].getElementsByTagName("td")[1].innerHTML;
 
-    if (nombre.toLowerCase() == nombreIntroducido.toLowerCase()) {
-      nombreRepetido = true;
-    }
+    if (nombre.toLowerCase() == nombreIntroducido.toLowerCase()) { nombreRepetido = true; }
 
     i++;
   }
@@ -73,9 +71,7 @@ function delCookie(indice) {
     var nombre = rows[i].getElementsByTagName("td")[1].innerHTML;
     var nombreIntroducido = rows[rows.length - 1].getElementsByTagName("td")[1].innerHTML;
 
-    if (nombre.toLowerCase() == nombreIntroducido.toLowerCase()) {
-      nombreRepetido = true;
-    }
+    if (nombre.toLowerCase() == nombreIntroducido.toLowerCase()) { nombreRepetido = true; }
 
     i++;
   }
@@ -159,13 +155,9 @@ function getCookie(nombre) {
 
     let c = ca[i];
 
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
+    while (c.charAt(0) == ' ') { c = c.substring(1); }
 
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
+    if (c.indexOf(name) == 0) { return c.substring(name.length, c.length); }
   }
 
   return "";
@@ -217,7 +209,7 @@ window.onload = function () {
         i++;
       }
 
-      document.getElementById("guardar").onclick = function () {
+      document.getElementById("guardar").onclick = function() {
         saveCookie(nombre.value, correo.value, salario.value, ciudad.value);
       };
 
