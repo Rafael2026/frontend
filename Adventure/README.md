@@ -1,8 +1,8 @@
 ## Deploy
-<a href="https://rafael2026.github.io/frontend/Adventure">Adventure webpage</a>
+[Adventure webpage](https://rafael2026.github.io/frontend/Adventure)
 
 ## Statements
-<a href="https://drive.google.com/drive/folders/1PXWfTHqYNFOu3tOaBOmkYMIIyjclNEZL?usp=sharing">Examinations</a>
+[Examinations](https://drive.google.com/drive/folders/1PXWfTHqYNFOu3tOaBOmkYMIIyjclNEZL?usp=sharing)
 
 ## Screenshots
-<a href="https://drive.google.com/drive/folders/18N61NqVmElFxDDaetjowk4zpTGXkN5sp?usp=sharing">Examination screenshot</a>
+[Examination screenshot](https://drive.google.com/file/d/1kD_QuA17gu6IuMOl3f8AhlbsWCkb56VS/view)
