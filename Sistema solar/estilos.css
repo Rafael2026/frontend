@@ -1,0 +1,108 @@
+body {
+  margin: 0% 22.5%;
+  background-color: #800080;
+  width: 800px;
+}
+
+p {
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+  font-size: 14px;
+}
+
+header h1 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 9.5%;
+  margin-top: 11%;
+  font-family: 'Major Mono Display', monospace;
+}
+
+header img {
+  width: 800px;
+  height: 250px;
+}
+
+nav {
+  float: left;
+  background-color:rgb(255, 255, 255);
+  width: 200px;
+  height: 200px;
+  margin-top: 15px;
+  margin-right: 25px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+nav h1 {
+  color: #800080;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+nav .enlaces, nav #link {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+nav #link { padding-right: 110px; }
+
+nav .enlaces a:hover {
+  background-color: #8A2BE2;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 255);
+}
+
+.contenido {
+  float: left;
+  background-color: rgb(255, 255, 255);
+  margin-top: 15px;
+  width: 535px;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.contenido #imagen1 {
+  float: left;
+  margin-right: 8px;
+}
+
+.contenido #imagen2 {
+  float: right;
+  margin-right: 8px;
+}
+
+.contenido #texto2 { margin-bottom: 30px; }
+
+.contenido #texto3 {
+  padding-left: 10px;
+  margin-right: 8px;
+}
+
+.contenido #texto4 {
+  margin-top: 30px;
+  padding-left: 10px;
+}
+
+footer {
+  float: left;
+  background-image: url("img/estrellas.jpg");
+  text-align: center;
+  width: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ffff00;
+  border-radius: 20px 20px 20px 20px;
+}
+
+footer p {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+footer .examen { text-decoration: underline; }
