@@ -31,7 +31,7 @@
 - [JavaScript (JS) validator](https://beautifytools.com/javascript-validator.php)
 
 ## Official Boostrap website
-[Bootstrap website](https://getbootstrap.com/)
+[![Bootstrap website](img/bootstrap.png)](https://getbootstrap.com/)
 
 ## Snippets de bootstrap
 - [Bootsnipp](https://www.bootsnipp.com)
