@@ -16,7 +16,7 @@ h1 {
   margin: 0px 42% 0% 42%;
 }
 
-#visor {
+.visor {
   position: absolute;
   top: 100px;
   left: 200px;
@@ -26,7 +26,7 @@ h1 {
   margin: 0px 17% 0px 17%;
 }
 
-#fondo {
+.fondo {
   background-image: url("img/fondo.gif");
   background-repeat: no-repeat;
   position: absolute;
@@ -38,7 +38,7 @@ h1 {
   left: 0px;
 }
 
-#coche {
+.coche {
   background-image: url("img/coche.gif");
   background-repeat: no-repeat;
   position: absolute;
