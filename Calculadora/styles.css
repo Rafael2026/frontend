@@ -1,0 +1,122 @@
+.calculadora {
+  background-color: blue;
+  border: 3px solid black;
+  display: block;
+}
+
+#pantalla, .fila2, .fila3, .fila4, .fila5, .fila6, .fila7 {
+  background-color: whitesmoke;
+  border: 3px solid black;
+  margin: 15px; /* Top, right, bottom and left */
+}
+
+#pantalla {
+  text-align: right;
+  position: relative;
+  color: black;
+  height: 50px;
+}
+
+button {
+  background-color: rgb(210, 0, 0);
+  color: white;
+  font-size: 20px;
+}
+
+.botonDisabled { opacity: 1; }
+
+@media only screen and (min-width: 1440px) {
+
+  .calculadora { margin: 0% 37%; } /* Top and bottom | Right and left */
+
+  #pantalla { font-size: 30px; }
+
+  .fila2 button { margin: 17px 0px 17px 40px; } /* Top | Right | Bottom | Left */
+
+  .fila3 button, .fila4 button, .fila5 button, .fila6 button, .fila7 button { margin: 17px 0px 17px 23px; } /* Top | Right | Bottom | Left */
+
+  button {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439.9px) {
+
+  .calculadora { margin: 0% 30%; } /* Top and bottom | Right and left */
+
+  #pantalla { font-size: 30px; }
+
+  .fila2 button {
+    margin: 11px 0px 11px 18px; /* Top | Right | Bottom | Left */
+    width: 60px;
+    height: 60px;
+  }
+
+  .fila3 button, .fila4 button, .fila5 button, .fila6 button, .fila7 button {
+    margin: 11px 0px 11px 7px; /* Top | Right | Bottom | Left */
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media only screen and (max-width: 1023.9px) and (min-width: 768px) {
+
+  .calculadora { margin: 0% 20%; } /* Top and bottom | Right and left */
+
+  #pantalla { font-size: 25px; }
+
+  .fila2 button {
+    margin: 17px 0px 17px 28px; /* Top | Right | Bottom | Left */
+    width: 60px;
+    height: 60px;
+  }
+
+  .fila3 button, .fila4 button, .fila5 button, .fila6 button, .fila7 button {
+    margin: 17px 0px 17px 15px; /* Top | Right | Bottom | Left */
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media only screen and (max-width: 767.9px) and (min-width: 425px) {
+
+  .calculadora { margin: 0% 20%; } /* Top and bottom | Right and left */
+
+  #pantalla { font-size: 25px; }
+  .fila2 button, .fila3 button, .fila4 button, .fila5 button, .fila6 button, .fila7 button { margin: 11px 0px 11px 22px; } /* Top | Right | Bottom | Left */
+
+  button {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 424.9px) and (min-width: 375px) {
+
+  .calculadora { margin: 0% 20%; } /* Top and bottom | Right and left */
+
+  #pantalla { font-size: 20px; }
+
+  .fila2 button { margin: 11px 5px 11px 11px; } /* Top | Right | Bottom | Left */
+
+  .fila3 button, .fila4 button, .fila5 button, .fila6 button, .fila7 button { margin: 11px 11px 11px 11px; }
+
+  button {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 374.9px) {
+
+  .calculadora { margin: 0% 20%; } /* Top and bottom | Right and left */
+
+  #pantalla { font-size: 20px; }
+
+  button {
+    margin: 11px 0px 11px 11px; /* Top | Right | Bottom | Left */
+    width: 50px;
+    height: 50px;
+  }
+}
