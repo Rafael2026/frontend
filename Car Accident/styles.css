@@ -1,0 +1,80 @@
+/** {
+  margin: 0px auto;
+  padding: 0px;
+}*/
+
+h1 {
+  text-align: center;
+  padding: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  color: darkblue;
+  text-decoration: underline wavy red;
+  border: 5px dashed black;
+  margin: 0px 42% 0% 42%;
+}
+
+#visor {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  margin: 0px 17% 0px 17%;
+}
+
+#fondo {
+  background-image: url("img/fondo.gif");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 650px;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  left: 0px;
+}
+
+#coche {
+  background-image: url("img/coche.gif");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 200px;
+  left: 120px;
+  background-position: center;
+  background-origin: border-box;
+  display: inline-block;
+  animation: conducir 10s linear 0s infinite alternate;
+}
+
+@keyframes conducir {
+
+  0%, 100% {
+    left: 0px;
+    transform: rotate(0deg);
+  }
+
+  25% {
+    left:150px;
+    top: 100px;
+    transform: rotate(90deg);
+  }
+
+  50% {
+    left:300px;
+    top: 50px;
+    transform: rotate(180deg);
+  }
+
+  75%  {
+    left:450px;
+    top: 100px;
+    transform: rotate(270deg);
+    background-image: url("img/cocheArdiendo.jpg");
+  }
+}
