@@ -1,4 +1,4 @@
-function validacion () {
+function validacion() {
 
   var valorCorreo = document.getElementById("correo").value;
   var valorContraseña = document.getElementById("passw").value;
