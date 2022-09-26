@@ -25,7 +25,7 @@
 ## What can I use?
 [Frontend tool](https://caniuse.com/)
 
-## Online validator services
+## Online validators
 - [HTML validator](https://validator.w3.org/)
 - [CSS validator](https://jigsaw.w3.org/css-validator/)
 - [JavaScript (JS) validator](https://beautifytools.com/javascript-validator.php)
@@ -33,7 +33,7 @@
 ## Official Boostrap website
 [![Bootstrap website](img/bootstrap.png)](https://getbootstrap.com/)
 
-## Snippets de bootstrap
+## Bootstrap's snippets
 - [Bootsnipp](https://www.bootsnipp.com)
 - [Start bootstrap](https://www.startbootstrap.com/snippets)
 - [Bootdey](https://www.bootdey.com)
