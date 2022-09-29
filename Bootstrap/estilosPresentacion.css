@@ -1,0 +1,732 @@
+body { background: linear-gradient(to right, red, green); }
+
+@media only screen and (min-width: 1200px) {
+
+  h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .inicioSesion {
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  nav {
+    background-color: #808080;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .enlace_desactivado { display: none; }
+
+  input {
+    background-image: none;
+    border: none; /* No tiene bordes*/
+    font: inherit; /* Fuente heredable */
+    margin: 0; /* Margen externo */
+    padding: 0; /* Margen interno */
+    transition: all 0.3s; /* Camibar propiedades */
+  }
+
+  .align {
+    display: grid; /* Se comportará como grid */
+    place-items: center; /* Colocacion de los diferentes elementos */
+  }
+
+  .align img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .button {
+    background-color: #33cc77; /* Color de fondo */
+    color: #fff; /* Color de la letra */
+    padding: 0.25em 1.5em; /* Margen interno */
+  }
+
+  .button:focus, .button:hover { background-color: #28ad63; }
+
+  .login {
+    width: 400px; /* Anchura */
+    margin-top: 50px; /* Margen externo superior */
+  }
+
+  .login__header {
+    background-color: #f95252; /* Color de fondo */
+    border-top-left-radius : 1.25em; /* Ángulo del borde izquierdo superior */
+    border-top-right-radius: 1.25em; /* Ángulo del borde derecho superior */
+    color: #fff; /* Color de la letra */
+    padding: 1.25em 1.625em; /* Margen interno */
+  }
+
+  .login__header :first-child { margin-top: 0; }
+
+  .login__header :last-child { margin-bottom: 0; }
+
+  .login h2 .icon { margin-right: 14px; }
+
+  .login__form {
+    background-color: #fff; /* Color de fondo */
+    border-bottom-left-radius: 1.25em;
+    border-bottom-right-radius: 1.25em;
+    color: #777; /* Color de la letra */
+    display: grid; /* Se comportará como grid */
+    gap: 0.875em; /* Hueco */
+    padding: 1.25em 1.625em; /* Margen interno */
+  }
+
+  .login input {
+    border-radius: 0.1875em; /* Ángulo de los bordes */
+    background-color: #eee; /* Color de fondo */
+    color: #777; /* Color de la letra */
+    padding: 0.25em 0.625em; /* Margen interno */
+    width: 100%; /* Anchura */
+  }
+
+  .login input[type="submit"] {
+    display: block; /* Se quedá quieto */
+    margin: 0 auto; /* Margen exterior */
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .open-button {
+    background-color: #333;
+    color: white;
+    padding: 15px 16% 15px 15%;
+    border: none;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+  }
+
+  .open-button:hover { background-color: red; }
+
+  .form-popup {
+    display: none;
+    margin-left: 65%;
+    border: 2px solid black;
+    z-index: 9;
+  }
+
+  .form-container {
+    padding: 10px;
+    background-color: white;
+  }
+
+  .form-container label { font-weight: bold; }
+
+  .form-container input[type=email], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color: #f1f1f1;
+  }
+
+  .form-container input[type=email]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+
+  .form-container .cancel {background-color: red;}
+}
+
+@media only screen and (max-width: 1199.9px) and (min-width: 992px) {
+
+  h2 {
+    font-size: 1.75rem; /* Tamaño de la letra */
+    font-weight: bold; /* Grosor de la fuente */
+    color: rgb(0, 0, 0); /* Color de la letra */
+  }
+
+  .inicioSesion {
+    color: rgb(255, 255, 255);
+    text-align: center; /* Centrar el texto */
+  }
+
+  nav {
+    background-color: #808080; /* Color de fondo */
+    padding: 20px 20px 20px 20px; /* Margen interno */
+  }
+
+  .enlace_desactivado {
+    pointer-events: none; /* No hay ningún evento que apunté */
+    cursor: default; /* El cursor por defecto */
+  }
+
+  input {
+    background-image: none; /* No hay imagen de fondo */
+    border: none; /* No tiene bordes*/
+    font: inherit; /* Fuente heredable */
+    margin: 0; /* Margen externo */
+    padding: 0; /* Margen interno */
+    transition: all 0.3s; /* Camibar propiedades */
+  }
+
+  .align {
+    display: grid; /* Se comportará como grid */
+    place-items: center; /* Colocacion de los diferentes elementos */
+  }
+
+  .button {
+    background-color: #33cc77; /* Color de fondo */
+    color: #fff; /* Color de la letra */
+    padding: 0.25em 1.5em; /* Margen interno */
+  }
+
+  .button:focus, .button:hover { background-color: #28ad63; }
+
+  .login {
+    width: 400px; /* Anchura */
+    margin-top: 50px; /* Margen externo superior */
+  }
+
+  .login__header {
+    background-color: #f95252; /* Color de fondo */
+    border-top-left-radius : 1.25em; /* Ángulo del borde izquierdo superior */
+    border-top-right-radius: 1.25em; /* Ángulo del borde derecho superior */
+    color: #fff; /* Color de la letra */
+    padding: 1.25em 1.625em; /* Margen interno */
+  }
+
+  .login__header :first-child { margin-top: 0; }
+
+  .login__header :last-child { margin-bottom: 0; }
+  
+  .login h2 .icon { margin-right: 14px; }
+
+  .login__form {
+    background-color: #fff; /* Color de fondo */
+    border-bottom-left-radius: 1.25em;
+    border-bottom-right-radius: 1.25em;
+    color: #777; /* Color de la letra */
+    display: grid; /* Se comportará como grid */
+    gap: 0.875em; /* Hueco */
+    padding: 1.25em 1.625em; /* Margen interno */
+  }
+
+  .login input { border-radius: 0.1875em; }
+
+  .login input[type="email"], .login input[type="password"], .login input[type="text"] {
+    background-color: #eee; /* Color de fondo */
+    color: #777; /* Color de la letra */
+    padding: 0.25em 0.625em; /* Margen interno */
+    width: 100%; /* Anchura */
+  }
+
+  .login input[type="submit"] {
+    display: block; /* Se quedá quieto */
+    margin: 0 auto; /* Margen exterior */
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .open-button {
+    background-color: #333;
+    color: white;
+    padding: 15px 16% 15px 15%;
+    border: none;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+  }
+
+  .open-button:hover { background-color: red; }
+
+  .form-popup {
+    display: none;
+    margin-left: 65%;
+    border: 2px solid black;
+    z-index: 9;
+  }
+
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+
+  .form-container label { font-weight: bold; }
+
+  .form-container input[type=email], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color: #f1f1f1;
+  }
+
+  .form-container input[type=email]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+
+  .form-container .cancel { background-color: red; }
+}
+
+@media only screen and (max-width: 991.9px) and (min-width: 768px) {
+
+  h2 {
+    font-size: 1.75rem; /* Tamaño de la letra */
+    font-weight: bold; /* Grosor de la fuente */
+    color: rgb(0, 0, 0); /* Color de la letra */
+  }
+
+  .inicioSesion {
+    color: rgb(255, 255, 255);
+    text-align: center; /* Centrar el texto */
+  }
+
+  nav {
+    background-color: #808080; /* Color de fondo */
+    padding: 20px 20px 20px 20px; /* Margen interno */
+  }
+
+  .enlace_desactivado { display: none; }
+
+  input {
+    background-image: none; /*Nohayimagendefondo*/
+    border: none;
+    font: inherit; /*Fuenteheredable*/
+    margin: 0; /*Margenexterno*/
+    padding: 0; /*Margeninterno*/
+    transition: all 0.3s;
+  }
+
+  .align {
+    display: grid; /* Se comportará como grid */
+    place-items: center; /* Colocacion de los diferentes elementos */
+  }
+
+  .button {
+    background-color: #33cc77; /* Color de fondo */
+    color: #fff; /* Color de la letra */
+    padding: 0.25em 1.5em; /* Margen interno */
+  }
+
+  .button:focus, .button:hover { background-color: #28ad63; }
+
+  .login {
+    width: 300px; /* Anchura */
+    margin-top: 50px; /* Margen externo superior */
+  }
+
+  .login__header {
+    background-color: #f95252; /* Color de fondo */
+    border-top-left-radius : 1.25em; /* Ángulo del borde izquierdo superior */
+    border-top-right-radius: 1.25em; /* Ángulo del borde derecho superior */
+    color: #fff; /* Color de la letra */
+    padding: 1.25em 1.625em; /* Margen interno */
+  }
+
+  .login__header :first-child { margin-top: 0; }
+
+  .login__header :last-child { margin-bottom: 0; }
+
+  .login h2 .icon { margin-right: 14px; }
+
+  .login__form {
+    background-color: #fff; /* Color de fondo */
+    border-bottom-left-radius: 1.25em;
+    border-bottom-right-radius: 1.25em;
+    color: #777; /* Color de la letra */
+    display: grid; /* Se comportará como grid */
+    gap: 0.875em; /* Hueco */
+    padding: 1.25em 1.625em; /* Margen interno */
+  }
+
+  .login input {border-radius: 0.1875em;}
+
+  .login input[type="email"], .login input[type="password"], .login input[type="text"] {
+    background-color: #eee; /* Color de fondo */
+    color: #777; /* Color de la letra */
+    padding: 0.25em 0.625em; /* Margen interno */
+    width: 100%; /* Anchura */
+  }
+
+  .login input[type="submit"] {
+    display: block; /* Se quedá quieto */
+    margin: 0 auto; /* Margen exterior */
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .open-button {
+    background-color: #333;
+    color: white;
+    padding: 15px 16% 15px 15%;
+    border: none;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+  }
+
+  .open-button:hover { background-color: red; }
+
+  .form-popup {
+    display: none;
+    margin-left: 65%;
+    border: 2px solid black;
+    z-index: 9;
+  }
+
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+
+  .form-container label { font-weight: bold; }
+
+  .form-container input[type=email], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color: #f1f1f1;
+  }
+
+  .form-container input[type=email]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+
+  .form-container .cancel { background-color: red; }
+}
+
+@media only screen and (max-width: 767.9px) and (min-width: 576px) {
+
+  h2 {
+    font-size: 1.75rem; /* Tamaño de la letra */
+    font-weight: bold; /* Grosor de la fuente */
+    color: rgb(0, 0, 0); /* Color de la letra */
+  }
+
+  .inicioSesion {
+    color: rgb(255, 255, 255);
+    text-align: center; /* Centrar el texto */
+  }
+
+  nav {
+    background-color: #808080; /* Color de fondo */
+    padding: 20px 20px 20px 20px; /* Margen interno */
+  }
+
+  .enlace_desactivado { display: none; }
+
+  input {
+    background-image: none;
+    border: none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+  }
+
+  .align {
+    display: grid; /* Se comportará como grid */
+    place-items: center; /* Colocacion de los diferentes elementos */
+  }
+
+  .button {
+    background-color: #33cc77; /* Color de fondo */
+    color: #fff; /* Color de la letra */
+    padding: 0.25em 1.5em; /* Margen interno */
+  }
+
+  .button:focus, .button:hover {background-color: #28ad63;}
+
+  .login {
+    width: 300px; /* Anchura */
+    margin-top: 50px; /* Margen externo superior */
+  }
+
+  .login__header {
+    background-color: #f95252; /* Color de fondo */
+    border-top-left-radius : 1.25em; /* Ángulo del borde izquierdo superior */
+    border-top-right-radius: 1.25em; /* Ángulo del borde derecho superior */
+    color: #fff; /* Color de la letra */
+    padding: 1.25em 1.625em; /* Margen interno */
+  }
+
+  .login__header :first-child { margin-top: 0; }
+
+  .login__header :last-child { margin-bottom: 0; }
+
+  .login h2 .icon { margin-right: 14px; }
+
+  .login__form {
+    background-color: #fff; /* Color de fondo */
+    border-bottom-left-radius: 1.25em;
+    border-bottom-right-radius: 1.25em;
+    color: #777; /* Color de la letra */
+    display: grid; /* Se comportará como grid */
+    gap: 0.875em; /* Hueco */
+    padding: 1.25em 1.625em; /* Margen interno */
+  }
+
+  .login input { border-radius: 0.1875em; }
+
+  .login input[type="email"], .login input[type="password"], .login input[type="text"] {
+    background-color: #eee; /* Color de fondo */
+    color: #777; /* Color de la letra */
+    padding: 0.25em 0.625em; /* Margen interno */
+    width: 100%; /* Anchura */
+  }
+
+  .login input[type="submit"] {
+    display: block; /* Se quedá quieto */
+    margin: 0 auto; /* Margen exterior */
+  }
+
+  img {
+    width: 50px;
+    height: 200px;
+  }
+
+  .open-button {
+    background-color: #333;
+    color: white;
+    padding: 15px 16% 15px 15px;
+    border: none;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+  }
+
+  .open-button:hover { background-color: red; }
+
+  .form-popup {
+    display: none;
+    margin-left: 65%;
+    border: 2px solid black;
+    z-index: 9;
+  }
+
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+
+  .form-container label { font-weight: bold; }
+
+  .form-container input[type=email], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color: #f1f1f1;
+  }
+
+  .form-container input[type=email]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+
+  .form-container .cancel { background-color: red; }
+}
+
+@media only screen and (max-width: 575.9px) {
+
+  h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .page-item {
+    float: left;
+    position: relative;
+  }
+
+  .inicioSesion {
+    color: rgb(255, 255, 255);
+    text-align: center; /* Centrar el texto */
+  }
+
+  nav {
+    background-color: #808080; 
+    padding: 20px 20px 20px 20px;
+  }
+
+  .enlace_desactivado { display: none; }
+
+  input {
+    background-image: none;
+    border: none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+  }
+
+  .align {
+    display: grid; /* Se comportará como grid */
+    place-items: center; /* Colocacion de los diferentes elementos */
+  }
+
+  .button {
+    background-color: #33cc77;
+    color: #fff;
+    padding: 0.25em 1.5em;
+  }
+
+  .button:focus, .button:hover {background-color: #28ad63;}
+
+  .login {
+    width: 200px;
+    margin-top: 50px;
+  }
+
+  .login__header {
+    background-color: #f95252;
+    border-top-left-radius : 1.25em; /* Ángulo del borde izquierdo superior */
+    border-top-right-radius: 1.25em; /* Ángulo del borde derecho superior */
+    color: #fff;
+    padding: 1.25em 1.625em;
+  }
+
+  .login__header :first-child { margin-top: 0; }
+
+  .login__header :last-child { margin-bottom: 0; }
+
+  .login h2 .icon { margin-right: 14px; }
+
+  .login__form {
+    background-color: #fff;
+    border-bottom-left-radius: 1.25em;
+    border-bottom-right-radius: 1.25em;
+    color: #777;
+    display: grid;
+    gap: 0.875em;
+    padding: 1.25em 1.625em;
+  }
+
+  .login input {border-radius: 0.1875em;}
+
+  .login input[type="email"], .login input[type="password"], .login input[type="text"] {
+    background-color: #eee; /* Color de fondo */
+    color: #777; /* Color de la letra */
+    padding: 0.25em 0.625em; /* Margen interno */
+    width: 100%; /* Anchura */
+  }
+
+  .login input[type="submit"] {
+    display: block; /* Se quedá quieto */
+    margin: 0 auto; /* Margen exterior */
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .open-button {
+    background-color: #333;
+    color: white;
+    padding: 15px 16% 15px 15%;
+    border: none;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+  }
+
+  .open-button:hover { background-color: red; }
+
+  .form-popup {
+    display: none;
+    margin-left: 65%;
+    border: 2px solid black;
+    z-index: 9;
+  }
+
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+
+  .form-container label { font-weight: bold; }
+
+  .form-container input[type=email], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color: #f1f1f1;
+  }
+
+  .form-container input[type=email]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+
+  .form-container .cancel { background-color: red; }
+}
