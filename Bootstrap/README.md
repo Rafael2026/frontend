@@ -2,7 +2,7 @@
 [Bootstrap project](https://rafael2026.github.io/frontend/Bootstrap)
 
 ## Prototype
-[Project prototype](https://drive.google.com/drive/folders/1WJmsXvX6ccGwAjZXR6ZKPcjgcb9BMbXE/view)
+[Project prototype](https://drive.google.com/drive/folders/1WJmsXvX6ccGwAjZXR6ZKPcjgcb9BMbXE?usp=sharing)
 
 ## Drawings
 [Exam's drawing](https://drive.google.com/drive/folders/1sJ8S2JwUFk2hb6EB829pnvDZcsbarC-L?usp=sharing)
