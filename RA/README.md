@@ -1,8 +1,8 @@
 ## Deploy
-<a href="https://rafael2026.github.io/frontend/RA">Realidad aumentada webpage</a>
+[Realidad aumentada webpage](https://rafael2026.github.io/frontend/RA)
 
 ## Statements
-<a href="https://drive.google.com/file/d/15eSi9qDDgbpCqaD9L7E1Cr8PW4VE3Qqs/view">Examination</a>
+[Examination](https://drive.google.com/file/d/15eSi9qDDgbpCqaD9L7E1Cr8PW4VE3Qqs/view)
 
 ## Screenshots
-<a href="https://drive.google.com/drive/folders/1Akf4oAAgGrnjdHFp-v6Jr9SH7bO6bshi?usp=sharing">Pictures</a>
+[Pictures](https://drive.google.com/drive/folders/1Akf4oAAgGrnjdHFp-v6Jr9SH7bO6bshi?usp=sharing)

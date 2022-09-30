@@ -1,11 +1,11 @@
 ## Deploy
-<a href="https://rafael2026.github.io/frontend/Bootstrap">Bootstrap project</a>
+[Bootstrap project](https://rafael2026.github.io/frontend/Bootstrap)
 
 ## Prototype
-<a href="https://drive.google.com/drive/folders/1WJmsXvX6ccGwAjZXR6ZKPcjgcb9BMbXE?usp=sharing">Project prototype</a>
+[Project prototype](https://drive.google.com/drive/folders/1WJmsXvX6ccGwAjZXR6ZKPcjgcb9BMbXE/view)
 
 ## Drawings
-<a href="https://drive.google.com/drive/folders/1sJ8S2JwUFk2hb6EB829pnvDZcsbarC-L?usp=sharing">Exam's drawing</a>
+[Exam's drawing](https://drive.google.com/drive/folders/1sJ8S2JwUFk2hb6EB829pnvDZcsbarC-L?usp=sharing)
 
 ## Instructions
-<a href="https://drive.google.com/drive/folders/1lld71pkNwMHmK8Lqhfwqtjy6Sf03ZcSO?usp=sharing">Exam's steps</a>
+[Exam's steps](https://drive.google.com/file/d/1_ID80KyFGARvt-I9irRz7NSbIHSQP_TC/view)

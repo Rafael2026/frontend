@@ -6,7 +6,7 @@
 | <img src="./img/JS.png" alt="JS logo" width="250px" height="250px"> | Weppage logic |
 
 ## Cheat Sheets
-- [Emmet cheat sheet](https://drive.google.com/file/d/1CZOgAskeZD0inmB4S3vxtzeiFiqccyDE/view?usp=sharing)
+- [Emmet cheat sheet](https://drive.google.com/file/d/1CZOgAskeZD0inmB4S3vxtzeiFiqccyDE/view)
 - [Cheat sheet 2](https://coderslink.com/talento/blog/ahorra-tiempo-al-escribir-codigo-html-en-visual-studio-code-utilizando-emmet/)
 
 ## Tutorials

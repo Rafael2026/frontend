@@ -1,8 +1,8 @@
 ## Deploy
-<a href="https://rafael2026.github.io/frontend/Museums">Museums webpage</a>
+[Museums webpage](https://rafael2026.github.io/frontend/Museums)
 
 ## Statements
-<a href="https://drive.google.com/drive/folders/1ljbRWx7qj2AK5WcShYMZmCKpVhvJGBSc?usp=sharing">Exam's statements</a>
+[Exam's statements](https://drive.google.com/file/d/10s3ZKxH-4Q3XAa0F1LE-VysxuB8AaasU/view)
 
 ## Screenshots
-<a href="https://drive.google.com/drive/folders/1r3V0cV2rLM3eeIH23hCF8Gt1orhUxbJF?usp=sharing">Exam's screenshot</a>
+[Exam's screenshot](https://drive.google.com/drive/folders/1r3V0cV2rLM3eeIH23hCF8Gt1orhUxbJF?usp=sharing)
