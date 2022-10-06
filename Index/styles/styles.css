@@ -23,23 +23,22 @@ nav .links {
   background-color: rgb(255, 69, 0);
 }
 
-nav ul li {
+nav a {
   display: inline-block;
   padding: 15px; /* Top, right, bottom and left */
   text-decoration: none;
+  color: rgb(0, 0, 0);
 }
-
-nav ul li a { color: rgb(0, 0, 0); }
 
 a:link, a:visited, a:active { text-decoration:none; }
 
-nav ul li a:active {
+nav a:active {
   background-color: rgb(253, 120, 71);
   color: rgb(138, 43, 226);
   padding: 15px; /* Top, right, bottom and left */
 }
 
-nav ul li a:hover { color: rgb(255, 255, 255); }
+nav a:hover { color: rgb(255, 255, 255); }
 
 main { background-color: rgb(255, 255, 255); }
 
