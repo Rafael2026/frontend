@@ -37,7 +37,7 @@ img {
   height: 150px;
 }
 
-.botones { margin-top: 5%; } /* Top, right, bottom and left */
+.botones { margin-top: 2%; } /* Top, right, bottom and left */
 
 .formImg { display: none; }
 

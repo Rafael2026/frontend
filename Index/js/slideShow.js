@@ -65,4 +65,4 @@ function graPeq() {
   }
 }
 
-setInterval(cambiarImagen, 2010);
+setInterval(cambiarImagen, 2000);

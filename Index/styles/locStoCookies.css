@@ -8,23 +8,23 @@
   color: rgb(0, 0, 255);
 }*/
 
-aside .formulario {
+article .formulario {
   border: 2px solid black;
   padding: 0px 20px; /* Top and bottom | Right and left */
 }
 
-aside .textoFormulario, aside .formulario { margin: 20px 30%; } /* Top and bottom | Right and left */
+article .textoFormulario, article .formulario { margin: 20px 30%; } /* Top and bottom | Right and left */
 
-/* aside header, #guardar { margin: 20px 0px; } Top and bottom | Right and left */ 
+/* article header, #guardar { margin: 20px 0px; } Top and bottom | Right and left */ 
 
-aside .columna {
+article .columna {
   background-color: lightgrey;
   font-style: italic;
   text-decoration: 3px underline dotted rgb(255, 0, 0);
   cursor: pointer;
 }
 
-aside table {
+article table {
   font-size: 20px;
   border-collapse: collapse;
   border-spacing: 0;
