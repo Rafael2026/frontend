@@ -1,10 +1,10 @@
 function myFunction() {
 
-  var links = document.getElementsByClassName("links");
-  
-  if (links[0].style.display === "block") {
-    links[0].style.display = "none";
+  var topNav = document.getElementById("myTopnav");
+
+  if (topNav.className == "topnav") {
+    topNav.className += " responsive";
   } else {
-    links[0].style.display = "block";
+    topNav.className = "topnav";
   }
 }
