@@ -181,7 +181,7 @@ window.onload = function () {
         i++;
       }
 
-      document.getElementById("guardar").onclick = function () {
+      document.getElementById("guardar").onclick = function() {
         saveStorage(nombre.value, correo.value, salario.value, ciudad.value);
       };
 
@@ -190,9 +190,9 @@ window.onload = function () {
     } else {
 
       valores = [
-        {nombre: "Manuelita", correo: "manlit@gmail.com", salario: 650, ciudad: "Malaga"},
-        {nombre: "Ale", correo: "al@gmail.com", salario: 1200, ciudad: "Elche"},
-        {nombre: "Magic", correo: "mag@gmail.com", salario: 780, ciudad: "Galicia"}
+        { nombre: "Manuelita", correo: "manlit@gmail.com", salario: 650, ciudad: "Malaga" },
+        { nombre: "Ale", correo: "al@gmail.com", salario: 1200, ciudad: "Elche" },
+        { nombre: "Magic", correo: "mag@gmail.com", salario: 780, ciudad: "Galicia" }
       ];
 
       localStorage.setItem("valores", JSON.stringify(valores));

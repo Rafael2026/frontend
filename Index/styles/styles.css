@@ -3,6 +3,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/** Header styles **/
 header, img, .botones { position: relative; }
 
 header img {
@@ -10,7 +11,7 @@ header img {
   height: 500px;
 }
 
-/* Add a black background color to the top navigation */
+/** Nav styles**/
 nav {
   overflow: hidden;
   font-size: 2vw;
@@ -20,7 +21,6 @@ nav {
   background-color: rgb(255, 69, 0);
 }
 
-/* Style the links inside the navigation bar */
 nav a {
   float: left;
   display: block;
@@ -31,23 +31,18 @@ nav a {
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 nav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add an active class to highlight the current page */
 nav .active {
   background-color: rgb(253, 120, 71);
   color: rgb(0, 0, 0);
   padding: 15px; /* Top, right, bottom and left */
 }
 
-/* Hide the link that should open and close the topnav on small screens */
-nav .icon {
-  display: none;
-}
+nav .icon { display: none; }
 
 a:link, a:visited, a:active { text-decoration:none; }
 
@@ -64,6 +59,7 @@ nav a:hover {
   color: rgb(0, 0, 0);
 }
 
+/** Main styles **/
 main { background-color: rgb(255, 255, 255); }
 
 main h2 {
@@ -76,7 +72,7 @@ h2 { color: rgb(0, 0, 255); }
 
 .polaroid {
   float: left;
-  width: 20%;
+  width: 19%;
   background-color: rgb(255, 255, 255);
   /* border: 3px dashed black; */
   box-shadow: 0 4px 8px 0 rgba(92, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -99,6 +95,31 @@ h2 { color: rgb(0, 0, 255); }
 
 .fin-float { clear: both; }
 
+article:last-child {
+  background-color: rgba(241, 245, 21, 0.863);
+  font-family: 'Roboto Slab', monospace;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 40px 60px;
+  padding: 30px; /* Top, right, bottom and left */
+  margin: 30px 15%; /* Top and bottom | Right and left */
+}
+
+article:last-child h1, article:last-child h3 {
+  color: rgb(255, 0, 0); 
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 100px auto;
+}
+
+article:last-child p {
+  color: rgb(0, 0, 255);
+  text-align: justify;
+  margin-top: 100px auto;
+}
+
+/** Footer styles **/
 footer {
   background-color: rgb(128, 127, 127);
   color: white;
@@ -113,26 +134,25 @@ footer svg {
   font-size: 36px;
 }
 
-@media only screen and (max-width: 600px) {
+/** Media query for small devices **/
+@media screen and (max-width: 600px) {
+
+  .topnav a:not(:first-child, :last-child) { display: none; }
+
+  .topnav .icon { float: right;}
 
   .topnav.responsive { position: relative; }
-
+  
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
 
-  .topnav a:not(:first-child) { display: none; }
-
-  .topnav .icon {
-    float: right;
-    display: block;
-  }
-
   .topnav.responsive a {
     float: none;
-    display: block;
     text-align: left;
   }
+
+  .topnav.icon, .topnav.responsive a { display: block; }
 }
