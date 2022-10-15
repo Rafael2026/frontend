@@ -1,0 +1,34 @@
+$color_1: red;
+$background-color_1: white;
+
+.muestraManzana {
+  margin: 100px 15% 0% 40%;
+}
+
+.muestraPera {
+  margin: 100px 15% 0% 40%;
+}
+
+.muestraPlatano {
+  margin: 100px 15% 0% 40%;
+}
+
+.muestraMelocoton {
+  margin: 100px 15% 0% 40%;
+}
+
+.contenidoWikipedia {
+  background-color: $background-color_1;
+  border: 2px solid black;
+  margin: 100px 15% 0% 15%;
+  padding: 40px 40px 40px 40px;
+}
+
+p {
+  font-size: 17px;
+}
+
+i {
+  font-style: italic;
+  color: $color_1;
+}

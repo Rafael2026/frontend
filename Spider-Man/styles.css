@@ -3,13 +3,14 @@ body {
   /*background-image: url("./img/tela.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;*/
+  padding: 150px auto;
 }
 
 h1 {
   background-color: #f0311e;
   width: max-content;
   margin: 0px auto; /* Top and bottom | Right and left */
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .first, .second, .third, .spiderVerse, .venom {
@@ -22,12 +23,11 @@ h1 {
   flex: 2;
   flex-direction: row;
   align-items: center;
-  margin: 20px 100px; /* Top and bottom | Right and left */
-  padding: 5px;
+  margin: 25px 100px; /* Top and bottom | Right and left */
+  padding: 10px;
   border-radius: 5px;
   text-align: center;
 }
-
 
 .card img {
   box-shadow: 0 10px 6px -6px rgba(6, 4, 12, 0.801);
@@ -39,4 +39,4 @@ h1 {
 
 div img:hover { transform: scale(1.1); }
 
-h2 { margin: auto 0 20px 0; } /* Top, right, bottom and left */
+h2 { margin: auto 0 20px 0; } /* Top | Right | Bottom | Left */

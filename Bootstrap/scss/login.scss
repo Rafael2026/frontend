@@ -1,0 +1,99 @@
+$color1: #fff;
+$color2: #777;
+$font-family_1: 'Varela Round', sans-serif;
+$background-color1: #c0c0c0;
+$background-color2: #33cc77;
+$background-color3: #28ad63;
+$background-color4: #f95252;
+$background-color5: #fff;
+$background-color6: #eee;
+
+* { box-sizing: inherit; }
+
+body {
+  background-color: $background-color1;
+  font-family: $font-family_1;
+  line-height: 1.5;
+  margin: 0;
+  min-block-size: 100vh;
+  padding: 5vmin;
+  box-sizing: border-box;
+}
+
+h2 { font-size: 1.75rem; }
+
+input {
+  background-image: none;
+  border: none;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s;
+}
+
+.align {
+  display: grid;
+  place-items: center;
+}
+
+.button {
+  background-color: $background-color2;
+  color: $color1;
+  padding: 0.25em 1.5em;
+
+  &:focus { background-color: $background-color3; }
+
+  &:hover { background-color: $background-color3; }
+}
+
+.login {
+
+  width: 400px;
+
+  h2 {
+    .icon { margin-right: 14px; }
+  }
+
+  input { border-radius: 0.1875em; }
+
+  input[type="email"] {
+    background-color: $background-color6;
+    color: $color2;
+    padding: 0.25em 0.625em;
+    width: 100%;
+  }
+
+  input[type="password"] {
+    background-color: $background-color6;
+    color: $color2;
+    padding: 0.25em 0.625em;
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.login__header {
+  background-color: $background-color4;
+  border-top-left-radius: 1.25em;
+  border-top-right-radius: 1.25em;
+  color: $color1;
+  padding: 1.25em 1.625em;
+
+  &:first-child { margin-top: 0; }
+
+  &:last-child { margin-bottom: 0; }
+}
+
+.login__form {
+  background-color: $background-color5;
+  border-bottom-left-radius: 1.25em;
+  border-bottom-right-radius: 1.25em;
+  color: $color2;
+  display: grid;
+  gap: 0.875em;
+  padding: 1.25em 1.625em;
+}

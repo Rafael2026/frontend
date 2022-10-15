@@ -1,0 +1,984 @@
+$color_1: rgb(0, 0, 0);
+$color_2: rgb(255, 255, 255);
+$color_3: #fff;
+$color_4: #777;
+$color_5: white;
+$background-color_1: #808080;
+$background-color_2: #33cc77;
+$background-color_3: #28ad63;
+$background-color_4: #f95252;
+$background-color_5: #fff;
+$background-color_6: #eee;
+$background-color_7: #333;
+$background-color_8: red;
+$background-color_9: white;
+$background-color_10: #f1f1f1;
+$background-color_11: #ddd;
+$background-color_12: #04AA6D;
+
+body {
+  background: linear-gradient(to right, red, green);
+}
+
+@media only screen and (min-width: 1200px) {
+  h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: $color_1;
+  }
+
+  .inicioSesion {
+    color: $color_2;
+    text-align: center;
+  }
+
+  nav {
+    background-color: $background-color_1;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .enlace_desactivado {
+    display: none;
+  }
+
+  input {
+    background-image: none;
+    border: none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+  }
+
+  .align {
+    display: grid;
+    place-items: center;
+
+    img {
+      width: 500px;
+      height: 500px;
+    }
+  }
+
+  .button {
+    background-color: $background-color_2;
+    color: $color_3;
+    padding: 0.25em 1.5em;
+
+    &:focus {
+      background-color: $background-color_3;
+    }
+
+    &:hover {
+      background-color: $background-color_3;
+    }
+  }
+
+  .login {
+    width: 400px;
+    margin-top: 50px;
+
+    h2 {
+      .icon {
+        margin-right: 14px;
+      }
+    }
+
+    input {
+      border-radius: 0.1875em;
+      background-color: $background-color_6;
+      color: $color_4;
+      padding: 0.25em 0.625em;
+      width: 100%;
+    }
+
+    input[type="submit"] {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .login__header {
+    background-color: $background-color_4;
+    border-top-left-radius: 1.25em;
+    border-top-right-radius: 1.25em;
+    color: $color_3;
+    padding: 1.25em 1.625em;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .login__form {
+    background-color: $background-color_5;
+    border-bottom-left-radius: 1.25em;
+    border-bottom-right-radius: 1.25em;
+    color: $color_4;
+    display: grid;
+    gap: 0.875em;
+    padding: 1.25em 1.625em;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .open-button {
+    background-color: $background-color_7;
+    color: $color_5;
+    padding: 15px 16% 15px 15%;
+    border: none;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+
+    &:hover {
+      background-color: $background-color_8;
+    }
+  }
+
+  .form-popup {
+    display: none;
+    margin-left: 65%;
+    border: 2px solid black;
+    z-index: 9;
+  }
+
+  .form-container {
+    padding: 10px;
+    background-color: $background-color_9;
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type=email] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: $background-color_10;
+
+      &:focus {
+        background-color: $background-color_11;
+        outline: none;
+      }
+    }
+
+    input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: $background-color_10;
+
+      &:focus {
+        background-color: $background-color_11;
+        outline: none;
+      }
+    }
+
+    .btn {
+      background-color: $background-color_12;
+      color: $color_5;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom: 10px;
+      opacity: 0.8;
+    }
+
+    .cancel {
+      background-color: $background-color_8;
+    }
+  }
+}
+
+@media only screen and (max-width: 1199.9px) and (min-width: 992px) {
+  h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: $color_1;
+  }
+
+  .inicioSesion {
+    color: $color_2;
+    text-align: center;
+  }
+
+  nav {
+    background-color: $background-color_1;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .enlace_desactivado {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  input {
+    background-image: none;
+    border: none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+  }
+
+  .align {
+    display: grid;
+    place-items: center;
+  }
+
+  .button {
+    background-color: $background-color_2;
+    color: $color_3;
+    padding: 0.25em 1.5em;
+
+    &:focus {
+      background-color: $background-color_3;
+    }
+
+    &:hover {
+      background-color: $background-color_3;
+    }
+  }
+
+  .login {
+    width: 400px;
+    margin-top: 50px;
+
+    h2 {
+      .icon {
+        margin-right: 14px;
+      }
+    }
+
+    input {
+      border-radius: 0.1875em;
+    }
+
+    input[type="email"] {
+      background-color: $background-color_6;
+      color: $color_4;
+      padding: 0.25em 0.625em;
+      width: 100%;
+    }
+
+    input[type="password"] {
+      background-color: $background-color_6;
+      color: $color_4;
+      padding: 0.25em 0.625em;
+      width: 100%;
+    }
+
+    input[type="text"] {
+      background-color: $background-color_6;
+      color: $color_4;
+      padding: 0.25em 0.625em;
+      width: 100%;
+    }
+
+    input[type="submit"] {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .login__header {
+    background-color: $background-color_4;
+    border-top-left-radius: 1.25em;
+    border-top-right-radius: 1.25em;
+    color: $color_3;
+    padding: 1.25em 1.625em;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .login__form {
+    background-color: $background-color_5;
+    border-bottom-left-radius: 1.25em;
+    border-bottom-right-radius: 1.25em;
+    color: $color_4;
+    display: grid;
+    gap: 0.875em;
+    padding: 1.25em 1.625em;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .open-button {
+    background-color: $background-color_7;
+    color: $color_5;
+    padding: 15px 16% 15px 15%;
+    border: none;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+
+    &:hover {
+      background-color: $background-color_8;
+    }
+  }
+
+  .form-popup {
+    display: none;
+    margin-left: 65%;
+    border: 2px solid black;
+    z-index: 9;
+  }
+
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: $background-color_9;
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type=email] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: $background-color_10;
+
+      &:focus {
+        background-color: $background-color_11;
+        outline: none;
+      }
+    }
+
+    input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: $background-color_10;
+
+      &:focus {
+        background-color: $background-color_11;
+        outline: none;
+      }
+    }
+
+    .btn {
+      background-color: $background-color_12;
+      color: $color_5;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom: 10px;
+      opacity: 0.8;
+    }
+
+    .cancel {
+      background-color: $background-color_8;
+    }
+  }
+}
+
+@media only screen and (max-width: 991.9px) and (min-width: 768px) {
+  h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: $color_1;
+  }
+
+  .inicioSesion {
+    color: $color_2;
+    text-align: center;
+  }
+
+  nav {
+    background-color: $background-color_1;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .enlace_desactivado {
+    display: none;
+  }
+
+  input {
+    background-image: none;
+    border: none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+  }
+
+  .align {
+    display: grid;
+    place-items: center;
+  }
+
+  .button {
+    background-color: $background-color_2;
+    color: $color_3;
+    padding: 0.25em 1.5em;
+
+    &:focus {
+      background-color: $background-color_3;
+    }
+
+    &:hover {
+      background-color: $background-color_3;
+    }
+  }
+
+  .login {
+    width: 300px;
+    margin-top: 50px;
+
+    h2 {
+      .icon {
+        margin-right: 14px;
+      }
+    }
+
+    input {
+      border-radius: 0.1875em;
+    }
+
+    input[type="email"] {
+      background-color: $background-color_6;
+      color: $color_4;
+      padding: 0.25em 0.625em;
+      width: 100%;
+    }
+
+    input[type="password"] {
+      background-color: $background-color_6;
+      color: $color_4;
+      padding: 0.25em 0.625em;
+      width: 100%;
+    }
+
+    input[type="text"] {
+      background-color: $background-color_6;
+      color: $color_4;
+      padding: 0.25em 0.625em;
+      width: 100%;
+    }
+
+    input[type="submit"] {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .login__header {
+    background-color: $background-color_4;
+    border-top-left-radius: 1.25em;
+    border-top-right-radius: 1.25em;
+    color: $color_3;
+    padding: 1.25em 1.625em;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .login__form {
+    background-color: $background-color_5;
+    border-bottom-left-radius: 1.25em;
+    border-bottom-right-radius: 1.25em;
+    color: $color_4;
+    display: grid;
+    gap: 0.875em;
+    padding: 1.25em 1.625em;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .open-button {
+    background-color: $background-color_7;
+    color: $color_5;
+    padding: 15px 16% 15px 15%;
+    border: none;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+
+    &:hover {
+      background-color: $background-color_8;
+    }
+  }
+
+  .form-popup {
+    display: none;
+    margin-left: 65%;
+    border: 2px solid black;
+    z-index: 9;
+  }
+
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: $background-color_9;
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type=email] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: $background-color_10;
+
+      &:focus {
+        background-color: $background-color_11;
+        outline: none;
+      }
+    }
+
+    input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: $background-color_10;
+
+      &:focus {
+        background-color: $background-color_11;
+        outline: none;
+      }
+    }
+
+    .btn {
+      background-color: $background-color_12;
+      color: $color_5;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom: 10px;
+      opacity: 0.8;
+    }
+
+    .cancel {
+      background-color: $background-color_8;
+    }
+  }
+}
+
+@media only screen and (max-width: 767.9px) and (min-width: 576px) {
+  h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: $color_1;
+  }
+
+  .inicioSesion {
+    color: $color_2;
+    text-align: center;
+  }
+
+  nav {
+    background-color: $background-color_1;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .enlace_desactivado {
+    display: none;
+  }
+
+  input {
+    background-image: none;
+    border: none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+  }
+
+  .align {
+    display: grid;
+    place-items: center;
+  }
+
+  .button {
+    background-color: $background-color_2;
+    color: $color_3;
+    padding: 0.25em 1.5em;
+
+    &:focus {
+      background-color: $background-color_3;
+    }
+
+    &:hover {
+      background-color: $background-color_3;
+    }
+  }
+
+  .login {
+    width: 300px;
+    margin-top: 50px;
+
+    h2 {
+      .icon {
+        margin-right: 14px;
+      }
+    }
+
+    input {
+      border-radius: 0.1875em;
+    }
+
+    input[type="email"] {
+      background-color: $background-color_6;
+      color: $color_4;
+      padding: 0.25em 0.625em;
+      width: 100%;
+    }
+
+    input[type="password"] {
+      background-color: $background-color_6;
+      color: $color_4;
+      padding: 0.25em 0.625em;
+      width: 100%;
+    }
+
+    input[type="text"] {
+      background-color: $background-color_6;
+      color: $color_4;
+      padding: 0.25em 0.625em;
+      width: 100%;
+    }
+
+    input[type="submit"] {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .login__header {
+    background-color: $background-color_4;
+    border-top-left-radius: 1.25em;
+    border-top-right-radius: 1.25em;
+    color: $color_3;
+    padding: 1.25em 1.625em;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .login__form {
+    background-color: $background-color_5;
+    border-bottom-left-radius: 1.25em;
+    border-bottom-right-radius: 1.25em;
+    color: $color_4;
+    display: grid;
+    gap: 0.875em;
+    padding: 1.25em 1.625em;
+  }
+
+  img {
+    width: 50px;
+    height: 200px;
+  }
+
+  .open-button {
+    background-color: $background-color_7;
+    color: $color_5;
+    padding: 15px 16% 15px 15px;
+    border: none;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+
+    &:hover {
+      background-color: $background-color_8;
+    }
+  }
+
+  .form-popup {
+    display: none;
+    margin-left: 65%;
+    border: 2px solid black;
+    z-index: 9;
+  }
+
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: $background-color_9;
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type=email] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: $background-color_10;
+
+      &:focus {
+        background-color: $background-color_11;
+        outline: none;
+      }
+    }
+
+    input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: $background-color_10;
+
+      &:focus {
+        background-color: $background-color_11;
+        outline: none;
+      }
+    }
+
+    .btn {
+      background-color: $background-color_12;
+      color: $color_5;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom: 10px;
+      opacity: 0.8;
+    }
+
+    .cancel {
+      background-color: $background-color_8;
+    }
+  }
+}
+
+@media only screen and (max-width: 575.9px) {
+  h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: $color_1;
+  }
+
+  .page-item {
+    float: left;
+    position: relative;
+  }
+
+  .inicioSesion {
+    color: $color_2;
+    text-align: center;
+  }
+
+  nav {
+    background-color: $background-color_1;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .enlace_desactivado {
+    display: none;
+  }
+
+  input {
+    background-image: none;
+    border: none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+  }
+
+  .align {
+    display: grid;
+    place-items: center;
+  }
+
+  .button {
+    background-color: $background-color_2;
+    color: $color_3;
+    padding: 0.25em 1.5em;
+
+    &:focus {
+      background-color: $background-color_3;
+    }
+
+    &:hover {
+      background-color: $background-color_3;
+    }
+  }
+
+  .login {
+    width: 200px;
+    margin-top: 50px;
+
+    h2 {
+      .icon {
+        margin-right: 14px;
+      }
+    }
+
+    input {
+      border-radius: 0.1875em;
+    }
+
+    input[type="email"] {
+      background-color: $background-color_6;
+      color: $color_4;
+      padding: 0.25em 0.625em;
+      width: 100%;
+    }
+
+    input[type="password"] {
+      background-color: $background-color_6;
+      color: $color_4;
+      padding: 0.25em 0.625em;
+      width: 100%;
+    }
+
+    input[type="text"] {
+      background-color: $background-color_6;
+      color: $color_4;
+      padding: 0.25em 0.625em;
+      width: 100%;
+    }
+
+    input[type="submit"] {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .login__header {
+    background-color: $background-color_4;
+    border-top-left-radius: 1.25em;
+    border-top-right-radius: 1.25em;
+    color: $color_3;
+    padding: 1.25em 1.625em;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .login__form {
+    background-color: $background-color_5;
+    border-bottom-left-radius: 1.25em;
+    border-bottom-right-radius: 1.25em;
+    color: $color_4;
+    display: grid;
+    gap: 0.875em;
+    padding: 1.25em 1.625em;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .open-button {
+    background-color: $background-color_7;
+    color: $color_5;
+    padding: 15px 16% 15px 15%;
+    border: none;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+
+    &:hover {
+      background-color: $background-color_8;
+    }
+  }
+
+  .form-popup {
+    display: none;
+    margin-left: 65%;
+    border: 2px solid black;
+    z-index: 9;
+  }
+
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: $background-color_9;
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type=email] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: $background-color_10;
+
+      &:focus {
+        background-color: $background-color_11;
+        outline: none;
+      }
+    }
+
+    input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: $background-color_10;
+
+      &:focus {
+        background-color: $background-color_11;
+        outline: none;
+      }
+    }
+
+    .btn {
+      background-color: $background-color_12;
+      color: $color_5;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom: 10px;
+      opacity: 0.8;
+    }
+
+    .cancel {
+      background-color: $background-color_8;
+    }
+  }
+}
