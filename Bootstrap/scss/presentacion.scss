@@ -1,45 +1,42 @@
-$color_1: rgb(0, 0, 0);
-$color_2: rgb(255, 255, 255);
-$color_3: #fff;
-$color_4: #777;
-$color_5: white;
-$background-color_1: #808080;
-$background-color_2: #33cc77;
-$background-color_3: #28ad63;
-$background-color_4: #f95252;
-$background-color_5: #fff;
-$background-color_6: #eee;
-$background-color_7: #333;
-$background-color_8: red;
-$background-color_9: white;
-$background-color_10: #f1f1f1;
-$background-color_11: #ddd;
-$background-color_12: #04AA6D;
+$color1: rgb(0, 0, 0);
+$color2: rgb(255, 255, 255);
+$color3: #fff;
+$color4: #777;
+$color5: white;
+$background-color1: #808080;
+$background-color2: #33cc77;
+$background-color3: #28ad63;
+$background-color4: #f95252;
+$background-color5: #fff;
+$background-color6: #eee;
+$background-color7: #333;
+$background-color8: red;
+$background-color9: white;
+$background-color10: #f1f1f1;
+$background-color11: #ddd;
+$background-color12: #04AA6D;
 
-body {
-  background: linear-gradient(to right, red, green);
-}
+body { background: linear-gradient(to right, red, green); }
 
 @media only screen and (min-width: 1200px) {
+
   h2 {
     font-size: 1.75rem;
     font-weight: bold;
-    color: $color_1;
+    color: $color1;
   }
 
   .inicioSesion {
-    color: $color_2;
+    color: $color2;
     text-align: center;
   }
 
   nav {
-    background-color: $background-color_1;
-    padding: 20px 20px 20px 20px;
+    background-color: $background-color1;
+    padding: 20px; /*Top, right, bottom and left */
   }
 
-  .enlace_desactivado {
-    display: none;
-  }
+  .enlace_desactivado { display: none; }
 
   input {
     background-image: none;
@@ -61,17 +58,13 @@ body {
   }
 
   .button {
-    background-color: $background-color_2;
-    color: $color_3;
+    background-color: $background-color2;
+    color: $color3;
     padding: 0.25em 1.5em;
 
-    &:focus {
-      background-color: $background-color_3;
-    }
+    &:focus { background-color: $background-color3; }
 
-    &:hover {
-      background-color: $background-color_3;
-    }
+    &:hover { background-color: $background-color3; }
   }
 
   .login {
@@ -79,15 +72,13 @@ body {
     margin-top: 50px;
 
     h2 {
-      .icon {
-        margin-right: 14px;
-      }
+      .icon { margin-right: 14px; }
     }
 
     input {
       border-radius: 0.1875em;
-      background-color: $background-color_6;
-      color: $color_4;
+      background-color: $background-color6;
+      color: $color4;
       padding: 0.25em 0.625em;
       width: 100%;
     }
@@ -99,26 +90,22 @@ body {
   }
 
   .login__header {
-    background-color: $background-color_4;
+    background-color: $background-color4;
     border-top-left-radius: 1.25em;
     border-top-right-radius: 1.25em;
-    color: $color_3;
+    color: $color3;
     padding: 1.25em 1.625em;
 
-    &:first-child {
-      margin-top: 0;
-    }
+    &:first-child { margin-top: 0; }
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+    &:last-child { margin-bottom: 0; }
   }
 
   .login__form {
-    background-color: $background-color_5;
+    background-color: $background-color5;
     border-bottom-left-radius: 1.25em;
     border-bottom-right-radius: 1.25em;
-    color: $color_4;
+    color: $color4;
     display: grid;
     gap: 0.875em;
     padding: 1.25em 1.625em;
@@ -130,17 +117,15 @@ body {
   }
 
   .open-button {
-    background-color: $background-color_7;
-    color: $color_5;
+    background-color: $background-color7;
+    color: $color5;
     padding: 15px 16% 15px 15%;
     border: none;
     cursor: pointer;
     float: left;
     font-size: 16px;
 
-    &:hover {
-      background-color: $background-color_8;
-    }
+    &:hover { background-color: $background-color8; }
   }
 
   .form-popup {
@@ -152,21 +137,19 @@ body {
 
   .form-container {
     padding: 10px;
-    background-color: $background-color_9;
+    background-color: $background-color9;
 
-    label {
-      font-weight: bold;
-    }
+    label { font-weight: bold; }
 
     input[type=email] {
       width: 100%;
       padding: 15px;
       margin: 5px 0 22px 0;
       border: none;
-      background-color: $background-color_10;
+      background-color: $background-color10;
 
       &:focus {
-        background-color: $background-color_11;
+        background-color: $background-color11;
         outline: none;
       }
     }
@@ -176,17 +159,17 @@ body {
       padding: 15px;
       margin: 5px 0 22px 0;
       border: none;
-      background-color: $background-color_10;
+      background-color: $background-color10;
 
       &:focus {
-        background-color: $background-color_11;
+        background-color: $background-color11;
         outline: none;
       }
     }
 
     .btn {
-      background-color: $background-color_12;
-      color: $color_5;
+      background-color: $background-color12;
+      color: $color5;
       padding: 16px 20px;
       border: none;
       cursor: pointer;
@@ -195,27 +178,26 @@ body {
       opacity: 0.8;
     }
 
-    .cancel {
-      background-color: $background-color_8;
-    }
+    .cancel { background-color: $background-color8; }
   }
 }
 
 @media only screen and (max-width: 1199.9px) and (min-width: 992px) {
+
   h2 {
     font-size: 1.75rem;
     font-weight: bold;
-    color: $color_1;
+    color: $color1;
   }
 
   .inicioSesion {
-    color: $color_2;
+    color: $color2;
     text-align: center;
   }
 
   nav {
-    background-color: $background-color_1;
-    padding: 20px 20px 20px 20px;
+    background-color: $background-color1;
+    padding: 20px; /*Top, right, bottom and left */
   }
 
   .enlace_desactivado {
@@ -238,17 +220,13 @@ body {
   }
 
   .button {
-    background-color: $background-color_2;
-    color: $color_3;
+    background-color: $background-color2;
+    color: $color3;
     padding: 0.25em 1.5em;
 
-    &:focus {
-      background-color: $background-color_3;
-    }
+    &:focus { background-color: $background-color3; }
 
-    &:hover {
-      background-color: $background-color_3;
-    }
+    &:hover { background-color: $background-color3; }
   }
 
   .login {
@@ -256,9 +234,7 @@ body {
     margin-top: 50px;
 
     h2 {
-      .icon {
-        margin-right: 14px;
-      }
+      .icon { margin-right: 14px; }
     }
 
     input {
@@ -266,22 +242,22 @@ body {
     }
 
     input[type="email"] {
-      background-color: $background-color_6;
-      color: $color_4;
+      background-color: $background-color6;
+      color: $color4;
       padding: 0.25em 0.625em;
       width: 100%;
     }
 
     input[type="password"] {
-      background-color: $background-color_6;
-      color: $color_4;
+      background-color: $background-color6;
+      color: $color4;
       padding: 0.25em 0.625em;
       width: 100%;
     }
 
     input[type="text"] {
-      background-color: $background-color_6;
-      color: $color_4;
+      background-color: $background-color6;
+      color: $color4;
       padding: 0.25em 0.625em;
       width: 100%;
     }
@@ -293,26 +269,22 @@ body {
   }
 
   .login__header {
-    background-color: $background-color_4;
+    background-color: $background-color4;
     border-top-left-radius: 1.25em;
     border-top-right-radius: 1.25em;
-    color: $color_3;
+    color: $color3;
     padding: 1.25em 1.625em;
 
-    &:first-child {
-      margin-top: 0;
-    }
+    &:first-child { margin-top: 0; }
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+    &:last-child { margin-bottom: 0; }
   }
 
   .login__form {
-    background-color: $background-color_5;
+    background-color: $background-color5;
     border-bottom-left-radius: 1.25em;
     border-bottom-right-radius: 1.25em;
-    color: $color_4;
+    color: $color4;
     display: grid;
     gap: 0.875em;
     padding: 1.25em 1.625em;
@@ -324,17 +296,15 @@ body {
   }
 
   .open-button {
-    background-color: $background-color_7;
-    color: $color_5;
+    background-color: $background-color7;
+    color: $color5;
     padding: 15px 16% 15px 15%;
     border: none;
     cursor: pointer;
     float: left;
     font-size: 16px;
 
-    &:hover {
-      background-color: $background-color_8;
-    }
+    &:hover { background-color: $background-color8; }
   }
 
   .form-popup {
@@ -347,21 +317,19 @@ body {
   .form-container {
     max-width: 300px;
     padding: 10px;
-    background-color: $background-color_9;
+    background-color: $background-color9;
 
-    label {
-      font-weight: bold;
-    }
+    label { font-weight: bold; }
 
     input[type=email] {
       width: 100%;
       padding: 15px;
       margin: 5px 0 22px 0;
       border: none;
-      background-color: $background-color_10;
+      background-color: $background-color10;
 
       &:focus {
-        background-color: $background-color_11;
+        background-color: $background-color11;
         outline: none;
       }
     }
@@ -371,17 +339,17 @@ body {
       padding: 15px;
       margin: 5px 0 22px 0;
       border: none;
-      background-color: $background-color_10;
+      background-color: $background-color10;
 
       &:focus {
-        background-color: $background-color_11;
+        background-color: $background-color11;
         outline: none;
       }
     }
 
     .btn {
-      background-color: $background-color_12;
-      color: $color_5;
+      background-color: $background-color12;
+      color: $color5;
       padding: 16px 20px;
       border: none;
       cursor: pointer;
@@ -390,32 +358,29 @@ body {
       opacity: 0.8;
     }
 
-    .cancel {
-      background-color: $background-color_8;
-    }
+    .cancel { background-color: $background-color8; }
   }
 }
 
 @media only screen and (max-width: 991.9px) and (min-width: 768px) {
+
   h2 {
     font-size: 1.75rem;
     font-weight: bold;
-    color: $color_1;
+    color: $color1;
   }
 
   .inicioSesion {
-    color: $color_2;
+    color: $color2;
     text-align: center;
   }
 
   nav {
-    background-color: $background-color_1;
-    padding: 20px 20px 20px 20px;
+    background-color: $background-color1;
+    padding: 20px; /*Top, right, bottom and left */
   }
 
-  .enlace_desactivado {
-    display: none;
-  }
+  .enlace_desactivado { display: none; }
 
   input {
     background-image: none;
@@ -432,17 +397,13 @@ body {
   }
 
   .button {
-    background-color: $background-color_2;
-    color: $color_3;
+    background-color: $background-color2;
+    color: $color3;
     padding: 0.25em 1.5em;
 
-    &:focus {
-      background-color: $background-color_3;
-    }
+    &:focus { background-color: $background-color3; }
 
-    &:hover {
-      background-color: $background-color_3;
-    }
+    &:hover { background-color: $background-color3; }
   }
 
   .login {
@@ -450,32 +411,28 @@ body {
     margin-top: 50px;
 
     h2 {
-      .icon {
-        margin-right: 14px;
-      }
+      .icon { margin-right: 14px; }
     }
 
-    input {
-      border-radius: 0.1875em;
-    }
+    input { border-radius: 0.1875em; }
 
     input[type="email"] {
-      background-color: $background-color_6;
-      color: $color_4;
+      background-color: $background-color6;
+      color: $color4;
       padding: 0.25em 0.625em;
       width: 100%;
     }
 
     input[type="password"] {
-      background-color: $background-color_6;
-      color: $color_4;
+      background-color: $background-color6;
+      color: $color4;
       padding: 0.25em 0.625em;
       width: 100%;
     }
 
     input[type="text"] {
-      background-color: $background-color_6;
-      color: $color_4;
+      background-color: $background-color6;
+      color: $color4;
       padding: 0.25em 0.625em;
       width: 100%;
     }
@@ -487,26 +444,22 @@ body {
   }
 
   .login__header {
-    background-color: $background-color_4;
+    background-color: $background-color4;
     border-top-left-radius: 1.25em;
     border-top-right-radius: 1.25em;
-    color: $color_3;
+    color: $color3;
     padding: 1.25em 1.625em;
 
-    &:first-child {
-      margin-top: 0;
-    }
+    &:first-child { margin-top: 0; }
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+    &:last-child { margin-bottom: 0; }
   }
 
   .login__form {
-    background-color: $background-color_5;
+    background-color: $background-color5;
     border-bottom-left-radius: 1.25em;
     border-bottom-right-radius: 1.25em;
-    color: $color_4;
+    color: $color4;
     display: grid;
     gap: 0.875em;
     padding: 1.25em 1.625em;
@@ -518,17 +471,15 @@ body {
   }
 
   .open-button {
-    background-color: $background-color_7;
-    color: $color_5;
+    background-color: $background-color7;
+    color: $color5;
     padding: 15px 16% 15px 15%;
     border: none;
     cursor: pointer;
     float: left;
     font-size: 16px;
 
-    &:hover {
-      background-color: $background-color_8;
-    }
+    &:hover { background-color: $background-color8; }
   }
 
   .form-popup {
@@ -541,21 +492,19 @@ body {
   .form-container {
     max-width: 300px;
     padding: 10px;
-    background-color: $background-color_9;
+    background-color: $background-color9;
 
-    label {
-      font-weight: bold;
-    }
+    label { font-weight: bold; }
 
     input[type=email] {
       width: 100%;
       padding: 15px;
       margin: 5px 0 22px 0;
       border: none;
-      background-color: $background-color_10;
+      background-color: $background-color10;
 
       &:focus {
-        background-color: $background-color_11;
+        background-color: $background-color11;
         outline: none;
       }
     }
@@ -565,17 +514,17 @@ body {
       padding: 15px;
       margin: 5px 0 22px 0;
       border: none;
-      background-color: $background-color_10;
+      background-color: $background-color10;
 
       &:focus {
-        background-color: $background-color_11;
+        background-color: $background-color11;
         outline: none;
       }
     }
 
     .btn {
-      background-color: $background-color_12;
-      color: $color_5;
+      background-color: $background-color12;
+      color: $color5;
       padding: 16px 20px;
       border: none;
       cursor: pointer;
@@ -584,32 +533,29 @@ body {
       opacity: 0.8;
     }
 
-    .cancel {
-      background-color: $background-color_8;
-    }
+    .cancel { background-color: $background-color8; }
   }
 }
 
 @media only screen and (max-width: 767.9px) and (min-width: 576px) {
+
   h2 {
     font-size: 1.75rem;
     font-weight: bold;
-    color: $color_1;
+    color: $color1;
   }
 
   .inicioSesion {
-    color: $color_2;
+    color: $color2;
     text-align: center;
   }
 
   nav {
-    background-color: $background-color_1;
-    padding: 20px 20px 20px 20px;
+    background-color: $background-color1;
+    padding: 20px; /*Top, right, bottom and left */
   }
 
-  .enlace_desactivado {
-    display: none;
-  }
+  .enlace_desactivado { display: none; }
 
   input {
     background-image: none;
@@ -626,17 +572,13 @@ body {
   }
 
   .button {
-    background-color: $background-color_2;
-    color: $color_3;
+    background-color: $background-color2;
+    color: $color3;
     padding: 0.25em 1.5em;
 
-    &:focus {
-      background-color: $background-color_3;
-    }
+    &:focus { background-color: $background-color3; }
 
-    &:hover {
-      background-color: $background-color_3;
-    }
+    &:hover { background-color: $background-color3; }
   }
 
   .login {
@@ -644,32 +586,28 @@ body {
     margin-top: 50px;
 
     h2 {
-      .icon {
-        margin-right: 14px;
-      }
+      .icon { margin-right: 14px; }
     }
 
-    input {
-      border-radius: 0.1875em;
-    }
+    input { border-radius: 0.1875em; }
 
     input[type="email"] {
-      background-color: $background-color_6;
-      color: $color_4;
+      background-color: $background-color6;
+      color: $color4;
       padding: 0.25em 0.625em;
       width: 100%;
     }
 
     input[type="password"] {
-      background-color: $background-color_6;
-      color: $color_4;
+      background-color: $background-color6;
+      color: $color4;
       padding: 0.25em 0.625em;
       width: 100%;
     }
 
     input[type="text"] {
-      background-color: $background-color_6;
-      color: $color_4;
+      background-color: $background-color6;
+      color: $color4;
       padding: 0.25em 0.625em;
       width: 100%;
     }
@@ -681,26 +619,22 @@ body {
   }
 
   .login__header {
-    background-color: $background-color_4;
+    background-color: $background-color4;
     border-top-left-radius: 1.25em;
     border-top-right-radius: 1.25em;
-    color: $color_3;
+    color: $color3;
     padding: 1.25em 1.625em;
 
-    &:first-child {
-      margin-top: 0;
-    }
+    &:first-child { margin-top: 0; }
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+    &:last-child { margin-bottom: 0; }
   }
 
   .login__form {
-    background-color: $background-color_5;
+    background-color: $background-color5;
     border-bottom-left-radius: 1.25em;
     border-bottom-right-radius: 1.25em;
-    color: $color_4;
+    color: $color4;
     display: grid;
     gap: 0.875em;
     padding: 1.25em 1.625em;
@@ -712,17 +646,15 @@ body {
   }
 
   .open-button {
-    background-color: $background-color_7;
-    color: $color_5;
+    background-color: $background-color7;
+    color: $color5;
     padding: 15px 16% 15px 15px;
     border: none;
     cursor: pointer;
     float: left;
     font-size: 16px;
 
-    &:hover {
-      background-color: $background-color_8;
-    }
+    &:hover { background-color: $background-color8; }
   }
 
   .form-popup {
@@ -735,21 +667,19 @@ body {
   .form-container {
     max-width: 300px;
     padding: 10px;
-    background-color: $background-color_9;
+    background-color: $background-color9;
 
-    label {
-      font-weight: bold;
-    }
+    label { font-weight: bold; }
 
     input[type=email] {
       width: 100%;
       padding: 15px;
       margin: 5px 0 22px 0;
       border: none;
-      background-color: $background-color_10;
+      background-color: $background-color10;
 
       &:focus {
-        background-color: $background-color_11;
+        background-color: $background-color11;
         outline: none;
       }
     }
@@ -759,17 +689,17 @@ body {
       padding: 15px;
       margin: 5px 0 22px 0;
       border: none;
-      background-color: $background-color_10;
+      background-color: $background-color10;
 
       &:focus {
-        background-color: $background-color_11;
+        background-color: $background-color11;
         outline: none;
       }
     }
 
     .btn {
-      background-color: $background-color_12;
-      color: $color_5;
+      background-color: $background-color12;
+      color: $color5;
       padding: 16px 20px;
       border: none;
       cursor: pointer;
@@ -778,17 +708,16 @@ body {
       opacity: 0.8;
     }
 
-    .cancel {
-      background-color: $background-color_8;
-    }
+    .cancel { background-color: $background-color8; }
   }
 }
 
 @media only screen and (max-width: 575.9px) {
+
   h2 {
     font-size: 1.75rem;
     font-weight: bold;
-    color: $color_1;
+    color: $color1;
   }
 
   .page-item {
@@ -797,18 +726,16 @@ body {
   }
 
   .inicioSesion {
-    color: $color_2;
+    color: $color2;
     text-align: center;
   }
 
   nav {
-    background-color: $background-color_1;
-    padding: 20px 20px 20px 20px;
+    background-color: $background-color1;
+    padding: 20px; /* Top, right, bottom and left */
   }
 
-  .enlace_desactivado {
-    display: none;
-  }
+  .enlace_desactivado { display: none; }
 
   input {
     background-image: none;
@@ -825,17 +752,13 @@ body {
   }
 
   .button {
-    background-color: $background-color_2;
-    color: $color_3;
+    background-color: $background-color2;
+    color: $color3;
     padding: 0.25em 1.5em;
 
-    &:focus {
-      background-color: $background-color_3;
-    }
+    &:focus { background-color: $background-color3; }
 
-    &:hover {
-      background-color: $background-color_3;
-    }
+    &:hover { background-color: $background-color3; }
   }
 
   .login {
@@ -843,32 +766,28 @@ body {
     margin-top: 50px;
 
     h2 {
-      .icon {
-        margin-right: 14px;
-      }
+      .icon { margin-right: 14px; }
     }
 
-    input {
-      border-radius: 0.1875em;
-    }
+    input { border-radius: 0.1875em; }
 
     input[type="email"] {
-      background-color: $background-color_6;
-      color: $color_4;
+      background-color: $background-color6;
+      color: $color4;
       padding: 0.25em 0.625em;
       width: 100%;
     }
 
     input[type="password"] {
-      background-color: $background-color_6;
-      color: $color_4;
+      background-color: $background-color6;
+      color: $color4;
       padding: 0.25em 0.625em;
       width: 100%;
     }
 
     input[type="text"] {
-      background-color: $background-color_6;
-      color: $color_4;
+      background-color: $background-color6;
+      color: $color4;
       padding: 0.25em 0.625em;
       width: 100%;
     }
@@ -880,26 +799,22 @@ body {
   }
 
   .login__header {
-    background-color: $background-color_4;
+    background-color: $background-color4;
     border-top-left-radius: 1.25em;
     border-top-right-radius: 1.25em;
-    color: $color_3;
+    color: $color3;
     padding: 1.25em 1.625em;
 
-    &:first-child {
-      margin-top: 0;
-    }
+    &:first-child { margin-top: 0; }
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+    &:last-child { margin-bottom: 0; }
   }
 
   .login__form {
-    background-color: $background-color_5;
+    background-color: $background-color5;
     border-bottom-left-radius: 1.25em;
     border-bottom-right-radius: 1.25em;
-    color: $color_4;
+    color: $color4;
     display: grid;
     gap: 0.875em;
     padding: 1.25em 1.625em;
@@ -911,17 +826,15 @@ body {
   }
 
   .open-button {
-    background-color: $background-color_7;
-    color: $color_5;
+    background-color: $background-color7;
+    color: $color5;
     padding: 15px 16% 15px 15%;
     border: none;
     cursor: pointer;
     float: left;
     font-size: 16px;
 
-    &:hover {
-      background-color: $background-color_8;
-    }
+    &:hover { background-color: $background-color8; }
   }
 
   .form-popup {
@@ -934,21 +847,19 @@ body {
   .form-container {
     max-width: 300px;
     padding: 10px;
-    background-color: $background-color_9;
+    background-color: $background-color9;
 
-    label {
-      font-weight: bold;
-    }
+    label { font-weight: bold; }
 
     input[type=email] {
       width: 100%;
       padding: 15px;
       margin: 5px 0 22px 0;
       border: none;
-      background-color: $background-color_10;
+      background-color: $background-color10;
 
       &:focus {
-        background-color: $background-color_11;
+        background-color: $background-color11;
         outline: none;
       }
     }
@@ -958,17 +869,17 @@ body {
       padding: 15px;
       margin: 5px 0 22px 0;
       border: none;
-      background-color: $background-color_10;
+      background-color: $background-color10;
 
       &:focus {
-        background-color: $background-color_11;
+        background-color: $background-color11;
         outline: none;
       }
     }
 
     .btn {
-      background-color: $background-color_12;
-      color: $color_5;
+      background-color: $background-color12;
+      color: $color5;
       padding: 16px 20px;
       border: none;
       cursor: pointer;
@@ -977,8 +888,6 @@ body {
       opacity: 0.8;
     }
 
-    .cancel {
-      background-color: $background-color_8;
-    }
+    .cancel { background-color: $background-color8; }
   }
 }

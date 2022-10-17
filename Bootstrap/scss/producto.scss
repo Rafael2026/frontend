@@ -1,34 +1,20 @@
-$color_1: red;
-$background-color_1: white;
+$color1: red;
+$background-color1: white;
 
-.muestraManzana {
-  margin: 100px 15% 0% 40%;
-}
-
-.muestraPera {
-  margin: 100px 15% 0% 40%;
-}
-
-.muestraPlatano {
-  margin: 100px 15% 0% 40%;
-}
-
-.muestraMelocoton {
-  margin: 100px 15% 0% 40%;
+.muestraManzana, .muestraPera, .muestraPlatano, .muestraMelocoton {
+  margin: 100px 15% 0% 40%; /* Top | Right | Bottom | Left */
 }
 
 .contenidoWikipedia {
-  background-color: $background-color_1;
+  background-color: $background-color1;
   border: 2px solid black;
-  margin: 100px 15% 0% 15%;
-  padding: 40px 40px 40px 40px;
+  margin: 100px 15% 0% 15%; /* Top | Right | Bottom | Left */
+  padding: 40px; /* Top, right, bottom and left */
 }
 
-p {
-  font-size: 17px;
-}
+p { font-size: 17px; }
 
 i {
   font-style: italic;
-  color: $color_1;
+  color: $color1;
 }

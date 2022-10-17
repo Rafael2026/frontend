@@ -1,0 +1,48 @@
+$background-color1: lightgrey;
+
+/* LocalStorage and cookies styles */
+/*header {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: 5px underline dotted rgb(255, 0, 0);
+  text-align: center;
+  color: rgb(0, 0, 255);
+}*/
+/* Top and bottom | Right and left */
+/* article header, #guardar { margin: 20px 0px; } Top and bottom | Right and left */
+
+article {
+
+  .formulario {
+    border: 2px solid black;
+    padding: 0px 20px;
+    margin: 20px 30%;
+  }
+
+  .textoFormulario { margin: 20px 30%; }
+
+  .columna {
+    background-color: $background-color1;
+    font-style: italic;
+    text-decoration: 3px underline dotted rgb(255, 0, 0);
+    cursor: pointer;
+  }
+
+  table {
+    font-size: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid rgb(0, 0, 0);
+    overflow-x: scroll;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  
+  table {
+    overflow-x: scroll;
+    text-align: left;
+    font-size: 14px;
+  }
+}

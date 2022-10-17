@@ -1,4 +1,6 @@
-.muestraManzana, .muestraPera, .muestraPlatano, .muestraMelocoton { margin: 100px 15% 0% 40%; }
+.muestraManzana, .muestraPera, .muestraPlatano, .muestraMelocoton {
+  margin: 100px 15% 0% 40%;
+}
 
 .contenidoWikipedia {
   background-color: white;
