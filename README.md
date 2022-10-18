@@ -10,56 +10,86 @@
 - [Cheat sheet 2](https://coderslink.com/talento/blog/ahorra-tiempo-al-escribir-codigo-html-en-visual-studio-code-utilizando-emmet/)
 
 ## Tutorials
-- [W3 SCHOOLS](https://www.w3schools.com/)
-- [Uniwebsidad tutorials](https://uniwebsidad.com/)
+- W3 SCHOOLS: [link](https://www.w3schools.com/)
+- Uniwebsidad: [link](https://uniwebsidad.com/)
 
-## Colours generator
-[Generate colours](https://colorschemedesigner.com/csd-3.5/)
+## Paletton.com
+Generate colours: [Generate colours](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
 
 ## CSS Reference
-[CSS reference](https://lenguajecss.com/css/)
+CSS reference: [link](https://lenguajecss.com/css/)
 
-## Basic principles of responsive web design
-[Principles of responsive web design](https://blog.froont.com/9-basic-principles-of-responsive-web-design/)
+## Responsive web design
+Basic principles: [link](https://blog.froont.com/9-basic-principles-of-responsive-web-design/)
 
 ## What can I use?
-[Frontend tool](https://caniuse.com/)
+Online frontend tool: [link](https://caniuse.com/)
 
 ## Online validators
-- [HTML validator](https://validator.w3.org/)
-- [CSS validator](https://jigsaw.w3.org/css-validator/)
-- [JavaScript (JS) validator](https://beautifytools.com/javascript-validator.php)
+- HTML validator: [link](https://validator.w3.org/)
+- CSS validator: [link](https://jigsaw.w3.org/css-validator/)
+- JavaScript (JS) validator: [link](https://beautifytools.com/javascript-validator.php)
 
 ## Official Boostrap website
-[![Bootstrap website](img/bootstrap.png)](https://getbootstrap.com/)
+<a href="https://getbootstrap.com/">
+  <img src="./img/bootstrap.png" alt="Bootstrap website" width="300px" height="250px">
+</a>
 
 ## Bootstrap's snippets
-- [Bootsnipp](https://www.bootsnipp.com)
-- [Start bootstrap](https://www.startbootstrap.com/snippets)
-- [Bootdey](https://www.bootdey.com)
-- [Bootstrapious](https://www.bootstrapious.com/snippets)
+- Bootsnipp: [link](https://www.bootsnipp.com)
+- Start bootstrap: [link](https://www.startbootstrap.com/snippets)
+- Bootdey: [link](https://www.bootdey.com)
+- Bootstrapious: [link](https://www.bootstrapious.com/snippets)
 
-## Official repositories
-- [Bootstrap Github](https://github.com/twbs)
-- [JQuery Github](https://github.com/jquery/jquery)
+## Official GithHub repositories
+- Bootstrap: [link](https://github.com/twbs)
+- JQuery: [link](https://github.com/jquery/jquery)
 
 ## Font-awesome
-[Boostrap CDN](https://www.bootstrapcdn.com/fontawesome/)
+Boostrap CDN: [link](https://www.bootstrapcdn.com/fontawesome/)
 
 ## How to measure page performance?
-[PageSpeed Insights](https://pagespeed.web.dev/)
+PageSpeed Insights: [link](https://pagespeed.web.dev/)
 
 ## Frotend repositories
-- [Frontend Checklist](https://github.com/thedaviddias/Front-End-Checklist)
-- [Máster Front End Online Lemoncode](https://github.com/Lemoncode/master-frontend-lemoncode)
-- [Home Assistant Frontend](https://github.com/home-assistant/frontend)
-- [Resources for frontend developers](https://github.com/mrcodedev/frontend-developer-resources)
-- [Frontend Skills](https://github.com/FrontendMasters)
-- [Other frontend repositories](https://github.com/topics/frontend)
+- Frontend Checklist: [link](https://github.com/thedaviddias/Front-End-Checklist)
+- Máster Front End Online Lemoncode: [link](https://github.com/Lemoncode/master-frontend-lemoncode)
+- Home Assistant Frontend: [link](https://github.com/home-assistant/frontend)
+- Resources for frontend developers: [link](https://github.com/mrcodedev/frontend-developer-resources)
+- Frontend Skills: [link](https://github.com/FrontendMasters)
+- Other frontend repositories: [link](https://github.com/topics/frontend)
 
 ## How to optimize pictures?
-- [TinyPNG](https://tinypng.com/)
-- [Compressor.io](https://compressor.io/)
+- TinyPNG: [link](https://tinypng.com/)
+- Compressor.io: [link](https://compressor.io/)
 
 ## Web application with many utilities
-[Useful web application](https://smalldev.tools/)
+Useful web application: [link](https://smalldev.tools/)
+
+## DevDocs Api Documentation
+- Home Page: [link](https://devdocs.io/)
+- HTML Documentation: [link](https://devdocs.io/html/)
+- CSS Documentation: [link](https://devdocs.io/css/)
+- JavaScript (JS) Documentatopn: [link](https://devdocs.io/javascript/)
+- SASS Documentation: [link](https://devdocs.io/sass/)
+- TypeScript Documentation: [link](https://devdocs.io/typescript/)
+- JQuery Documentation: [link](https://devdocs.io/jquery/)
+- Web APIS Documentation: [link](https://devdocs.io/dom/)
+- Bootstrap 5 Documentation: [link](https://devdocs.io/bootstrap~5/)
+
+## CSS Tricks
+Tips, tricks and techniques for CSS: [Link](https://css-tricks.com/)
+
+## Ray.so
+Turn your code into beautiful images: [link](https://ray.so/)
+
+## Code Formatter
+It includes many tools: [link] (https://codebeautify.org/)
+
+## Showwcase
+The Network built for Coders: [link](https://www.showwcase.com/)
+
+## Roadmaps
+Roadmap.sh is a community effort to create roadmaps, guides and other educational content to help guide the developers in picking up the path and guide their learnings.
+
+[link](https://roadmap.sh/)
