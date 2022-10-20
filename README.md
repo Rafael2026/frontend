@@ -78,13 +78,13 @@ Useful web application: [link](https://smalldev.tools/)
 - Bootstrap 5 Documentation: [link](https://devdocs.io/bootstrap~5/)
 
 ## CSS Tricks
-Tips, tricks and techniques for CSS: [Link](https://css-tricks.com/)
+Tips, tricks and techniques for CSS: [link](https://css-tricks.com/)
 
 ## Ray.so
 Turn your code into beautiful images: [link](https://ray.so/)
 
 ## Code Formatter
-It includes many tools: [link] (https://codebeautify.org/)
+It includes many tools: [link](https://codebeautify.org/)
 
 ## Showwcase
 The Network built for Coders: [link](https://www.showwcase.com/)
