@@ -10,11 +10,10 @@ main {
   text-align: center;
 }
 
-.titulo {
+main h1.titulo {
   font-size: 30px;
   text-decoration: underline;
   color: red;
-  
 }
 
 .poema {
@@ -22,9 +21,102 @@ main {
   font-size: 20px;
 }
 
-.autor {
-  color: darkblue;
+/*.card { display: inline-block; }*/
+
+.card {
+  float: left;
+  width: 18rem;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(50, 100, 150);
+}
+
+footer h2.autor {
+  color: rgb(0, 0, 139);
   font-size: 25px;
 }
 
-.titulo, .autor { font-weight: bold; }
+main h1.titulo, footer h2.autor { font-weight: bold; }
+
+.card1, .card2, .card3, .card4 {
+  padding: 30px; /* Top, right, bottom and left */
+  width: 305px;
+  height: 475px;
+  background-color: rgb(255, 255, 255);
+}
+
+.card1, .card2, .card3 { margin-right: 25px; }
+
+.card-img-top {
+  height: 300px;
+  border: 2px dashed #000000; /* Width | Style | Color */
+  border-radius: 30px;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.col-4 { margin-bottom: 30px; }
+
+.col-4, .col-md-4 { margin-left: 5%; }
+
+.toast-body { padding: 30px; } /* Top, right, bottom and left */
+
+@media only screen and (min-width: 1440px) {
+
+  img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 1439.9px) and (min-width: 1024px) {
+
+  .card1, .card2, .card3, .card4 { width: 215px; }
+}
+
+@media only screen and (max-width: 1023.9px) and (min-width: 768px) {
+
+  .card1, .card2, .card3, .card4 { width: 155px; }
+}
+
+@media only screen and (max-width: 767.9px) and (min-width: 425px) {
+
+  .card1, .card2, .card3, .card4 {
+    padding: 15px 30px 15px 15px; /* Top | Right | Bottom | Left */
+    width: 187.5px;
+    height: 275px;
+    margin-bottom: 50px;
+    display: inline-block;
+  }
+
+  .card1, .card2, .card3 { margin-right: 20px; }
+
+  .card-img-top { height: 100px; }
+}
+
+@media only screen and (max-width: 424.9px) and (min-width: 375px) {
+
+  .card1, .card2, .card3, .card4 { width: 300px; }
+
+  .card1, .card2, .card3 { margin: 0px 25px 50px 7.5%; /* Top | Right | Bottom | Left */ }
+
+  .card4 { margin-left: 8%; }
+}
+
+@media only screen and (max-width: 374.9px) and (min-width: 320px) {
+
+  p { font-size: 14px; }
+
+  .card1, .card2, .card3, .card4 { width: 300px; }
+
+  .card1, .card2, .card3 {
+    margin-right: 25px;
+    margin-bottom: 50px;
+  }
+}

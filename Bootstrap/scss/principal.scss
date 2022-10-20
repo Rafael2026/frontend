@@ -1,415 +1,97 @@
+$red: rgb(255, 0, 0);
+$green: rgb(0, 128, 0);
 $background-color1: #808080;
 $background-color2: #ffffff;
 $background-color3: white;
 $border-color1: #000000;
 
-body { background: linear-gradient(to right, red, green); }
+body { background: linear-gradient(to right, $red, $green); }
+
+nav {
+  background-color: #808080;
+  padding: 20px; /* Top, right, bottom and left */
+}
+
+.enlace_desactivado { display: none; }
+
+.accordion { background-color: #ffffff; }
+
+.card1, .card2, .card3, .card4 {
+  padding: 30px; /* Top, right, bottom and left */
+  width: 305px;
+  height: 475px;
+  background-color: rgb(255, 255, 255);
+}
+
+.card1, .card2, .card3 { margin-right: 25px; }
+
+.card-img-top {
+  height: 300px;
+  border: 2px dashed #000000; /* Width | Style | Color */
+  border-radius: 30px;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.col-4 { margin-bottom: 30px; }
+
+.col-4, .col-md-4 { margin-left: 5%; }
+
+.toast-body { padding: 30px; } /* Top, right, bottom and left */
 
 @media only screen and (min-width: 1440px) {
-
-  nav {
-    background-color: $background-color1;
-    padding: 20px; /* Top, right, bottom and left */
-  }
 
   img {
     width: 250px;
     height: 250px;
   }
-
-  .enlace_desactivado { display: none; }
-
-  .accordion { background-color: $background-color2; }
-
-  .card1 {
-    padding: 30px;
-    width: 305px;
-    height: 475px;
-    background-color: $background-color3;
-    margin-right: 25px;
-  }
-
-  .card2 {
-    padding: 30px;
-    width: 305px;
-    height: 475px;
-    background-color: $background-color3;
-    margin-right: 25px;
-  }
-
-  .card3 {
-    padding: 30px;
-    width: 305px;
-    height: 475px;
-    background-color: $background-color3;
-    margin-right: 25px;
-  }
-
-  .card4 {
-    padding: 30px;
-    width: 305px;
-    height: 475px;
-    background-color: $background-color3;
-  }
-
-  .card-img-top {
-    height: 300px;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: $border-color1;
-    border-radius: 30px;
-  }
-
-  .card-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .col-4 {
-    margin-bottom: 30px;
-    margin-left: 5%;
-  }
-
-  .col-md-4 { margin-left: 5%; }
-
-  .toast-body { padding: 30px; } /* Top, right, bottom and left */
 }
 
 @media only screen and (max-width: 1439.9px) and (min-width: 1024px) {
-  
-  nav {
-    background-color: $background-color1;
-    padding: 20px; /* Top, right, bottom and left */
-  }
 
-  .enlace_desactivado { display: none; }
-
-  .accordion { background-color: $background-color2; }
-
-  .card1 {
-    padding: 30px;
-    width: 215px;
-    height: 475px;
-    background-color: $background-color3;
-    margin-right: 25px;
-  }
-
-  .card2 {
-    padding: 30px;
-    width: 215px;
-    height: 475px;
-    background-color: $background-color3;
-    margin-right: 25px;
-  }
-
-  .card3 {
-    padding: 30px;
-    width: 215px;
-    height: 475px;
-    background-color: $background-color3;
-    margin-right: 25px;
-  }
-
-  .card4 {
-    padding: 30px;
-    width: 215px;
-    height: 475px;
-    background-color: $background-color3;
-  }
-
-  .card-img-top {
-    height: 300px;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: $border-color1;
-    border-radius: 30px;
-  }
-
-  .card-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .col-4 {
-    margin-bottom: 30px;
-    margin-left: 5%;
-  }
-
-  .col-md-4 { margin-left: 5%; }
-
-  .toast-body { padding: 30px; } /* Top, right, bottom and left */
+  .card1, .card2, .card3, .card4 { width: 215px; }
 }
 
 @media only screen and (max-width: 1023.9px) and (min-width: 768px) {
-  
-  nav {
-    background-color: $background-color1;
-    padding: 20px; /* Top, right, bottom and left */
-  }
 
-  .enlace_desactivado { display: none; }
-
-  .accordion { background-color: $background-color2; }
-
-  .card1 {
-    padding: 30px;
-    width: 155px;
-    height: 475px;
-    background-color: $background-color3;
-    margin-right: 25px;
-  }
-
-  .card2 {
-    padding: 30px;
-    width: 155px;
-    height: 475px;
-    background-color: $background-color3;
-    margin-right: 25px;
-  }
-
-  .card3 {
-    padding: 30px;
-    width: 155px;
-    height: 475px;
-    background-color: $background-color3;
-    margin-right: 25px;
-  }
-
-  .card4 {
-    padding: 30px;
-    width: 155px;
-    height: 475px;
-    background-color: $background-color3;
-  }
-
-  .card-img-top {
-    height: 300px;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: $border-color1;
-    border-radius: 30px;
-  }
-
-  .card-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .col-4 {
-    margin-bottom: 30px;
-    margin-left: 5%;
-  }
-
-  .col-md-4 { margin-left: 5%; }
-
-  .toast-body { padding: 30px; } /* Top, right, bottom and left */
+  .card1, .card2, .card3, .card4 { width: 155px; }
 }
 
 @media only screen and (max-width: 767.9px) and (min-width: 425px) {
-  
-  nav {
-    background-color: $background-color1;
-    padding: 20px; /* Top, right, bottom and left */
-  }
 
-  .enlace_desactivado { display: none; }
-
-  .accordion { background-color: $background-color2; }
-
-  .card1 {
-    padding: 15px 30px 15px 15px;
+  .card1, .card2, .card3, .card4 {
+    padding: 15px 30px 15px 15px; /* Top | Right | Bottom | Left */
     width: 187.5px;
     height: 275px;
-    background-color: $background-color3;
-    margin-bottom: 50px;
-    display: inline-block;
-    margin-right: 20px;
-  }
-
-  .card2 {
-    padding: 15px 30px 15px 15px;
-    width: 187.5px;
-    height: 275px;
-    background-color: $background-color3;
-    margin-bottom: 50px;
-    display: inline-block;
-    margin-right: 20px;
-  }
-
-  .card3 {
-    padding: 15px 30px 15px 15px;
-    width: 187.5px;
-    height: 275px;
-    background-color: $background-color3;
-    margin-bottom: 50px;
-    display: inline-block;
-    margin-right: 20px;
-  }
-
-  .card4 {
-    padding: 15px 30px 15px 15px;
-    width: 187.5px;
-    height: 275px;
-    background-color: $background-color3;
     margin-bottom: 50px;
     display: inline-block;
   }
 
-  .card-img-top {
-    height: 100px;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: $border-color1;
-    border-radius: 30px;
-  }
+  .card1, .card2, .card3 { margin-right: 20px; }
 
-  .card-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .col-4 {
-    margin-bottom: 30px;
-    margin-left: 5%;
-  }
-
-  .col-md-4 { margin-left: 5%; }
-
-  .toast-body { padding: 30px; } /* Top, right, bottom and left */
+  .card-img-top { height: 100px; }
 }
 
 @media only screen and (max-width: 424.9px) and (min-width: 375px) {
 
-  nav {
-    background-color: $background-color1;
-    padding: 20px; /* Top, right, bottom and left */
-  }
+  .card1, .card2, .card3, .card4 { width: 300px; }
 
-  .enlace_desactivado { display: none; }
+  .card1, .card2, .card3 { margin: 0px 25px 50px 7.5%; /* Top | Right | Bottom | Left */ }
 
-  .accordion { background-color: $background-color2; }
-
-  .card1 {
-    padding: 30px;
-    width: 300px;
-    height: 475px;
-    background-color: $background-color3;
-    margin: 0px 25px 50px 7.5%;
-  }
-
-  .card2 {
-    padding: 30px;
-    width: 300px;
-    height: 475px;
-    background-color: $background-color3;
-    margin: 0px 25px 50px 7.5%;
-  }
-
-  .card3 {
-    padding: 30px;
-    width: 300px;
-    height: 475px;
-    background-color: $background-color3;
-    margin: 0px 25px 50px 7.5%;
-  }
-
-  .card4 {
-    padding: 30px;
-    width: 300px;
-    height: 475px;
-    background-color: $background-color3;
-    margin-left: 8%;
-  }
-
-  .card-img-top {
-    height: 300px;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: $border-color1;
-    border-radius: 30px;
-  }
-
-  .card-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .col-4 {
-    margin-bottom: 30px;
-    margin-left: 5%;
-  }
-
-  .col-md-4 { margin-left: 5%; }
-
-  .toast-body { padding: 30px; } /* Top, right, bottom and left */
+  .card4 { margin-left: 8%; }
 }
 
 @media only screen and (max-width: 374.9px) and (min-width: 320px) {
 
   p { font-size: 14px; }
 
-  nav {
-    background-color: $background-color1;
-    padding: 20px; /* Top, right, bottom and left */
-  }
+  .card1, .card2, .card3, .card4 { width: 300px; }
 
-  .enlace_desactivado { display: none; }
-
-  .accordion { background-color: $background-color2; }
-
-  .card1 {
-    padding: 30px;
-    width: 300px;
-    height: 475px;
-    background-color: $background-color3;
+  .card1, .card2, .card3 {
     margin-right: 25px;
     margin-bottom: 50px;
   }
-
-  .card2 {
-    padding: 30px;
-    width: 300px;
-    height: 475px;
-    background-color: $background-color3;
-    margin-right: 25px;
-    margin-bottom: 50px;
-  }
-
-  .card3 {
-    padding: 30px;
-    width: 300px;
-    height: 475px;
-    background-color: $background-color3;
-    margin-right: 25px;
-    margin-bottom: 50px;
-  }
-
-  .card4 {
-    padding: 30px;
-    width: 300px;
-    height: 475px;
-    background-color: $background-color3;
-  }
-
-  .card-img-top {
-    height: 300px;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: $border-color1;
-    border-radius: 30px;
-  }
-
-  .card-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .col-4 {
-    margin-bottom: 30px;
-    margin-left: 5%;
-  }
-
-  .col-md-4 { margin-left: 5%; }
-
-  .toast-body { padding: 30px; } /* Top, right, bottom and left */
 }

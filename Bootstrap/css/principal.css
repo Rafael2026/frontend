@@ -1,283 +1,90 @@
 body { background: linear-gradient(to right, red, green); }
 
-@media only screen and (min-width: 1440px) {
+nav {
+  background-color: #808080;
+  padding: 20px; /* Top, right, bottom and left */
+}
 
-  nav {
-    background-color: #808080;
-    padding: 20px 20px 20px 20px;
-  }
+.enlace_desactivado { display: none; }
+
+.accordion { background-color: #ffffff; }
+
+.card1, .card2, .card3, .card4 {
+  padding: 30px; /* Top, right, bottom and left */
+  width: 305px;
+  height: 475px;
+  background-color: rgb(255, 255, 255);
+}
+
+.card1, .card2, .card3 { margin-right: 25px; }
+
+.card-img-top {
+  height: 300px;
+  border: 2px dashed #000000; /* Width | Style | Color */
+  border-radius: 30px;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.col-4 { margin-bottom: 30px; }
+
+.col-4, .col-md-4 { margin-left: 5%; }
+
+.toast-body { padding: 30px; } /* Top, right, bottom and left */
+
+@media only screen and (min-width: 1440px) {
 
   img {
     width: 250px;
     height: 250px;
   }
-
-  .enlace_desactivado { display: none; }
-
-  .accordion { background-color: #ffffff; }
-
-  .card1, .card2, .card3, .card4 {
-    padding: 30px 30px 30px 30px;
-    width: 305px;
-    height: 475px;
-    background-color: white;
-  }
-
-  .card1, .card2, .card3 { margin-right: 25px; }
-
-  .card-img-top {
-    height: 300px;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: #000000;
-    border-radius: 30px;
-  }
-
-  .card-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .col-4 {
-    margin-bottom: 30px;
-    margin-left: 5%;
-  }
-
-  .col-md-4 { margin-left: 5%; }
-
-  .toast-body { padding: 30px; }
 }
 
 @media only screen and (max-width: 1439.9px) and (min-width: 1024px) {
 
-  nav {
-    background-color: #808080;
-    padding: 20px 20px 20px 20px;
-  }
-
-  .enlace_desactivado { display: none; }
-
-  .accordion { background-color: #ffffff; }
-
-  .card1, .card2, .card3, .card4 {
-    padding: 30px 30px 30px 30px;
-    width: 215px;
-    height: 475px;
-    background-color: white;
-
-  }
-
-  .card1, .card2, .card3 { margin-right: 25px; }
-
-  .card-img-top {
-    height: 300px;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: #000000;
-    border-radius: 30px;
-  }
-
-  .card-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .col-4 {
-    margin-bottom: 30px;
-    margin-left: 5%;
-  }
-
-  .col-md-4 { margin-left: 5%; }
-
-  .toast-body { padding: 30px; }
+  .card1, .card2, .card3, .card4 { width: 215px; }
 }
 
 @media only screen and (max-width: 1023.9px) and (min-width: 768px) {
 
-  nav {
-    background-color: #808080;
-    padding: 20px 20px 20px 20px;
-  }
-
-  .enlace_desactivado { display: none; }
-
-  .accordion { background-color: #ffffff; }
-
-  .card1, .card2, .card3, .card4 {
-    padding: 30px 30px 30px 30px;
-    width: 155px;
-    height: 475px;
-    background-color: white;
-  }
-
-  .card1, .card2, .card3 { margin-right: 25px; }
-
-  .card-img-top {
-    height: 300px;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: #000000;
-    border-radius: 30px;
-  }
-
-  .card-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .col-4 {
-    margin-bottom: 30px;
-    margin-left: 5%;
-  }
-
-  .col-md-4 { margin-left: 5%; }
-
-  .toast-body { padding: 30px; }
+  .card1, .card2, .card3, .card4 { width: 155px; }
 }
 
 @media only screen and (max-width: 767.9px) and (min-width: 425px) {
 
-  nav {
-    background-color: #808080;
-    padding: 20px 20px 20px 20px;
-  }
-
-  .enlace_desactivado { display: none; }
-
-  .accordion { background-color: #ffffff; }
-
   .card1, .card2, .card3, .card4 {
-    padding: 15px 30px 15px 15px;
+    padding: 15px 30px 15px 15px; /* Top | Right | Bottom | Left */
     width: 187.5px;
     height: 275px;
-    background-color: white;
     margin-bottom: 50px;
     display: inline-block;
-
   }
 
   .card1, .card2, .card3 { margin-right: 20px; }
 
-  .card-img-top {
-    height: 100px;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: #000000;
-    border-radius: 30px;
-  }
-
-  .card-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .col-4 {
-    margin-bottom: 30px;
-    margin-left: 5%;
-  }
-
-  .col-md-4 { margin-left: 5%; }
-
-  .toast-body { padding: 30px; }
+  .card-img-top { height: 100px; }
 }
 
 @media only screen and (max-width: 424.9px) and (min-width: 375px) {
 
-  nav {
-    background-color: #808080;
-    padding: 20px 20px 20px 20px;
-  }
+  .card1, .card2, .card3, .card4 { width: 300px; }
 
-  .enlace_desactivado { display: none; }
+  .card1, .card2, .card3 { margin: 0px 25px 50px 7.5%; /* Top | Right | Bottom | Left */ }
 
-  .accordion { background-color: #ffffff; }
-
-  .card1, .card2, .card3 {
-    padding: 30px 30px 30px 30px;
-    width: 300px;
-    height: 475px;
-    background-color: white;
-    margin: 0px 25px 50px 7.5%;
-  }
-
-  .card4 {
-    padding: 30px 30px 30px 30px;
-    width: 300px;
-    height: 475px;
-    background-color: white;
-    margin-left: 8%;
-  }
-
-  .card-img-top {
-    height: 300px;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: #000000;
-    border-radius: 30px;
-  }
-
-  .card-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .col-4 {
-    margin-bottom: 30px;
-    margin-left: 5%;
-  }
-
-  .col-md-4 {margin-left: 5%;}
-  .toast-body {padding: 30px;}
+  .card4 { margin-left: 8%; }
 }
 
 @media only screen and (max-width: 374.9px) and (min-width: 320px) {
 
   p { font-size: 14px; }
 
-  nav {
-    background-color: #808080;
-    padding: 20px 20px 20px 20px;
-  }
-
-  .enlace_desactivado {display: none;}
-  .accordion {background-color: #ffffff;}
+  .card1, .card2, .card3, .card4 { width: 300px; }
 
   .card1, .card2, .card3 {
-    padding: 30px;
-    width: 300px;
-    height: 475px;
-    background-color: white;
     margin-right: 25px;
     margin-bottom: 50px;
-
   }
-
-  .card4 {
-    padding: 30px;
-    width: 300px;
-    height: 475px;
-    background-color: white;
-  }
-
-  .card-img-top {
-    height: 300px;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: #000000;
-    border-radius: 30px;
-  }
-
-  .card-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .col-4 {
-    margin-bottom: 30px;
-    margin-left: 5%;
-  }
-
-  .col-md-4 { margin-left: 5%; }
-
-  .toast-body { padding: 30px; }
 }

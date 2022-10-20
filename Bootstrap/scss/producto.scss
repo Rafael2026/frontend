@@ -1,13 +1,14 @@
-$color1: red;
-$background-color1: white;
+$red: rgb(255, 0, 0);
+$black: rgb(0, 0, 0);
+$white: rgb(255, 255, 255);
 
 .muestraManzana, .muestraPera, .muestraPlatano, .muestraMelocoton {
   margin: 100px 15% 0% 40%; /* Top | Right | Bottom | Left */
 }
 
 .contenidoWikipedia {
-  background-color: $background-color1;
-  border: 2px solid black;
+  background-color: $white;
+  border: 2px solid $black; /* Width, Style | Color */
   margin: 100px 15% 0% 15%; /* Top | Right | Bottom | Left */
   padding: 40px; /* Top, right, bottom and left */
 }
@@ -16,5 +17,5 @@ p { font-size: 17px; }
 
 i {
   font-style: italic;
-  color: $color1;
+  color: $red;
 }
