@@ -5,50 +5,32 @@ header img {
   height: 600px;
 }
 
-main {
-  margin: 5% 35% 0% 35%;
-  text-align: center;
-}
+main { text-align: center; }
 
-main h1.titulo {
+main article:first-child h1 {
   font-size: 30px;
+  margin-bottom: 25px;
   text-decoration: underline;
-  color: red;
+  color: rgb(255, 0, 0);
 }
 
-.poema {
-  color: black;
+main article:first-child {
+  color: rgb(0, 0, 0);
   font-size: 20px;
+  margin: 50px 35% 50px 35%;
 }
+
+main article:first-child h1, footer h2 { font-weight: bold; }
 
 /*.card { display: inline-block; }*/
 
 .card {
-  float: left;
-  width: 18rem;
-}
-
-footer {
-  width: 100%;
-  text-align: center;
-  background-color: rgba(50, 100, 150);
-}
-
-footer h2.autor {
-  color: rgb(0, 0, 139);
-  font-size: 25px;
-}
-
-main h1.titulo, footer h2.autor { font-weight: bold; }
-
-.card1, .card2, .card3, .card4 {
-  padding: 30px; /* Top, right, bottom and left */
+  padding: 15px; /* Top, right, bottom and left */
   width: 305px;
-  height: 475px;
+  height: 430px;
   background-color: rgb(255, 255, 255);
+  margin-left: 25px;
 }
-
-.card1, .card2, .card3 { margin-right: 25px; }
 
 .card-img-top {
   height: 300px;
@@ -66,6 +48,17 @@ main h1.titulo, footer h2.autor { font-weight: bold; }
 .col-4, .col-md-4 { margin-left: 5%; }
 
 .toast-body { padding: 30px; } /* Top, right, bottom and left */
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(50, 100, 150);
+}
+
+footer h2 {
+  color: rgb(0, 0, 139);
+  font-size: 25px;
+}
 
 @media only screen and (min-width: 1440px) {
 
