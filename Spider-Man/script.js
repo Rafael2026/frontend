@@ -23,9 +23,9 @@ fetch("./array.json").then(response => {
 
     if (i < 3) {
       document.getElementsByClassName("first")[0].innerHTML += poster;
-    } else if (i < 5) {
+    } else if (i >= 3 && i < 5) {
       document.getElementsByClassName("second")[0].innerHTML += poster;
-    } else if (i < 8) {
+    } else if (i >= 5 && i < 8) {
       document.getElementsByClassName("third")[0].innerHTML += poster;
     } else if (i == 8) {
       document.getElementsByClassName("spiderVerse")[0].innerHTML += poster;
