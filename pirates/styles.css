@@ -7,20 +7,20 @@ header img {
 
 main { text-align: center; }
 
-main article:first-child h1 {
+main section:first-child h1 {
   font-size: 30px;
   margin-bottom: 25px;
   text-decoration: underline;
   color: rgb(255, 0, 0);
 }
 
-main article:first-child {
+main section:first-child {
   color: rgb(0, 0, 0);
   font-size: 20px;
   margin: 50px 35% 50px 35%;
 }
 
-main article:first-child h1, footer h2 { font-weight: bold; }
+main section:first-child h1, footer h2 { font-weight: bold; }
 
 /*.card { display: inline-block; }*/
 

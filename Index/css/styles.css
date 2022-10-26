@@ -132,6 +132,14 @@ footer {
 footer svg {
   padding: 10px 15px; /* Top and bottom | Right and left */
   font-size: 36px;
+  fill: rgb(255, 255, 255);
+  width: 100px;
+  height: 100px;
+}
+
+footer svg:hover {
+  fill: rgb(0, 0, 0);
+  stroke: rgb(125, 125, 125);
 }
 
 /** Media query for small devices **/
