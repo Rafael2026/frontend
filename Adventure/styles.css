@@ -19,6 +19,8 @@ header {
 header span {
   color: rgb(255, 255, 255);
   display: none;
+  font-size: 40px;
+  cursor: pointer;
 }
 
 .sidenav {
