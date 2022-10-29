@@ -8,20 +8,20 @@ h1 {
   color: darkblue;
   text-decoration: underline wavy red;
   border: 5px dashed black;
-  margin: 0px 42% 0% 42%;
+  margin: 0px 42%; /* Top and bottom | Right and left */
 }
 
-.visor {
+main {
   position: absolute;
   top: 100px;
   left: 200px;
   width: 100%;
   height: 60%;
   overflow: hidden;
-  margin: 0px 17% 0px 17%;
+  margin: 0px 17%; /* Top and bottom | Right and left */
 }
 
-.fondo {
+main .fondo {
   background-image: url("img/fondo.gif");
   background-repeat: no-repeat;
   position: absolute;

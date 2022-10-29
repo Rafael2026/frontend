@@ -9,20 +9,20 @@
   <title>Scary Halloween Party</title>
   <link href="styles.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="preconnect">
   <link href="img/favicon.ico" rel="icon" type="image/x-icon">
 </head>
 
 <body>
 
-  <div class="wrapper">
+  <main>
 
-    <main>
-      <h1 class="title">Scary Halloween Party</h1>
-      <h2 class="subtitle">Are you ready to meet the Devil?</h2>
-    </main>
+    <section>
+      <h1>Scary Halloween Party</h1>
+      <h2>Are you ready to meet the Devil?</h2>
+    </section>
 
-    <div class="content">
+    <section>
 
       <div class="ventanaDerecha"></div>
 
@@ -30,16 +30,16 @@
         <img class="esqueletos" src="img/bones.webp" alt="Skeletons dancing">
       </div>
 
-    </div>
+    </section>
 
-  </div>
+    <audio class="song" preload="auto">
+      <source src="sound/SickVillain.mp4" type="video/mp4">
+    </audio>
 
-  <audio class="song" preload="auto">
-    <source src="sound/SickVillain.mp4" type="video/mp4">
-  </audio>
+  </main>
   
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" type="text/javascript" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" type="text/javascript" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" defer></script>
   <script src="script.js" defer></script>
 
 </body>

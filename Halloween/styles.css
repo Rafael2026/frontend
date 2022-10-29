@@ -1,52 +1,60 @@
 body {
-  background-color: seashell;
+  background-color: rgb(255, 245, 238); /* Color: seashell; */
   background-image: url("img/house.webp");
-  background-size: 100% auto;
+  background-size: 100%;
   background-repeat: no-repeat;
   font-family: itLives;
   src: url("fonts/Shock Shimmy.ttf");
 }
 
-main, .title, .subtitle, .content, .ventanaIzq, .esqueletos { position: relative; }
 
-.title { padding-top: 2%; }
+section:first-child h1,
+section:first-child  h2,
+section:nth-child(2),
+section:nth-child(2) .ventanaIzq,
+section:nth-child(2) .ventanaIzq .esqueletos {
+  position: relative;
+}
 
-.title, .subtitle {
+section:first-child h1 { padding-top: 2%; }
+
+section:first-child h1, section:first-child h2 {
   text-align: center;
   font-size: 3em;
 }
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
-  color: blue;
-  text-shadow: black -2px -2px, black -2px -2px, black -2px -2px, black -2px -2px;
+  color: rgb(0, 0, 255);
+  text-shadow: rgb(0, 0, 0) -2px -2px, rgb(0, 0, 0) -2px -2px, rgb(0, 0, 0) -2px -2px, rgb(0, 0, 0) -2px -2px;
 }
 
 h2 {
   font-family: fantasy;
-  color: red;
+  color: rgb(255, 0, 0);
 }
 
-.content, .ventanaIzq { width: 100%; }
+section:nth-child(2), .ventanaIzq { width: 100%; }
 
-.content { height: 80%; }
+section:nth-child(2) { height: 80%; }
 
-.ventanaIzq { height: 40%; }
+section:nth-child(2) .ventanaIzq { height: 40%; }
 
-.ventanaDerecha {
+section:nth-child(2) .ventanaDerecha {
   width: 70px;
-  height: 65px;
-  left: 1440px;
-  top: 350px;
-  border: 1px solid red;
+  height: 80px;
+  left: 1150px;
+  top: 260px;
+  border: 1px solid rgb(255, 0, 0); /* Width, style and color */
 }
 
-.ventanaDerecha, .esqueletos {
+section:nth-child(2) .ventanaDerecha,
+section:nth-child(2) .ventanaIzq .esqueletos {
   position: absolute;
   cursor: pointer;
 }
 
-.esqueletos {
+section:nth-child(2) .ventanaIzq .esqueletos {
   visibility: hidden;
   width: 20%;
 }

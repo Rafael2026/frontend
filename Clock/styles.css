@@ -21,7 +21,9 @@ main {
   grid-gap: 15px;
 }
 
-.time {
+section canvas { background-color: #333 }
+
+section .time {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -31,5 +33,5 @@ main {
   box-shadow: 6px 10px 15px 1px rgb(8, 0, 0, 0.507);
   background-image: linear-gradient(to right, #f7444e, #78bcc4, #002c3e);
   border-bottom: 100px solid linear-gradient(to right, #dd4249, #6fb2b9, #022431);
-  color: azure;
+  color: rgb(240, 255, 255); /* Color: azure */
 }
