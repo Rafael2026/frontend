@@ -22,10 +22,6 @@ main {
   grid-gap: 10px;
 }
 
-section:nth-child(2)
-
-section:first-child
-
 section:first-child, section:nth-child(2), section:last-child {
   display: inline-block;
   text-align: center;

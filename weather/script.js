@@ -3,13 +3,13 @@ window.onload = function () {
   let lon;
   let lat;
 
-  let temperaturaValor = document.getElementById('temperatura-valor');
-  let temperaturaDescripcion = document.getElementById('temperatura-descripcion');
+  
+  let temperaturaValor = document.getElementsByTagName("h1")[0];
+  let temperaturaDescripcion = document.getElementsByTagName("h1")[1];
+  let vientoVelocidad = document.getElementsByTagName("h1")[2];
 
-  let ubicacion = document.getElementById('ubicacion');
-  let iconoAnimado = document.getElementById('icono-animado');
-
-  let vientoVelocidad = document.getElementById('viento-velocidad');
+  let ubicacion = document.getElementsByTagName("h2")[0];
+  let iconoAnimado = document.getElementsByTagName("img")[0];
 
   if (navigator.geolocation) {
 
@@ -17,17 +17,10 @@ window.onload = function () {
 
       lon = posicion.coords.longitude;
       lat = posicion.coords.latitude;
+      
+      const url = `https://api.openweathermap.org/data/3.0/weather?q=Madrid&lang=es&units=metric&appid=${"6fa1b73e0505447abc9f6bd4e0166844"}`;
 
-      fetch('https://open-weather13.p.rapidapi.com/city/landon', {
-
-        method: 'GET',
-
-        headers: {
-          'X-RapidAPI-Key': 'e431e4f5f3mshf1410a6da46c162p18efbfjsn03391cd2e18b',
-          'X-RapidAPI-Host': 'open-weather13.p.rapidapi.com'
-        }
-
-      }).then(data => {
+      fetch(url).then(data => {
 
         //console.log(data);
 
