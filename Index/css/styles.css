@@ -3,6 +3,15 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+header {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: 5px underline dotted rgb(255, 0, 0);
+  text-align: center;
+  color: rgb(0, 0, 255);
+}
+
 /** Header styles **/
 header, img, .botones { position: relative; }
 
@@ -95,7 +104,7 @@ h2 { color: rgb(0, 0, 255); }
 
 .fin-float { clear: both; }
 
-article:last-child {
+section:last-child {
   background-color: rgba(241, 245, 21, 0.863);
   font-family: 'Roboto Slab', monospace;
   border: 3px solid rgb(0, 0, 0);
@@ -104,19 +113,19 @@ article:last-child {
   margin: 30px 15%; /* Top and bottom | Right and left */
 }
 
-article:last-child h1, article:last-child h3 {
+section:last-child h1, section:last-child h3 {
   color: rgb(255, 0, 0); 
   font-style: italic;
   font-weight: bold;
   text-decoration: underline;
   text-align: center;
-  margin-top: 100px auto;
+  margin: 10px auto;
 }
 
-article:last-child p {
+section:last-child p {
   color: rgb(0, 0, 255);
   text-align: justify;
-  margin-top: 100px auto;
+  margin: 100px auto;
 }
 
 /** Footer styles **/
@@ -163,4 +172,10 @@ footer svg:hover {
   }
 
   .topnav.icon, .topnav.responsive a { display: block; }
+
+  table {
+    overflow-x: scroll;
+    text-align: left;
+    font-size: 14px;
+  }
 }

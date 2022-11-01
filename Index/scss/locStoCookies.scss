@@ -10,19 +10,19 @@ $background-color1: lightgrey;
   color: rgb(0, 0, 255);
 }*/
 /* Top and bottom | Right and left */
-/* article header, #guardar { margin: 20px 0px; } Top and bottom | Right and left */
+/* section header, #guardar { margin: 20px 0px; } Top and bottom | Right and left */
 
-article {
+section {
 
-  .formulario {
+  form {
     border: 2px solid black;
     padding: 0px 20px;
     margin: 20px 30%;
   }
 
-  .textoFormulario { margin: 20px 30%; }
+  h1 { margin: 20px 30%; }
 
-  .columna {
+  th {
     background-color: $background-color1;
     font-style: italic;
     text-decoration: 3px underline dotted rgb(255, 0, 0);

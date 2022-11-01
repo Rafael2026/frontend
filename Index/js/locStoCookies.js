@@ -34,7 +34,9 @@ function delStorage(indice) {
     var nombre = rows[i].getElementsByTagName("td")[1].innerHTML;
     var nombreIntroducido = rows[rows.length - 1].getElementsByTagName("td")[1].innerHTML;
 
-    if (nombre.toLowerCase() == nombreIntroducido.toLowerCase()) { nombreRepetido = true; }
+    if (nombre.toLowerCase() == nombreIntroducido.toLowerCase()) {
+      nombreRepetido = true;
+    }
 
     i++;
   }
@@ -71,7 +73,9 @@ function delCookie(indice) {
     var nombre = rows[i].getElementsByTagName("td")[1].innerHTML;
     var nombreIntroducido = rows[rows.length - 1].getElementsByTagName("td")[1].innerHTML;
 
-    if (nombre.toLowerCase() == nombreIntroducido.toLowerCase()) { nombreRepetido = true; }
+    if (nombre.toLowerCase() == nombreIntroducido.toLowerCase()) {
+      nombreRepetido = true;
+    }
 
     i++;
   }
@@ -155,9 +159,13 @@ function getCookie(nombre) {
 
     let c = ca[i];
 
-    while (c.charAt(0) == ' ') { c = c.substring(1); }
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
 
-    if (c.indexOf(name) == 0) { return c.substring(name.length, c.length); }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
   }
 
   return "";
@@ -243,7 +251,9 @@ window.onload = function () {
 };
 
 function addElement(nombre, correo, salario, ciudad) {
-  valores.push({nombre: nombre, correo: correo, salario: salario, ciudad: ciudad});
+  valores.push({
+    nombre: nombre, correo: correo, salario: salario, ciudad: ciudad
+  });
 }
 
 function changeCells(celdas, indice, nombre, correo, salario, ciudad) {
