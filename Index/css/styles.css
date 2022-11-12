@@ -3,6 +3,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/** Header styles **/
 header {
   font-size: 30px;
   font-weight: bold;
@@ -12,7 +13,6 @@ header {
   color: rgb(0, 0, 255);
 }
 
-/** Header styles **/
 header, img, .botones { position: relative; }
 
 header img {
@@ -33,7 +33,7 @@ nav {
 nav a {
   float: left;
   display: block;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0); /* Color: black */
   text-align: center;
   padding: 15px;
   text-decoration: none;
@@ -42,12 +42,12 @@ nav a {
 
 nav a:hover {
   background-color: #ddd;
-  color: black;
+  color: rgb(0, 0, 0); /* Color: black */
 }
 
 nav .active {
   background-color: rgb(253, 120, 71);
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0); /* Color: black */
   padding: 15px; /* Top, right, bottom and left */
 }
 
@@ -56,7 +56,7 @@ nav .icon { display: none; }
 a:link, a:visited, a:active { text-decoration:none; }
 
 nav .icon {
-  background: white;
+  background: rgb(255, 255, 255); /* Color: white */
   display: inline-block;
   position: absolute;
   right: 0;
@@ -64,8 +64,8 @@ nav .icon {
 }
 
 nav a:hover {
-  background-color: rgb(255, 255, 255);;
-  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255); /* Color: white */
+  color: rgb(0, 0, 0); /* Color: black */
 }
 
 /** Main styles **/
@@ -75,14 +75,13 @@ main h2 {
   text-align: center;
   font-size: 5vw;
   margin-top: 50px;
+  color: rgb(0, 0, 255); /* Color: blue */
 }
 
-h2 { color: rgb(0, 0, 255); }
-
-.polaroid {
+section:first-child .card {
   float: left;
   width: 19%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255); /* Color: white */
   /* border: 3px dashed black; */
   box-shadow: 0 4px 8px 0 rgba(92, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 30px 0px 30px 4%; /* Top | Right | Bottom | Left */
@@ -90,22 +89,29 @@ h2 { color: rgb(0, 0, 255); }
   cursor: pointer;
 }
 
-.polaroid img {
+section:first-child .card img {
   width: 100%;
   border-radius: 5%;
 }
 
-.polaroid:hover { opacity: 0.5; }
+section:first-child .card:hover { opacity: 0.5; }
 
-.polaroid p {
+section:first-child .card p {
   text-align: center;
   padding: 20px 0px; /* Top and bottom | Right and left */
 }
 
-.fin-float { clear: both; }
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color:#FFFF00;
+  height: 1px;
+}
 
 section:last-child {
-  background-color: rgba(241, 245, 21, 0.863);
+  background-color: rgb(241, 245, 21);
   font-family: 'Roboto Slab', monospace;
   border: 3px solid rgb(0, 0, 0);
   border-radius: 40px 60px;
@@ -123,7 +129,7 @@ section:last-child h1, section:last-child h3 {
 }
 
 section:last-child p {
-  color: rgb(0, 0, 255);
+  color: rgb(0, 0, 255); /* Color: blue */
   text-align: justify;
   margin: 100px auto;
 }
@@ -131,11 +137,12 @@ section:last-child p {
 /** Footer styles **/
 footer {
   background-color: rgb(128, 127, 127);
-  color: white;
+  color: rgb(255, 255, 255); /* Color: white */
   font-size: 0.8em;
   font-weight: bold;
   text-align: center;
   padding: 20px; /* Top, right, bottom and left */
+  width: 100%;
 }
 
 footer svg {
@@ -147,16 +154,18 @@ footer svg {
 }
 
 footer svg:hover {
-  fill: rgb(0, 0, 0);
+  fill: rgb(0, 0, 0); /* Color: black */
   stroke: rgb(125, 125, 125);
 }
+
+footer h2 { color: rgb(0, 0, 255); }
 
 /** Media query for small devices **/
 @media screen and (max-width: 600px) {
 
   .topnav a:not(:first-child, :last-child) { display: none; }
 
-  .topnav .icon { float: right;}
+  .topnav .icon { float: right; }
 
   .topnav.responsive { position: relative; }
   

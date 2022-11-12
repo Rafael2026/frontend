@@ -1,208 +1,201 @@
-$color1: rgb(0, 0, 0);
-$color2: black;
-$color3: rgb(0, 0, 255);
-$color4: rgb(255, 0, 0);
-$color5: white;
+$color1: rgb(0, 0, 255);
+$color2: rgb(0, 0, 0);
+$color3: rgb(255, 0, 0);
+$color4: rgb(255, 255, 255);
 $font-family1: 'Source Sans Pro', sans-serif;
 $font-family2: 'Roboto Slab', monospace;
 $background-color1: rgb(255, 69, 0);
 $background-color2: #ddd;
 $background-color3: rgb(253, 120, 71);
 $background-color4: rgb(255, 255, 255);
-$background-color5: rgba(241, 245, 21, 0.863);
-$background-color6: rgb(128, 127, 127);
+$background-color5: #FFFF00;
+$background-color6: rgb(241, 245, 21);
+$background-color7: rgb(128, 127, 127);
 
-/** Header styles **/
-/** Nav styles**/
-/** Main styles **/
-/** Footer styles **/
-/** Media query for small devices **/
 body {
   margin: 0; /* Top, right, bottom and left */
   font-family: $font-family1;
 }
 
+/** Header styles **/
 header {
-
-  position: relative;
-
-  img {
-    width: 100%;
-    height: 500px;
-  }
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: 5px underline dotted $color3;
+  text-align: center;
+  color: $color1;
 }
 
-img { position: relative; }
+header, img, .botones { position: relative; }
 
-.botones { position: relative; }
+header img {
+  width: 100%;
+  height: 500px;
+}
 
+/** Nav styles**/
 nav {
-
   overflow: hidden;
   font-size: 2vw;
   position: relative;
   top: 0;
   overflow: hidden;
   background-color: $background-color1;
+}
 
-  a {
-    float: left;
-    display: block;
-    color: $color1;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 17px;
+nav a {
+  float: left;
+  display: block;
+  color: $color2; /* Color: black */
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-    &:hover {
-      background-color: $background-color2;
-      color: $color2;
-      background-color: $background-color4;
-      color: $color1;
-    }
-  }
+nav a:hover {
+  background-color: $background-color2;
+  color: $color2; /* Color: black */
+}
 
-  .active {
-    background-color: $background-color3;
-    color: $color1;
-    padding: 15px;
-  }
+nav .active {
+  background-color: $background-color3;
+  color: $color2; /* Color: black */
+  padding: 15px; /* Top, right, bottom and left */
+}
 
-  .icon {
-    display: none;
-    background: white;
-    display: inline-block;
+nav .icon { display: none; }
+
+a:link, a:visited, a:active { text-decoration:none; }
+
+nav .icon {
+  background: $color4; /* Color: white */
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+nav a:hover {
+  background-color: $background-color4; /* Color: white */
+  color: $color2; /* Color: black */
+}
+
+/** Main styles **/
+main { background-color: $background-color4; }
+
+main h2 {
+  text-align: center;
+  font-size: 5vw;
+  margin-top: 50px;
+  color: $color1; /* Color: blue */
+}
+
+section:first-child .card {
+  float: left;
+  width: 19%;
+  background-color: $background-color4; /* Color: white */
+  /* border: 3px dashed black; */
+  box-shadow: 0 4px 8px 0 rgba(92, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 30px 0px 30px 4%; /* Top | Right | Bottom | Left */
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+section:first-child .card img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+section:first-child .card:hover { opacity: 0.5; }
+
+section:first-child .card p {
+  text-align: center;
+  padding: 20px 0px; /* Top and bottom | Right and left */
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color:$background-color5;
+  height: 1px;
+}
+
+section:last-child {
+  background-color: $background-color6;
+  font-family: $font-family2;
+  border: 3px solid $color2;
+  border-radius: 40px 60px;
+  padding: 30px; /* Top, right, bottom and left */
+  margin: 30px 15%; /* Top and bottom | Right and left */
+}
+
+section:last-child h1, section:last-child h3 {
+  color: $color3; 
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  margin: 10px auto;
+}
+
+section:last-child p {
+  color: $color1; /* Color: blue */
+  text-align: justify;
+  margin: 100px auto;
+}
+
+/** Footer styles **/
+footer {
+  background-color: $background-color7;
+  color: $color4; /* Color: white */
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px; /* Top, right, bottom and left */
+}
+
+footer svg {
+  padding: 10px 15px; /* Top and bottom | Right and left */
+  font-size: 36px;
+  fill: $color4;
+  width: 100px;
+  height: 100px;
+}
+
+footer svg:hover {
+  fill: $color2; /* Color: black */
+  stroke: rgb(125, 125, 125);
+}
+
+/** Media query for small devices **/
+@media screen and (max-width: 600px) {
+
+  .topnav a:not(:first-child, :last-child) { display: none; }
+
+  .topnav .icon { float: right; }
+
+  .topnav.responsive { position: relative; }
+  
+  .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-}
 
-a {
-
-  &:link { text-decoration: none; }
-
-  &:visited { text-decoration: none; }
-
-  &:active { text-decoration: none; }
-}
-
-main {
-
-  background-color: $background-color4;
-
-  h2 {
-    text-align: center;
-    font-size: 5vw;
-    margin-top: 50px;
-  }
-}
-
-h2 { color: $color3; }
-
-.polaroid {
-  float: left;
-  width: 19%;
-  background-color: $background-color4;
-  box-shadow: 0 4px 8px 0 rgba(92, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 30px 0px 30px 4%;
-  border-radius: 5%;
-  cursor: pointer;
-
-  img {
-    width: 100%;
-    border-radius: 5%;
+  .topnav.responsive a {
+    float: none;
+    text-align: left;
   }
 
-  &:hover { opacity: 0.5; }
+  .topnav.icon, .topnav.responsive a { display: block; }
 
-  p {
-    text-align: center;
-    padding: 20px 0px;
+  table {
+    overflow-x: scroll;
+    text-align: left;
+    font-size: 14px;
   }
-}
-
-.fin-float { clear: both; }
-
-section {
-
-  &:last-child {
-    background-color: $background-color5;
-    font-family: $font-family2;
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 40px 60px;
-    padding: 30px;
-    margin: 30px 15%;
-
-    h1 {
-      color: $color4;
-      font-style: italic;
-      font-weight: bold;
-      text-decoration: underline;
-      text-align: center;
-      margin-top: 100px auto;
-    }
-
-    h3 {
-      color: $color4;
-      font-style: italic;
-      font-weight: bold;
-      text-decoration: underline;
-      text-align: center;
-      margin-top: 100px auto;
-    }
-
-    p {
-      color: $color3;
-      text-align: justify;
-      margin-top: 100px auto;
-    }
-  }
-}
-
-footer {
-  background-color: $background-color6;
-  color: $color5;
-  font-size: 0.8em;
-  font-weight: bold;
-  text-align: center;
-  padding: 20px;
-
-  svg {
-    padding: 10px 15px;
-    font-size: 36px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-
-  .topnav {
-    
-    a {
-      &:not(:first-child) { display: none; }
-    }
-
-    .icon { float: right; }
-  }
-
-  &:last-child { display: none; }
-
-  .topnav.responsive {
-
-    position: relative;
-
-    a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-
-    a {
-      float: none;
-      text-align: left;
-      display: block;
-    }
-  }
-
-  .topnav.icon { display: block; }
 }
