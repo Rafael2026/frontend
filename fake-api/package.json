@@ -1,0 +1,19 @@
+{
+  "name": "fake-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "album": "fake-api --watch albums.json",
+    "all": "fake-api --watch all.json",
+    "comment": "fake-api --watch comments.json",
+    "photo": "fake-api --watch photos.json",
+    "user": "fake-api --watch users.json"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
