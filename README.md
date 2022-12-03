@@ -52,7 +52,7 @@ Online frontend tool: [Official link](https://caniuse.com/)
 - Chart.js: [Official link](https://github.com/chartjs/Chart.js)
 - Math.js: [Official link](https://github.com/josdejong/mathjs)
 - Hammer.js: [Official link](https://github.com/hammerjs/hammer.js/tree/master/)
-- React: [Official link](https://github.com/facebook/react/
+- React: [Official link](https://github.com/facebook/react/)
 - Redux:  [Official link](https://github.com/reduxjs/redux)
 - Glimmer.js: [Official link](https://github.com/glimmerjs/)
 - CodeMirror: [Official link](https://github.com/codemirror/dev/)
