@@ -15,7 +15,8 @@ function showTime() {
 
 showTime();
 
-var canvas = document.getElementById("canvas");
+
+var canvas = document.getElementsByTagName("canvas")[0];
 var ctx = canvas.getContext("2d");
 var radius = canvas.height / 2;
 

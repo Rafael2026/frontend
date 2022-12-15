@@ -40,7 +40,7 @@ nav {
 nav a {
   float: left;
   display: block;
-  color: rgb(0, 0, 0); /* Color: black */
+  color: rgb(0, 0, 0); /* Black */
   text-align: center;
   padding: 15px;
   text-decoration: none;
@@ -108,7 +108,7 @@ section:first-child .card p {
   padding: 20px 0px; /* Top and bottom | Right and left */
 }
 
-hr {
+main hr {
   border: 1px solid inherit;
   clear: both;
   display: block;
@@ -127,46 +127,18 @@ hr {
 }
 
 .lorem h1, .lorem h3 {
-  color: rgb(255, 0, 0); /* Color: red */
+  color: rgb(255, 0, 0); /* Red */
   font-style: italic;
   font-weight: bold;
   text-decoration: underline;
   text-align: center;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .lorem p {
   color: rgb(0, 0, 255); /* Color: blue */
   text-align: justify;
-  margin: 100px auto;
-}
-
-.clock {
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-image: linear-gradient(to right, #2c3e50, #bdc3c7);
-  text-align: center;
-  grid-template-columns: 3fr;
-  grid-gap: 15px;
-  margin: 50px 30%;
-}
-
-.clock canvas { background-color: #333 }
-
-.clock .time {
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  padding: 30px; /* Top, right, bottom and left */
-  font-size: 90px;
-  border-radius: 0.9rem; /* Angles */
-  box-shadow: 6px 10px 15px 1px rgb(8, 0, 0, 0.507);
-  background-image: linear-gradient(to right, #f7444e, #78bcc4, #002c3e);
-  border-bottom: 100px solid linear-gradient(to right, #dd4249, #6fb2b9, #022431);
-  color: rgb(240, 255, 255); /* Color: azure */
+  margin: 40px auto;
 }
 
 .accident {
@@ -256,26 +228,69 @@ hr {
 /** Footer styles **/
 footer {
   background-color: rgb(125, 125, 125);
-  color: rgb(0, 0, 255); /* Color: blue */
+  color: rgb(0, 0, 255); /* Blue */
   font-size: 0.8em;
   font-weight: bold;
   text-align: center;
   padding: 20px; /* Top, right, bottom and left */
   width: 100%;
+  height: auto;
 }
+
+footer .svg { width: 100%; }
 
 footer svg {
   padding: 10px 15px; /* Top and bottom | Right and left */
   font-size: 36px;
-  fill: rgb(255, 255, 255); /* Color: white */
+  fill: rgb(255, 255, 255); /* White */
   width: 100px;
   height: 100px;
 }
 
 footer svg:hover {
-  fill: rgb(0, 0, 0); /* Color: black */
+  fill: rgb(0, 0, 0); /* Black */
   stroke: rgb(125, 125, 125);
 }
+
+footer hr { color: rgb(255, 255, 255); /* White */ }
+
+footer .clock {
+  width: 50%;
+  float: left;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, #2c3e50, #bdc3c7);
+  text-align: center;
+  grid-template-columns: 3fr;
+  grid-gap: 15px;
+  margin-top: 25px 15%;
+}
+
+.clock canvas { background-color: #333 }
+
+footer .details {
+  width: 50%;
+  float: left;
+}
+
+.time {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px; /* Top, right, bottom and left */
+  font-size: 90px;
+  border-radius: 0.9rem; /* Angles */
+  box-shadow: 6px 10px 15px 1px rgb(8, 0, 0, 0.507);
+  background-image: linear-gradient(to right, #f7444e, #78bcc4, #002c3e);
+  border-bottom: 100px solid linear-gradient(to right, #dd4249, #6fb2b9, #022431);
+  color: rgb(240, 255, 255); /* Azure */
+  margin-top: 15px;
+}
+
+.fin-float { clear: both; }
 
 /** Media query for small devices **/
 @media screen and (max-width: 600px) {
