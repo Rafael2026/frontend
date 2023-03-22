@@ -127,7 +127,7 @@ main hr {
 }
 
 .lorem h1, .lorem h3 {
-  color: rgb(255, 0, 0); /* Red */
+  color: rgb(255, 0, 0);
   font-style: italic;
   font-weight: bold;
   text-decoration: underline;
@@ -242,7 +242,7 @@ footer .svg { width: 100%; }
 footer svg {
   padding: 10px 15px; /* Top and bottom | Right and left */
   font-size: 36px;
-  fill: rgb(255, 255, 255); /* White */
+  fill: rgb(255, 255, 255);
   width: 100px;
   height: 100px;
 }
