@@ -15,9 +15,9 @@ header {
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
-  text-decoration: 5px underline dotted rgb(255, 0, 0); /* Color: red */
+  text-decoration: 5px underline dotted rgb(255, 0, 0);
   text-align: center;
-  color: rgb(0, 0, 255); /* Color: blue */
+  color: rgb(0, 0, 255);
 }
 
 header, img, .botones { position: relative; }
@@ -40,7 +40,7 @@ nav {
 nav a {
   float: left;
   display: block;
-  color: rgb(0, 0, 0); /* Black */
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 15px;
   text-decoration: none;
@@ -49,12 +49,12 @@ nav a {
 
 nav a:hover {
   background-color: #ddd;
-  color: rgb(0, 0, 0); /* Color: black */
+  color: rgb(0, 0, 0);
 }
 
 nav .active {
   background-color: rgb(253, 120, 71);
-  color: rgb(0, 0, 0); /* Color: black */
+  color: rgb(0, 0, 0);
   padding: 15px; /* Top, right, bottom and left */
 }
 
@@ -63,7 +63,7 @@ nav .icon { display: none; }
 a:link, a:visited, a:active { text-decoration:none; }
 
 nav .icon {
-  background: rgb(255, 255, 255); /* Color: white */
+  background: rgb(255, 255, 255);
   display: inline-block;
   position: absolute;
   right: 0;
@@ -71,8 +71,8 @@ nav .icon {
 }
 
 nav a:hover {
-  background-color: rgb(255, 255, 255); /* Color: white */
-  color: rgb(0, 0, 0); /* Color: black */
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 /** Main styles **/
@@ -82,13 +82,13 @@ main h2 {
   text-align: center;
   font-size: 5vw;
   margin-top: 50px;
-  color: rgb(0, 0, 255); /* Color: blue */
+  color: rgb(0, 0, 255);
 }
 
 section:first-child .card {
   float: left;
   width: 19%;
-  background-color: rgb(255, 255, 255); /* Color: white */
+  background-color: rgb(255, 255, 255);
   /* border: 3px dashed black; */
   box-shadow: 0 4px 8px 0 rgba(92, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 30px 0px 30px 4%; /* Top | Right | Bottom | Left */
@@ -136,7 +136,7 @@ main hr {
 }
 
 .lorem p {
-  color: rgb(0, 0, 255); /* Color: blue */
+  color: rgb(0, 0, 255);
   text-align: justify;
   margin: 40px auto;
 }
@@ -228,7 +228,7 @@ main hr {
 /** Footer styles **/
 footer {
   background-color: rgb(125, 125, 125);
-  color: rgb(0, 0, 255); /* Blue */
+  color: rgb(0, 0, 255);
   font-size: 0.8em;
   font-weight: bold;
   text-align: center;
@@ -248,11 +248,11 @@ footer svg {
 }
 
 footer svg:hover {
-  fill: rgb(0, 0, 0); /* Black */
+  fill: rgb(0, 0, 0);
   stroke: rgb(125, 125, 125);
 }
 
-footer hr { color: rgb(255, 255, 255); /* White */ }
+footer hr { color: rgb(255, 255, 255); }
 
 footer .clock {
   width: 50%;
@@ -286,7 +286,7 @@ footer .details {
   box-shadow: 6px 10px 15px 1px rgb(8, 0, 0, 0.507);
   background-image: linear-gradient(to right, #f7444e, #78bcc4, #002c3e);
   border-bottom: 100px solid linear-gradient(to right, #dd4249, #6fb2b9, #022431);
-  color: rgb(240, 255, 255); /* Azure */
+  color: rgb(240, 255, 255);
   margin-top: 15px;
 }
 
