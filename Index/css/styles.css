@@ -295,9 +295,7 @@ footer .details {
 
 .fin-float { clear: both; }
 
-
-
-/** Media query for small devices **/
+/** Media query **/
 @media only screen and (max-width: 600px) {
 
   .topnav a:not(:first-child, :last-child) { display: none; }
@@ -328,9 +326,7 @@ footer .details {
 
 @media only screen and (max-width: 320px) {
   
-  footer .clock {
-    margin: 25px 15%;
-  }
+  footer .clock { margin: 25px 15%; }
 
   footer .clock, footer .clock canvas {
     width: 200px;
@@ -345,9 +341,7 @@ footer .details {
 
 @media only screen and (min-width: 321px) and (max-width: 375px) {
   
-  footer .clock {
-    margin: 25px 20%;
-  }
+  footer .clock { margin: 25px 20%; }
 
   footer .clock, footer .clock canvas {
     width: 200px;
@@ -362,9 +356,7 @@ footer .details {
 
 @media only screen and (min-width: 376px) and (max-width: 425px) {
   
-  footer .clock {
-    margin: 25px 25%;
-  }
+  footer .clock { margin: 25px 25%; }
 
   footer .clock, footer .clock canvas {
     width: 200px;
@@ -379,9 +371,7 @@ footer .details {
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   
-  footer .clock {
-    margin: 25px 25%;
-  }
+  footer .clock { margin: 25px 25%; }
 
   .time {
     font-size: 90px;
