@@ -4,5 +4,11 @@
   "git.ignoreLegacyWarning": false,
   "git.verboseCommit": true,
   "git.enableSmartCommit": true,
-  "liveServer.settings.port": 5558
+  "liveServer.settings.port": 5558,
+  "files.autoSave": "afterDelay",
+  "editor.cursorBlinking": "solid",
+  "editor.autoClosingBrackets": "always",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": true,
+  "editor.linkedEditing": true
 }
