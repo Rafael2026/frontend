@@ -276,6 +276,7 @@ footer .clock {
 footer .details {
   width: 50%;
   float: left;
+
 }
 
 .time {
@@ -294,8 +295,10 @@ footer .details {
 
 .fin-float { clear: both; }
 
+
+
 /** Media query for small devices **/
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 
   .topnav a:not(:first-child, :last-child) { display: none; }
 
@@ -320,5 +323,68 @@ footer .details {
     overflow-x: scroll;
     text-align: left;
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  
+  footer .clock {
+    margin: 25px 15%;
+  }
+
+  footer .clock, footer .clock canvas {
+    width: 200px;
+    height: 200px;
+  }
+
+  .time {
+    font-size:50px;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  
+  footer .clock {
+    margin: 25px 20%;
+  }
+
+  footer .clock, footer .clock canvas {
+    width: 200px;
+    height: 200px;
+  }
+
+  .time {
+    font-size: 60px;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  
+  footer .clock {
+    margin: 25px 25%;
+  }
+
+  footer .clock, footer .clock canvas {
+    width: 200px;
+    height: 200px;
+  }
+
+  .time {
+    font-size: 70px;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  
+  footer .clock {
+    margin: 25px 25%;
+  }
+
+  .time {
+    font-size: 90px;
+    margin-left: 47%;
   }
 }
