@@ -1,9 +1,35 @@
 ## Technologies
-| Picures | Explanation |
-|---|---|
-| <img src="./img/HTML5.png" alt="HTML5 logo" width="250px" height="250px"> | Webpage content |
-| <img src="./img/CSS3.png" alt="CCS3 logo" width="250px" hegiht="350px"> | More beautiful webpages |
-| <img src="./img/JS.png" alt="JS logo" width="250px" height="250px"> | Weppage logic |
+<table>
+  <thead>
+    <tr>
+      <th>Picures</th>
+      <th>Explanation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="./img/HTML5.png" alt="HTML5 logo" width="200px" height="200px">
+      </td>
+      <td>Webpage content</td>
+    </tr>
+    <tr>
+      <td>
+        <img src="./img/CSS3.png" alt="CCS3 logo" width="200px" height="200px">
+      </td>
+      <td>More beautiful webpages</td>
+    </tr>
+    <tr>
+      <td>
+        <img src="./img/JS.png" alt="JS logo" width="200px" height="200px">
+      </td>
+      <td>Weppage logic</td>
+    </tr>
+  </tbody>
+</table>
+
+## JavaScript data types
+<img src="./img/dataTypes.jpg" alt="JS data types" width="400px" height="400px">
 
 ## Cheat Sheets
 - Emmet cheat sheet: [Official link](https://drive.google.com/file/d/1CZOgAskeZD0inmB4S3vxtzeiFiqccyDE/view)
