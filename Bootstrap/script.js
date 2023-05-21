@@ -1,3 +1,9 @@
+var theme = document.documentElement.getAttribute('data-bs-theme');
+var form = document.getElementsByClassName("formulario");
+var divForm = document.getElementById("myForm");
+var buttonRegister = document.getElementsByClassName("register");
+var selectedProduct = document.getElementsByClassName("product");
+
 function validacion() {
 
   var valorCorreo = document.getElementById("correo").value;
@@ -16,11 +22,51 @@ function validacion() {
     mensajeError += "El campo contraseña está vacío\n";
   }
 
-  if (!(condicion1 && condicion2)) { alert(mensajeError); }
+  if (!(condicion1 && condicion2)) {
+    alert(mensajeError);
+  }
 
   return condicionFinal;
+};
+
+form[0].onsubmit = function() {
+  validacion();
+};
+
+divForm.onmouseover = function() {
+  openForm();
+};
+
+divForm.onmouseout = function() {
+  closeForm();
+};
+
+buttonRegister[0].onmouseover = function() {
+  openForm();
+};
+
+function openForm() {
+  divForm.style.display = "block";
+  //document.getElementById("myForm").style.display = "block";
 }
 
-function openForm() { document.getElementById("myForm").style.display = "block"; }
+function closeForm() {
+  divForm.style.display = "none";
+  //document.getElementById("myForm").style.display = "none";
+}
 
-function closeForm() { document.getElementById("myForm").style.display = "none"; }
+document.getElementById('btnSwitch').onclick = function() {
+
+  if (theme == 'dark') {
+    document.documentElement.setAttribute('data-bs-theme','light');
+  } else {
+    document.documentElement.setAttribute('data-bs-theme','dark');
+  }
+};
+
+for (var i = 0; i < selectedProduct.length; i++) {
+
+  selectedProduct[i].onclick = function() {
+    openForm();
+  }
+}

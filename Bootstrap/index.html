@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link href="css/principal.css" rel="stylesheet">
   <link href="css/presentacion.css" rel="stylesheet">
@@ -16,10 +16,10 @@
 
 <body>
 
-  <!-- Autor: Rafael Aguilar Muñoz -->
+  <!-- Author: Rafael Aguilar Muñoz -->
   <nav aria-label="Page navigation example" class="navbar">
 
-    <ul class="pagination">
+    <ul class="pagination m-3">
 
       <li class="page-item">
         <a class="page-link" href="index.html">Inicio</a>
@@ -35,11 +35,13 @@
 
     </ul>
 
-    <button class="open-button" onmouseover="openForm()">Registro</button>
+    <button class="btn btn-light shadow m-3" id="btnSwitch">Theme</button>
 
-    <div class="form-popup" id="myForm" onmouseover="openForm()" onmouseout="closeForm()">
+    <button class="open-button m-3 register">Registro</button>
 
-      <form action="principal.html" class="form-container" onsubmit="return validacion()">
+    <div class="form-popup" id="myForm">
+
+      <form action="principal.html" class="form-container formulario">
 
         <h1>Login</h1>
 
@@ -57,9 +59,9 @@
 
   </nav>
 
-  <div class="align mt-4">
+  <main class="align mt-4 h-auto">
     <img src="img/fruteria.jpg" alt="Imagen de la frutería">
-  </div>
+  </main>
 
   <footer class="text-dark bg-light container-fluid mt-5">
 
@@ -87,19 +89,19 @@
           <ul class="list-unstyled mb-0">
 
             <li>
-              <a href="#" class="text-dark" onclick="openForm()">Manzana</a>
+              <a href="#" class="text-dark product">Manzana</a>
             </li>
 
             <li>
-              <a href="#" class="text-dark" onclick="openForm()">Pera</a>
+              <a href="#" class="text-dark product">Pera</a>
             </li>
 
             <li>
-              <a href="#" class="text-dark" onclick="openForm()">Plátano</a>
+              <a href="#" class="text-dark product">Plátano</a>
             </li>
 
             <li>
-              <a href="#" class="text-dark" onclick="openForm()">Melocotón</a>
+              <a href="#" class="text-dark product">Melocotón</a>
             </li>
 
           </ul>
