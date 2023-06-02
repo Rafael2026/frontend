@@ -1,7 +1,7 @@
 Frontend exam about solar system
 
 ## Deploy
-[Solar system webpage](https://rafael2026.github.io/frontend/SolarSystem/)
+[Solar system webpage](https://rafael2026.github.io/frontend/Solar System/)
 
 ## Statement
 [Follow these rules](https://drive.google.com/file/d/1VJtCfRh39XLSNToPIfVKMOBtXTvaglcq/view)
