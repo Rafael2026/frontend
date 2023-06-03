@@ -36,6 +36,8 @@ header .titulo {
   margin-left: 5%;
 }
 
+nav ul li { list-style: none; }
+
 .topnav a {
   float: left;
   display: block;
