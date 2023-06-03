@@ -1,8 +1,16 @@
 "use strict";
 
-fetch("./array.json").then(response => {
-  return response.json();
-}).then(data => {
+fetch("./array.json", {
+  
+  "method": "GET",
+  
+  headers: {
+    'Content-Type': 'application/json'
+  },
+
+  mode: 'no-cors',
+
+}).then(response => response.json()).then(data => {
   
   console.log(data);
   const arrayMovies = data.list;
@@ -27,13 +35,11 @@ fetch("./array.json").then(response => {
       document.getElementsByClassName("second")[0].innerHTML += poster;
     } else if (i < 8) {
       document.getElementsByClassName("third")[0].innerHTML += poster;
-    } else if (i == 8) {
+    } else if (i < 10) {
       document.getElementsByClassName("spiderVerse")[0].innerHTML += poster;
     } else {
       document.getElementsByClassName("venom")[0].innerHTML += poster;
     }
   }
 
-}).catch(err => {
-  console.error(err);
-});
+}).catch(err => console.error(err));

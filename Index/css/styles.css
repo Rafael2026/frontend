@@ -39,6 +39,10 @@ nav {
   background-color: rgb(255, 69, 0);
 }
 
+nav ul li {
+  list-style: none;
+}
+
 nav a {
   float: left;
   display: block;
@@ -49,14 +53,10 @@ nav a {
   font-size: 17px;
 }
 
-nav a:hover {
-  background-color: #ddd;
-  color: rgb(0, 0, 0);
-}
+nav a:hover { background-color: #ddd; }
 
 nav .active {
   background-color: rgb(253, 120, 71);
-  color: rgb(0, 0, 0);
   padding: 15px; /* Top, right, bottom and left */
 }
 
@@ -65,20 +65,14 @@ nav .icon { display: none; }
 a:link, a:visited, a:active { text-decoration:none; }
 
 nav .icon {
-  background: rgb(255, 255, 255);
   display: inline-block;
   position: absolute;
   right: 0;
   top: 0;
 }
 
-nav a:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-}
-
 /** Main styles **/
-main { background-color: rgb(255, 255, 255); }
+nav .icon, main { background-color: rgb(255, 255, 255); }
 
 main h2 {
   text-align: center;
@@ -167,30 +161,30 @@ main hr {
   margin-left: 7%;
 }
 
+.accident .fondo, .accident .coche {
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+
 .accident .fondo {
   background-image: url("../img/fondo.gif");
-  background-repeat: no-repeat;
   position: relative;
   width: 500px;
   height: 350px;
-  background-position: center;
   background-size: cover;
-  display: inline-block;
   left: 0px;
   top: 30px;
 }
 
 .accident .coche {
   background-image: url("../img/coche.gif");
-  background-repeat: no-repeat;
   position: absolute;
   width: 200px;
   height: 100px;
   top: 280px;
   left: 120px;
-  background-position: center;
   background-origin: border-box;
-  display: inline-block;
   animation: conducir 10s linear 0s infinite alternate;
 }
 
@@ -295,7 +289,7 @@ footer .details {
 
 .fin-float { clear: both; }
 
-/** Media query **/
+/** Media queries **/
 @media only screen and (max-width: 600px) {
 
   .topnav a:not(:first-child, :last-child) { display: none; }

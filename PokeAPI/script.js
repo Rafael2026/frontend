@@ -10,7 +10,8 @@ async function getItemData() {
 
   const response = await fetch('https://pokeapi.co/api/v2/pokemon/', {
 
-    method: 'GET', mode: 'cors',
+    method: 'GET',
+    mode: 'no-cors',
     
     headers: {
       'Content-Type': 'application/json'

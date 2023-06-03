@@ -109,9 +109,9 @@
       "movie": {
         "id": "9",
         "name": "Spider-Man: Into the Spider-Verse",
-        "imageUrl": "./img/picture9.jpg",
-        "width": 1381,
-        "height": 2048,
+        "imageUrl": "./img/spiderVerse.jpg",
+        "width": 1000,
+        "height": 1482,
         "type": "movie",
         "members": "Shameik Moore, Jake Johnson",
         "year": 2018
@@ -121,6 +121,19 @@
     {
       "movie": {
         "id": "10",
+        "name": "Spider-Man: Across the Spider-Verse",
+        "imageUrl": "./img/spiderVerse2.jpg",
+        "width": 1000,
+        "height": 1482,
+        "type": "movie",
+        "members": "Shameik Moore, Jake Johnson",
+        "year": 2018
+      }
+    },
+
+    {
+      "movie": {
+        "id": "11",
         "name": "Venom",
         "imageUrl": "./img/venom.jpg",
         "width": 150,
@@ -133,7 +146,7 @@
 
     {
       "movie": {
-        "id": "11",
+        "id": "12",
         "name": "Venom - Habrá matanza",
         "imageUrl": "./img/venom2.jpg",
         "width": 150,
