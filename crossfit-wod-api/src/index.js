@@ -1,6 +1,7 @@
 // In src/index.js
-const express = require("express");
-const bodyParser = require("body-parser");
+import express from 'expres';
+import bodyParser from 'body-parser';
+
 //const v1Router = require("./v1/routes");
 const v1WorkoutRouter = require("./v1/routes/workoutRoutes");
 
