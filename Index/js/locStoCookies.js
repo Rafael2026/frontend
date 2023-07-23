@@ -109,7 +109,7 @@ function editStorage(indice) {
   document.getElementById("salario").value = valores[indice].salario;
   document.getElementById("ciudad").value = valores[indice].ciudad;
 
-  document.getElementById("guardar").onclick = function () {
+  document.getElementById("guardar").onclick = function() {
 
     var celdas = document.getElementById("cuerpo").rows[indice - 1].cells;
 
@@ -133,7 +133,7 @@ function editCookie(indice) {
   document.getElementById("salario").value = valores[indice].salario;
   document.getElementById("ciudad").value = valores[indice].ciudad;
 
-  document.getElementById("guardar").onclick = function () {
+  document.getElementById("guardar").onclick = function() {
 
     var celdas = document.getElementById("cuerpo").rows[indice - 1].cells;
 
@@ -171,7 +171,7 @@ function getCookie(nombre) {
   return "";
 }
 
-window.onload = function () {
+window.onload = function() {
 
   var nombre = document.getElementById("nombre");
   var correo = document.getElementById("correo");
@@ -198,9 +198,9 @@ window.onload = function () {
     } else {
 
       valores = [
-        { nombre: "Manuelita", correo: "manlit@gmail.com", salario: 650, ciudad: "Malaga" },
-        { nombre: "Ale", correo: "al@gmail.com", salario: 1200, ciudad: "Elche" },
-        { nombre: "Magic", correo: "mag@gmail.com", salario: 780, ciudad: "Galicia" }
+        {nombre: "Manuelita", correo: "manlit@gmail.com", salario: 650, ciudad: "Malaga"},
+        {nombre: "Ale", correo: "al@gmail.com", salario: 1200, ciudad: "Elche"},
+        {nombre: "Magic", correo: "mag@gmail.com", salario: 780, ciudad: "Galicia"}
       ];
 
       localStorage.setItem("valores", JSON.stringify(valores));
@@ -247,21 +247,19 @@ window.onload = function () {
   document.getElementById("correo").value = "";
   document.getElementById("salario").value = "";
   document.getElementById("ciudad").value = "";
-  document.getElementById("textoFormulario").innerHTML = "Agregar empleado";
+  document.getElementById("textoFormulario").textContent = "Agregar empleado";
 };
 
 function addElement(nombre, correo, salario, ciudad) {
-  valores.push({
-    nombre: nombre, correo: correo, salario: salario, ciudad: ciudad
-  });
+  valores.push({nombre: nombre, correo: correo, salario: salario, ciudad: ciudad});
 }
 
 function changeCells(celdas, indice, nombre, correo, salario, ciudad) {
-  celdas[0].innerHTML = indice + 1;
-  celdas[1].innerHTML = nombre;
-  celdas[2].innerHTML = correo;
-  celdas[3].innerHTML = salario;
-  celdas[4].innerHTML = ciudad;
+  celdas[0].textContent = (indice + 1);
+  celdas[1].textContent = nombre;
+  celdas[2].textContent = correo;
+  celdas[3].textContent = salario;
+  celdas[4].textContent = ciudad;
 }
 
 function addStorageTable(valores) {

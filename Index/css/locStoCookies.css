@@ -8,14 +8,14 @@
   color: rgb(0, 0, 255);
 }*/
 
-section .formulario {
+section #formulario {
   border: 2px solid black;
   padding: 0px 20px; /* Top and bottom | Right and left */
 }
 
-section .textoFormulario, section .formulario { margin: 20px 30%; } /* Top and bottom | Right and left */
+section #textoFormulario, section #formulario { margin: 20px 30%; } /* Top and bottom | Right and left */
 
-/* section header, #guardar { margin: 20px 0px; } Top and bottom | Right and left */ 
+section #guardar { margin: 20px 0px; } Top and bottom | Right and left */ 
 
 section .columna {
   background-color: lightgrey;

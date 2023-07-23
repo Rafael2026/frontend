@@ -165,7 +165,7 @@ function inversa() {
 }
 
 function raizCuadrada() {
-  valorPantalla.innerHTML = (Math.sqrt(valorPantalla.innerHTML));
+  valorPantalla.innerHTML = Math.sqrt(valorPantalla.innerHTML);
 }
 
 function porcentaje() {

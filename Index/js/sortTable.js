@@ -13,11 +13,11 @@ function sortTable(n) {
     for (var i = 1; i < (rows.length - 1); i++) {
 
       shouldSwitch = false;
-      let x = rows[i].getElementsByTagName("td")[n].innerHTML;
-      let y = rows[i + 1].getElementsByTagName("td")[n].innerHTML;
+      var x = rows[i].getElementsByTagName("td")[n].innerHTML;
+      var y = rows[i + 1].getElementsByTagName("td")[n].innerHTML;
 
-      let valor1 = isNumber(x);
-      let valor2 = isNumber(y);
+      var valor1 = isNumber(x);
+      var valor2 = isNumber(y);
 
       if (dir == "asc") {
 
