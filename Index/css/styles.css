@@ -155,8 +155,8 @@ main hr {
   font-style: italic;
   font-weight: bold;
   color: darkblue;
-  text-decoration: underline wavy red;
-  border: 5px dashed black;
+  text-decoration: underline wavy rgb(255, 0, 0);
+  border: 5px dashed rgb(0, 0, 0);
   width: 20%;
   margin-left: 7%;
 }
@@ -196,7 +196,7 @@ main hr {
   }
 
   25% {
-    left:75px;
+    left: 75px;
     top: 200px;
     transform: rotate(90deg);
   }
@@ -209,7 +209,7 @@ main hr {
 
   75%  {
     left: 250px;
-    top:  200px;
+    top: 200px;
     transform: rotate(270deg);
     background-image: url("../img/cocheArdiendo.jpg");
   }

@@ -51,12 +51,10 @@ function sortTable(n) {
 
 function isNumber(valor) {
 
-  var valorActualizado;
+  var valorActualizado = parseInt(valor);
 
   if (isNaN(parseInt(valor))) {
     valorActualizado = valor.toLowerCase();
-  } else {
-    valorActualizado = parseInt(valor);
   }
 
   return valorActualizado;

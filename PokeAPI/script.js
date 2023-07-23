@@ -1,4 +1,4 @@
-const pokemonResp = await getItemData();
+const pokemonResp = getItemData();
 const craftingCompleteWait = 0;
 const combiningMaterialsWait = 0;
 const smeltingIronBarsWait = 0;
@@ -28,13 +28,15 @@ function logPokemons(pokemons) {
   }
 }
 
-
-
+/*
 async function fetchIPAddress(domain) {
 
   const resp = await fetch(`https://cloudflare-dns.com/dns-query?name=${domain}&type=A`, {
     
-  headers: {
+    method: 'GET',
+    mode: 'no-cors',
+
+    headers: {
       'accept': 'application/dns-json'
     }
   });
@@ -49,7 +51,7 @@ async function fetchIPAddress(domain) {
 }
 
 const domain = 'api.boot.dev';
-const ipAddress = await fetchIPAddress(domain);
+const ipAddress = fetchIPAddress(domain);
 
 if (!ipAddress) {
   console.log('something went wrong in fetchIPAddress')
@@ -57,7 +59,7 @@ if (!ipAddress) {
   console.log(`found IP address for domain ${domain}: ${ipAddress}`)
 }
 
-function printURLParts(urlString) {
+/*function printURLParts(urlString) {
   const urlObj = new URL(urlString)
   console.log(`protocol: ${urlObj.protocol}`)
   console.log(`username: ${urlObj.username}`)
@@ -67,7 +69,7 @@ function printURLParts(urlString) {
   console.log(`pathname: ${urlObj.pathname}`)
   console.log(`search: ${urlObj.search}`)
   console.log(`hash: ${urlObj.hash}`)
-}
+}*/
 
 const fantasyQuestURL = 'http://dragonslayer:pwn3d@fantasyquest.com:8080/maps?sort=rank#id'
 printURLParts(fantasyQuestURL);
@@ -83,9 +85,10 @@ setTimeout(() => console.log('Combining Materials...'), combiningMaterialsWait)
 setTimeout(() => console.log('Smelting Iron Bars...'), smeltingIronBarsWait)
 setTimeout(() => console.log('Shaping Iron...'), shapingIronWait)
 
-console.log('Firing up the forge...')
+console.log('Firing up the forge...');
 
-await sleep(2500)
+sleep(2500);
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
