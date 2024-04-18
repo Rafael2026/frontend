@@ -15,7 +15,7 @@ section #formulario {
 
 section #textoFormulario, section #formulario { margin: 20px 30%; } /* Top and bottom | Right and left */
 
-section #guardar { margin: 20px 0px; } Top and bottom | Right and left */ 
+section #guardar { margin: 20px 0px; } /* Top and bottom | Right and left */
 
 section .columna {
   background-color: lightgrey;

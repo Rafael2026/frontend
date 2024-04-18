@@ -7,12 +7,11 @@ body {
   src: url("fonts/Shock Shimmy.ttf");
 }
 
+main {
+  width: 95%;
+}
 
-section:first-child h1,
-section:first-child  h2,
-section:nth-child(2),
-section:nth-child(2) .ventanaIzq,
-section:nth-child(2) .ventanaIzq .esqueletos {
+section:first-child h1, section:first-child  h2, section:nth-child(2), section:nth-child(2) .ventanaIzq, section:nth-child(2) .ventanaIzq .esqueletos {
   position: relative;
 }
 
@@ -38,18 +37,21 @@ section:nth-child(2), .ventanaIzq { width: 100%; }
 
 section:nth-child(2) { height: 80%; }
 
-section:nth-child(2) .ventanaIzq { height: 40%; }
+section:nth-child(2) .ventanaIzq {
+  height: 40%;
+  right: -100px;
+  top: 200px;
+}
 
 section:nth-child(2) .ventanaDerecha {
   width: 70px;
   height: 80px;
-  left: 1150px;
+  left: 1430px;
   top: 260px;
   border: 1px solid rgb(255, 0, 0); /* Width, style and color */
 }
 
-section:nth-child(2) .ventanaDerecha,
-section:nth-child(2) .ventanaIzq .esqueletos {
+section:nth-child(2) .ventanaDerecha, section:nth-child(2) .ventanaIzq .esqueletos {
   position: absolute;
   cursor: pointer;
 }
