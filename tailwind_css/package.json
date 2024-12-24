@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^18.3.1",
-    "x-xss-protection": "^2.0.0"
+    "react": "^19.0.0",
+    "with-tailwindcss-app": "file:"
   }
 }

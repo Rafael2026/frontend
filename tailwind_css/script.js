@@ -1,4 +1,4 @@
-// Script.js file to be rendered in index.js
+// Card.js file to be rendered in index.js
 
 import React from "react";
 
