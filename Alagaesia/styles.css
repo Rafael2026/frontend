@@ -1,7 +1,7 @@
 body {
-  background-image: url("img/sky.webp");
+  background-image: url("./img/sky.webp");
   font-family: Enchanted;
-  src: url("fonts/Enchanted.otf");
+  src: url("./fonts/Enchanted.otf");
 }
 
 main {
@@ -12,7 +12,7 @@ main {
 }
 
 header {
-  background-image: url("img/header.webp");
+  background-image: url("./img/header.webp");
   background-position: center;
   background-size: cover;
   height: 250px;

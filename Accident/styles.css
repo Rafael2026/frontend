@@ -22,7 +22,7 @@ main {
 }
 
 main .fondo {
-  background-image: url("img/fondo.gif");
+  background-image: url("./img/fondo.gif");
   background-repeat: no-repeat;
   position: absolute;
   width: 650px;
@@ -34,7 +34,7 @@ main .fondo {
 }
 
 .coche {
-  background-image: url("img/coche.gif");
+  background-image: url("./img/coche.gif");
   background-repeat: no-repeat;
   position: absolute;
   width: 200px;
@@ -70,6 +70,6 @@ main .fondo {
     left:450px;
     top: 100px;
     transform: rotate(270deg);
-    background-image: url("img/cocheArdiendo.jpg");
+    background-image: url("./img/cocheArdiendo.jpg");
   }
 }
