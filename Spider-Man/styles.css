@@ -24,7 +24,7 @@ h1 {
   flex-direction: row;
   align-items: center;
   margin: 25px 100px; /* Top and bottom | Right and left */
-  padding: 10px; /* Top, right. bottom and left */
+  padding: 10px; /* Top, right, bottom and left */
   border-radius: 5px;
   text-align: center;
 }
