@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "album": "fake-api --watch albums.json",
@@ -12,8 +11,10 @@
     "photo": "fake-api --watch photos.json",
     "user": "fake-api --watch users.json"
   },
-
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fake-api": "file:"
+  }
 }
