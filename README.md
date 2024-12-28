@@ -67,7 +67,7 @@ Online frontend tool: [Official link](https://caniuse.com/)
 - Bootdey: [Official link](https://www.bootdey.com)
 - Bootstrapious: [Official link](https://www.bootstrapious.com/snippets)
 
-## Official GithHub repositories
+## Frontend repositories
 - Bootstrap: [Official link](https://github.com/twbs)
 - JQuery: [Official link](https://github.com/jquery/jquery)
 - Tailwind CSS: [Official link](https://github.com/tailwindlabs/tailwindcss)
@@ -82,20 +82,18 @@ Online frontend tool: [Official link](https://caniuse.com/)
 - Redux:  [Official link](https://github.com/reduxjs/redux)
 - Glimmer.js: [Official link](https://github.com/glimmerjs/)
 - CodeMirror: [Official link](https://github.com/codemirror/dev/)
-
-## Font-awesome
-Boostrap CDN: [Official link](https://www.bootstrapcdn.com/fontawesome/)
-
-## How to measure page performance?
-PageSpeed Insights: [Official link](https://pagespeed.web.dev/)
-
-## Frotend repositories
 - Frontend Checklist: [Official link](https://github.com/thedaviddias/Front-End-Checklist)
 - Máster Front End Online Lemoncode: [Official link](https://github.com/Lemoncode/master-frontend-lemoncode)
 - Home Assistant Frontend: [Official link](https://github.com/home-assistant/frontend)
 - Resources for frontend developers: [Official link](https://github.com/mrcodedev/frontend-developer-resources)
 - Frontend Skills: [Official link](https://github.com/FrontendMasters)
 - Other frontend repositories: [Official link](https://github.com/topics/frontend)
+-
+## Font-awesome
+Boostrap CDN: [Official link](https://www.bootstrapcdn.com/fontawesome/)
+
+## How to measure page performance?
+PageSpeed Insights: [Official link](https://pagespeed.web.dev/)
 
 ## How to optimize pictures?
 - TinyPNG: [Official link](https://tinypng.com/)
@@ -108,7 +106,7 @@ Useful web application: [Official link](https://smalldev.tools/)
 - Home Page: [Official link](https://devdocs.io/)
 - HTML Documentation: [Official link](https://devdocs.io/html/)
 - CSS Documentation: [Official link](https://devdocs.io/css/)
-- JavaScript (JS) Documentatopn: [Official link](https://devdocs.io/javascript/)
+- JavaScript (JS) Documentation: [Official link](https://devdocs.io/javascript/)
 - SASS Documentation: [Official link](https://devdocs.io/sass/)
 - TypeScript Documentation: [Official link](https://devdocs.io/typescript/)
 - JQuery Documentation: [Official link](https://devdocs.io/jquery/)
@@ -130,4 +128,12 @@ The Network built for Coders: [Official link](https://www.showwcase.com/)
 ## Roadmaps
 Roadmap.sh is a community effort to create roadmaps, guides and other educational content to help guide the developers in picking up the path and guide their learnings.
 
-[Official link](https://roadmap.sh/)
+Frontend Roadmap: [Official link](https://roadmap.sh/frontend)
+
+## Shared pictures and videos
+Pixabay: [Official link](https://pixabay.com/)
+
+Over 5.2 million+ high quality stock images, videos and music shared by our talented community.
+
+## Largest Library of Open-Source UI
+UI elements: [Official link](https://uiverse.io/)
