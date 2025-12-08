@@ -13,7 +13,7 @@
     "nodemon": "latest"
   },
   "dependencies": {
-    "body-parser": "2.2.0",
+    "body-parser": "2.2.1",
     "crossfit-wod-api": "file:",
     "express": "5.1.0"
   }
